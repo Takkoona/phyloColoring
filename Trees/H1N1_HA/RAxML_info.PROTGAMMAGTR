@@ -225,9 +225,6 @@ IMPORTANT WARNING: Sequences MK246022 and CY220943 are exactly identical
 IMPORTANT WARNING: Sequences MK246047 and MG745919 are exactly identical
 
 
-IMPORTANT WARNING: Sequences KY930507 and KU720435 are exactly identical
-
-
 IMPORTANT WARNING: Sequences MG431446 and KY487767 are exactly identical
 
 
@@ -357,11 +354,11 @@ IMPORTANT WARNING: Sequences MN819601 and MT303432 are exactly identical
 IMPORTANT WARNING: Sequences MT058039 and MT167217 are exactly identical
 
 IMPORTANT WARNING
-Found 119 sequences that are exactly identical to other sequences in the alignment.
+Found 118 sequences that are exactly identical to other sequences in the alignment.
 Normally they should be excluded from the analysis.
 
-Just in case you might need it, an alignment file with 
-sequence duplicates removed is printed to file aligned.fasta.reduced
+An alignment file with sequence duplicates removed has already
+been printed to file aligned.fasta.reduced
 
 
 This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
@@ -379,7 +376,7 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 552 distinct alignment patterns
+Alignment has 547 distinct alignment patterns
 
 Proportion of gaps and completely undetermined characters in this alignment: 0.00%
 
@@ -396,7 +393,7 @@ GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 552
+Alignment Patterns: 547
 Name: No Name Provided
 DataType: AA
 Substitution Matrix: GTR
@@ -414,47 +411,47 @@ Partition: 0 with name: No Name Provided
 Base frequencies: 0.059 0.032 0.075 0.045 0.027 0.027 0.061 0.071 0.026 0.063 0.081 0.075 0.013 0.034 0.034 0.078 0.069 0.018 0.048 0.065 
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 3002.543922 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 2934.230406 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 120.723258 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 129.136177 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 3.234176 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 3.112822 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 10.221659 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 13.288435 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 2.337690 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 0.184523 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 8.700109 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 7.581746 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 0.508652 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 0.245709 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
-Inference[0]: Time 41208.422213 GAMMA-based likelihood -56262.538537, best rearrangement setting 25
-alpha[0]: 0.883891 
+Inference[0]: Time 28202.100955 GAMMA-based likelihood -54254.132432, best rearrangement setting 25
+alpha[0]: 0.837696 
 
 
 Conducting final model optimizations on all 1 trees under GAMMA-based models ....
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 1.123816 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 1.596276 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
 
-Printed linked AA GTR matrix that achieved an overall improvement of 0.068270 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
+Printed linked AA GTR matrix that achieved an overall improvement of 0.087931 log likelihood units for partition No Name Provided to file /ism/chengyang/H1N1_HA/RAxML_proteinGTRmodel.PROTGAMMAGTR_Partition_No Name Provided
 
-Inference[0] final GAMMA-based Likelihood: -56261.346451 tree written to file /ism/chengyang/H1N1_HA/RAxML_result.PROTGAMMAGTR
+Inference[0] final GAMMA-based Likelihood: -54252.448225 tree written to file /ism/chengyang/H1N1_HA/RAxML_result.PROTGAMMAGTR
 
 
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -56261.346451 .... 
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -54252.448225 .... 
 
-Final GAMMA-based Score of best tree -56260.350080
+Final GAMMA-based Score of best tree -54251.419312
 
 Program execution info written to /ism/chengyang/H1N1_HA/RAxML_info.PROTGAMMAGTR
 Best-scoring ML tree written to: /ism/chengyang/H1N1_HA/RAxML_bestTree.PROTGAMMAGTR
 
-Overall execution time: 45027.319508 secs or 12.507589 hours or 0.521150 days
+Overall execution time: 31764.312641 secs or 8.823420 hours or 0.367643 days
 
