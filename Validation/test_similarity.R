@@ -19,7 +19,7 @@ dir.create(testParam, showWarnings = FALSE)
 cl <- makeCluster(detectCores())
 clusterExport(cl, c("tree", "testParam"))
 
-simValues <- seq(0.01, 0.3, length.out = 30)
+simValues <- seq(0.001, 0.01, length.out = 30)
 res <- parLapply(cl, simValues, function(similarity) {
     paths <- sitePath::lineagePath(tree, similarity)
     sizeValues <- seq(30, ape::Ntip(tree) / 10, by = 100)

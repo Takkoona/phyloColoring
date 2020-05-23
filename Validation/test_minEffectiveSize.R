@@ -16,23 +16,27 @@ tree <- addMSA(tree, msaPath = file.path(treeDir, "aligned.fasta"), msaFormat = 
 testParam <- "minEffectiveSize"
 dir.create(testParam, showWarnings = FALSE)
 
-cl <- makeCluster(detectCores())
-clusterExport(cl, c("tree", "testParam"))
+simValues <- seq(0.001, 0.01, length.out = 3)
 
-simValues <- seq(0.01, 0.02, length.out = 3)
-res <- parLapply(cl, simValues, function(similarity) {
+res <- list()
+for (similarity in simValues) {
     paths <- sitePath::lineagePath(tree, similarity)
+
+    cl <- makeCluster(detectCores(), outfile = "log.txt")
+    clusterExport(cl, c("paths", "testParam", "similarity"))
+    
     sizeValues <- seq(0, ape::Ntip(tree) / 4, by = 30)
-    m <- lapply(sizeValues, function(ms) {
-        mutations <- sitePath::fixationSites(paths, minEffectiveSize = ms)
+    m <- parLapply(cl, sizeValues, function(ms) {
         fileName <- file.path(testParam, paste0(similarity, "_", ms, ".rds"))
+        cat(fileName, "\n")
+        mutations <- sitePath::fixationSites(paths, minEffectiveSize = ms, method = "insert")
         saveRDS(mutations, fileName)
         return(mutations)
     })
     names(m) <- sizeValues
-    return(m)
-})
-names(res) <- simValues
-saveRDS(res, paste0(testParam, ".rds"))
+    res[[as.character(similarity)]] <- m
+    
+    stopCluster(cl)
+}
 
-stopCluster(cl)
+saveRDS(res, paste0(testParam, ".rds"))

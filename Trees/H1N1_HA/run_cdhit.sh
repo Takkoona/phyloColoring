@@ -1,4 +1,9 @@
 #!/bin/bash
+#$ -S /bin/bash
+#$ -q NGS
+#$ -pe mpi 24
+#$ -cwd
+#$ -N H1N1_HA_trim
 
 dirPath="Spatiotemporal"
 
