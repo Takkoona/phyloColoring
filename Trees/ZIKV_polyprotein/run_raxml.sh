@@ -1,4 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#$ -S /bin/bash
+#$ -q NGS
+#$ -pe mpi 24
+#$ -cwd
+#$ -N ZIKV_MSA
 
 input="aligned.fasta"
 outgroup="ANK57896"

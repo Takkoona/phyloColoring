@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #$ -S /bin/bash
 #$ -q NGS
 #$ -pe mpi 24

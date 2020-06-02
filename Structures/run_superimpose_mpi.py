@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 #$ -V
 #$ -cwd
 #$ -S /usr/bin/python3
@@ -19,61 +19,55 @@ from Bio.SVDSuperimposer import SVDSuperimposer
 from Bio.PDB.PDBParser import PDBParser
 from Bio.PDB import Dice
 
-PDB_DIR = "."
-MODELLING_DIR = os.path.join(PDB_DIR, "Modelling")
-
+MODELLING_DIR = os.path.join(".", "Modelling")
 TEMPLATE_ID = "4lxv"
-PDB_PARSER = PDBParser()
+
+def trimStructure(seqName):
+    parser = PDBParser()
+    structure = None
+    align = None
+    for pdbFile in glob(os.path.join(MODELLING_DIR, seqName, "*.pdb")):
+        structure = parser.get_structure(seqName, pdbFile)
+    for alignFile in glob(os.path.join(MODELLING_DIR, seqName, seqName + "-" + TEMPLATE_ID +".ali")):
+        align = SeqIO.index(alignFile, "pir")[TEMPLATE_ID]
+        for (start, res) in enumerate(align, start=1):
+            if res != '-':
+                break
+        for (end, res) in enumerate(align[::-1]):
+            if res != '-':
+                break
+    f = StringIO()
+    Dice.extract(structure, chain_id=' ', start=start, end=len(align) - end, filename=f)
+    f = StringIO(f.getvalue())
+    s = parser.get_structure(seqName, f)
+    return(s)
 
 def calculateRMS(row):
-    rmsRow = []
+    scores = {}
     for query, subject in row:
         if query.id == subject.id:
-            rmsRow.append(0.0)
+            scores[subject.id] = 0.0
         else:
             x = np.array([res["CA"].coord for res in query.get_residues()])
             y = np.array([res["CA"].coord for res in subject.get_residues()])
             sup = SVDSuperimposer()
             sup.set(x, y)
             sup.run()
-            rmsRow.append(sup.get_rms())
-    return rmsRow
+            scores[subject.id] = sup.get_rms()
+    with open(os.path.join(MODELLING_DIR, query.id, query.id + "RMS.json"), 'w') as f:
+        json.dump(scores, f)
 
 if __name__ == '__main__':
-    structures = []
-    # n = 0
+    p = Pool(cpu_count())
 
-    for seqDir in os.listdir(MODELLING_DIR):
-        seqName = os.path.basename(seqDir)
-        structure = None
-        align = None
-        for pdbFile in glob(os.path.join(MODELLING_DIR, seqDir, "*.pdb")):
-            structure = PDB_PARSER.get_structure(seqName, pdbFile)
-        for alignFile in glob(os.path.join(MODELLING_DIR, seqDir, seqName + "-" + TEMPLATE_ID +".ali")):
-            align = SeqIO.index(alignFile, "pir")[TEMPLATE_ID]
-            for (start, res) in enumerate(align, start=1):
-                if res != '-':
-                    break
-            for (end, res) in enumerate(align[::-1]):
-                if res != '-':
-                    break
-        f = StringIO()
-        Dice.extract(structure, chain_id=' ', start=start, end=len(align) - end, filename=f)
-        f = StringIO(f.getvalue())
-        s = PDB_PARSER.get_structure(seqName, f)
-        structures.append(s)
-            
-        # n += 1
-        # if n == 8:
-        #     break
+    structures = p.map(
+        trimStructure,
+        os.listdir(MODELLING_DIR)[0:6]
+    )
 
     print("Start rms calculation...")
 
-    p = Pool(cpu_count())
-    res = p.map(
+    p.map(
         calculateRMS, 
         ([(query, subject) for subject in structures] for query in structures)
     )
-    seqNames = [s.id for s in structures]
-    res = pd.DataFrame(res, columns=seqNames, index=seqNames)
-    res.to_csv(os.path.join(PDB_DIR, "rms_matrix.csv"))

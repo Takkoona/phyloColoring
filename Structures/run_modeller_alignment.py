@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 #$ -V
 #$ -cwd
 #$ -S /usr/bin/python3

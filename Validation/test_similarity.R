@@ -1,3 +1,10 @@
+#!/usr/bin/env R
+#$ -S /gluster/home/chengyang/R-4.0.0/bin/Rscript
+#$ -q NGS
+#$ -pe mpi 24
+#$ -cwd
+#$ -N similarity
+
 library(parallel)
 library(ape)
 library(sitePath)
