@@ -1,4 +1,4 @@
-#!/usr/bin/env R
+#!/usr/bin/env Rscript
 #$ -S /gluster/home/chengyang/R-4.0.0/bin/Rscript
 #$ -q NGS
 #$ -pe mpi 24
@@ -21,7 +21,6 @@ tree <- addMSA(tree, msaPath = file.path(treeDir, "aligned.fasta"), msaFormat = 
 #---------------------------------------------------------------------------------------
 
 testParam <- "minEffectiveSize"
-dir.create(testParam, showWarnings = FALSE)
 
 simValues <- seq(0.001, 0.01, length.out = 3)
 
@@ -32,12 +31,11 @@ for (similarity in simValues) {
     cl <- makeCluster(detectCores(), outfile = "log.txt")
     clusterExport(cl, c("paths", "testParam", "similarity"))
     
-    sizeValues <- seq(0, ape::Ntip(tree) / 4, by = 30)
+    sizeValues <- seq(0, ape::Ntip(tree) / 10, by = 15)
     m <- parLapply(cl, sizeValues, function(ms) {
-        fileName <- file.path(testParam, paste0(similarity, "_", ms, ".rds"))
+        fileName <- file.path(testParam, paste0(similarity, "_", ms))
         cat(fileName, "\n")
         mutations <- sitePath::fixationSites(paths, minEffectiveSize = ms, method = "insert")
-        saveRDS(mutations, fileName)
         return(mutations)
     })
     names(m) <- sizeValues
