@@ -1,0 +1,3366 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    wap1010 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -pre gtr_ufboot1000 -m GTR+I+G4 -s aligned.fasta -o AEN75265.1
+Seed:    619384 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 20 09:43:30 2021
+Kernel:  AVX+FMA - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 563 sequences with 3425 columns, 1036 distinct patterns
+282 parsimony-informative, 357 singleton sites, 2786 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  AMC13912.1        0.06%    passed    100.00%
+   2  ANG09399.1        0.06%    passed    100.00%
+   3  ARU07076.1        0.06%    passed    100.00%
+   4  ARU07075.1        0.06%    passed    100.00%
+   5  QDH45910.1        0.06%    passed    100.00%
+   6  ARU07074.1        0.06%    passed    100.00%
+   7  AML81028.1        0.06%    passed    100.00%
+   8  ALL27019.1        0.00%    passed    100.00%
+   9  ANO46303.1        0.06%    passed    100.00%
+  10  ANO46307.1        0.06%    passed    100.00%
+  11  ANO46306.1        0.06%    passed    100.00%
+  12  ANO46309.1        0.06%    passed    100.00%
+  13  ANO46302.1        0.06%    passed    100.00%
+  14  ANO46301.1        0.06%    passed    100.00%
+  15  ANO46308.1        0.06%    passed    100.00%
+  16  ANO46305.1        0.06%    passed    100.00%
+  17  ANO46304.1        0.06%    passed    100.00%
+  18  AOW32303.1        0.06%    passed    100.00%
+  19  QGA72951.1        0.06%    passed    100.00%
+  20  AZS35409.1        0.06%    passed    100.00%
+  21  BBA85762.1        0.09%    passed    100.00%
+  22  QKU35968.1        0.06%    passed    100.00%
+  23  AMC13913.1        0.06%    passed    100.00%
+  24  AND01116.2        0.06%    passed    100.00%
+  25  QFP98590.1        0.06%    passed    100.00%
+  26  QFP98591.1        0.06%    passed    100.00%
+  27  QFP98592.1        1.08%    passed    100.00%
+  28  QFP98593.1        0.06%    passed    100.00%
+  29  AQS26698.1        0.18%    passed    100.00%
+  30  QKX95861.1        0.06%    passed    100.00%
+  31  AMQ76465.1        0.06%    passed    100.00%
+  32  AMQ76459.1        0.55%    passed    100.00%
+  33  AMA12087.1        0.06%    passed    100.00%
+  34  AMK49165.1        0.06%    passed    100.00%
+  35  AMA12084.1        0.06%    passed    100.00%
+  36  AMA12085.1        0.06%    passed    100.00%
+  37  AMA12086.1        0.06%    passed    100.00%
+  38  AMK49164.2        0.06%    passed    100.00%
+  39  AUF35021.1        0.06%    passed    100.00%
+  40  AUF35022.1        0.06%    passed    100.00%
+  41  AVV62004.1        0.06%    passed    100.00%
+  42  AQU12485.1        0.06%    passed    100.00%
+  43  AXF50014.1        0.06%    passed    100.00%
+  44  AXF50016.1        0.06%    passed    100.00%
+  45  AXF50015.1        0.06%    passed    100.00%
+  46  APY24200.1        0.06%    passed    100.00%
+  47  APY24198.1        0.06%    passed    100.00%
+  48  APY24199.1        0.06%    passed    100.00%
+  49  AMD16557.1        0.06%    passed    100.00%
+  50  AMS00611.1        0.06%    passed    100.00%
+  51  AYV62653.1        0.06%    passed    100.00%
+  52  AXQ40002.1        0.06%    passed    100.00%
+  53  AXQ40003.1        0.06%    passed    100.00%
+  54  AXQ40004.1        0.06%    passed    100.00%
+  55  AXQ40005.1        0.06%    passed    100.00%
+  56  AXQ39996.1        0.06%    passed    100.00%
+  57  AXQ39997.1        0.06%    passed    100.00%
+  58  AXQ39998.1        0.06%    passed    100.00%
+  59  AXQ39999.1        0.06%    passed    100.00%
+  60  AXQ40000.1        0.06%    passed    100.00%
+  61  AXQ40001.1        0.06%    passed    100.00%
+  62  AUI42289.1        0.06%    passed    100.00%
+  63  AVZ47169.1        0.06%    passed    100.00%
+  64  AMN14619.1        0.09%    passed    100.00%
+  65  AMN14620.1        0.06%    passed    100.00%
+  66  ASW34087.1        0.06%    passed    100.00%
+  67  ART29823.1        0.06%    passed    100.00%
+  68  ART29825.1        0.06%    passed    100.00%
+  69  ART29826.1        0.06%    passed    100.00%
+  70  QOF88701.1        0.06%    passed    100.00%
+  71  AQW43708.1        0.12%    passed    100.00%
+  72  AMQ48986.1        0.06%    passed    100.00%
+  73  AQX32984.1        0.15%    passed    100.00%
+  74  AQX32985.1        0.06%    passed    100.00%
+  75  ARM59239.1        0.06%    passed    100.00%
+  76  AMM39804.1        0.06%    passed    100.00%
+  77  AZU90720.1        0.06%    passed    100.00%
+  78  AZU90719.1        0.06%    passed    100.00%
+  79  AQX32986.1        0.06%    passed    100.00%
+  80  AQX32987.1        0.06%    passed    100.00%
+  81  AVT55532.1        0.18%    passed    100.00%
+  82  ACD75819.1        0.12%    passed    100.00%
+  83  AFD30972.1        0.09%    passed    100.00%
+  84  AWH65848.1        0.06%    passed    100.00%
+  85  AQX32988.1        0.09%    passed    100.00%
+  86  AMK79468.2        0.06%    passed    100.00%
+  87  AML82110.1        0.06%    passed    100.00%
+  88  ARX97119.1        0.06%    passed    100.00%
+  89  AMM39805.1        0.06%    passed    100.00%
+  90  AHZ13508.1        0.06%    passed    100.00%
+  91  QGA67050.1        0.06%    passed    100.00%
+  92  APW84872.1        0.06%    passed    100.00%
+  93  APW84873.1        0.06%    passed    100.00%
+  94  APW84876.1        0.06%    passed    100.00%
+  95  APW84874.1        0.06%    passed    100.00%
+  96  APW84875.1        0.06%    passed    100.00%
+  97  APW84877.1        0.06%    passed    100.00%
+  98  QGA67056.1        0.06%    passed    100.00%
+  99  QGA67053.1        0.06%    passed    100.00%
+ 100  QGA67051.1        0.06%    passed    100.00%
+ 101  QGA67052.1        0.06%    passed    100.00%
+ 102  QGA67054.1        0.06%    passed    100.00%
+ 103  AMX81919.1        0.06%    passed    100.00%
+ 104  AMB37295.1        0.06%    passed    100.00%
+ 105  QGA67055.1        0.06%    passed    100.00%
+ 106  ANH22038.1        0.06%    passed    100.00%
+ 107  ASU55505.1        0.06%    passed    100.00%
+ 108  APO08503.1        0.06%    passed    100.00%
+ 109  ANQ92019.1        0.06%    passed    100.00%
+ 110  AEN75265.1        0.23%    passed    100.00%
+ 111  AMK49492.2        0.06%    passed    100.00%
+ 112  AMQ34003.1        0.06%    passed    100.00%
+ 113  AMQ34004.1        0.06%    passed    100.00%
+ 114  AQM74760.1        0.64%    passed    100.00%
+ 115  AQM74761.1        0.06%    passed    100.00%
+ 116  AQM74762.1        0.06%    passed    100.00%
+ 117  APC60216.2        0.23%    passed    100.00%
+ 118  APC60215.1        0.06%    passed    100.00%
+ 119  AQW43707.1        0.09%    passed    100.00%
+ 120  ART29828.1        0.06%    passed    100.00%
+ 121  AMC33116.1        0.06%    passed    100.00%
+ 122  YP_009428568.1    0.06%    passed    100.00%
+ 123  AMB18850.1        0.06%    passed    100.00%
+ 124  ANO46298.1        0.06%    passed    100.00%
+ 125  ANO46297.1        0.06%    passed    100.00%
+ 126  ANH10698.1        0.06%    passed    100.00%
+ 127  QIH53581.1        0.06%    passed    100.00%
+ 128  ASB32509.1        0.06%    passed    100.00%
+ 129  ARB08102.1        0.06%    passed    100.00%
+ 130  AVG19275.1        0.06%    passed    100.00%
+ 131  ANN44857.1        0.06%    passed    100.00%
+ 132  QOU08339.1        0.99%    passed    100.00%
+ 133  QOU08340.1        0.06%    passed    100.00%
+ 134  QOU08341.1        0.76%    passed    100.00%
+ 135  QOU08342.1        0.06%    passed    100.00%
+ 136  QOU08343.1        0.38%    passed    100.00%
+ 137  QOU08412.1        0.06%    passed    100.00%
+ 138  QOU08413.1        0.06%    passed    100.00%
+ 139  QOU08414.1        0.23%    passed    100.00%
+ 140  QOU08416.1        0.06%    passed    100.00%
+ 141  QOU08420.1        0.82%    passed    100.00%
+ 142  QOU08346.1        0.55%    passed    100.00%
+ 143  QOU08347.1        0.79%    passed    100.00%
+ 144  QOU08348.1        0.55%    passed    100.00%
+ 145  QOU08350.1        0.06%    passed    100.00%
+ 146  QOU08353.1        0.06%    passed    100.00%
+ 147  QOU08354.1        0.06%    passed    100.00%
+ 148  QOU08364.1        0.55%    passed    100.00%
+ 149  QOU08418.1        1.14%    passed    100.00%
+ 150  QOU08367.1        0.06%    passed    100.00%
+ 151  QOU08368.1        0.06%    passed    100.00%
+ 152  QOU08369.1        0.06%    passed    100.00%
+ 153  QOU08370.1        0.06%    passed    100.00%
+ 154  QOU08371.1        0.06%    passed    100.00%
+ 155  QOU08372.1        0.06%    passed    100.00%
+ 156  QOU08373.1        0.06%    passed    100.00%
+ 157  QOU08374.1        0.06%    passed    100.00%
+ 158  QOU08375.1        0.15%    passed    100.00%
+ 159  QOU08376.1        0.06%    passed    100.00%
+ 160  QOU08377.1        0.06%    passed    100.00%
+ 161  QOU08378.1        0.93%    passed    100.00%
+ 162  QOU08379.1        0.06%    passed    100.00%
+ 163  QOU08380.1        0.06%    passed    100.00%
+ 164  QOU08381.1        0.32%    passed    100.00%
+ 165  QOU08382.1        0.06%    passed    100.00%
+ 166  QOU08384.1        0.06%    passed    100.00%
+ 167  QOU08385.1        0.06%    passed    100.00%
+ 168  QOU08386.1        0.06%    passed    100.00%
+ 169  QOU08387.1        1.43%    passed    100.00%
+ 170  QOU08388.1        0.06%    passed    100.00%
+ 171  QOU08390.1        0.06%    passed    100.00%
+ 172  QOU08392.1        0.06%    passed    100.00%
+ 173  QOU08393.1        0.06%    passed    100.00%
+ 174  QOU08394.1        0.06%    passed    100.00%
+ 175  QOU08419.1        0.06%    passed    100.00%
+ 176  QOU08397.1        0.06%    passed    100.00%
+ 177  QOU08398.1        0.06%    passed    100.00%
+ 178  QOU08399.1        0.06%    passed    100.00%
+ 179  QOU08400.1        0.06%    passed    100.00%
+ 180  QOU08401.1        0.06%    passed    100.00%
+ 181  QOU08402.1        0.32%    passed    100.00%
+ 182  QOU08403.1        0.06%    passed    100.00%
+ 183  QOU08404.1        0.06%    passed    100.00%
+ 184  QOU08405.1        0.06%    passed    100.00%
+ 185  QOU08407.1        0.06%    passed    100.00%
+ 186  QOU08408.1        0.06%    passed    100.00%
+ 187  QOU08411.1        0.06%    passed    100.00%
+ 188  ANK57897.1        0.06%    passed    100.00%
+ 189  AWH65849.1        0.06%    passed    100.00%
+ 190  QCG74166.1        0.06%    passed    100.00%
+ 191  AMC13911.1        0.06%    passed    100.00%
+ 192  AXQ40006.1        0.06%    passed    100.00%
+ 193  AXQ40007.1        0.06%    passed    100.00%
+ 194  AOG18295.1        0.06%    passed    100.00%
+ 195  AOG18296.1        0.06%    passed    100.00%
+ 196  QTA38993.1        0.06%    passed    100.00%
+ 197  QTA38994.1        0.06%    passed    100.00%
+ 198  APH11492.1        0.06%    passed    100.00%
+ 199  AMQ48982.1        0.06%    passed    100.00%
+ 200  AMQ48981.1        0.06%    passed    100.00%
+ 201  QKM77298.1        0.06%    passed    100.00%
+ 202  QKM77301.1        0.06%    passed    100.00%
+ 203  QKM77300.1        0.06%    passed    100.00%
+ 204  QKM77299.1        0.06%    passed    100.00%
+ 205  ATI21641.1        0.06%    passed    100.00%
+ 206  APH11611.1        0.06%    passed    100.00%
+ 207  ATL14618.1        0.06%    passed    100.00%
+ 208  AVG19202.1        0.06%    passed    100.00%
+ 209  AVG19203.1        0.09%    passed    100.00%
+ 210  AMX81915.1        0.06%    passed    100.00%
+ 211  AMX81916.1        0.06%    passed    100.00%
+ 212  APO36913.1        0.06%    passed    100.00%
+ 213  AMH87239.1        0.06%    passed    100.00%
+ 214  AMX81917.1        0.06%    passed    100.00%
+ 215  ARK18853.1        0.12%    passed    100.00%
+ 216  AMR68932.1        0.06%    passed    100.00%
+ 217  QOF88733.1        0.06%    passed    100.00%
+ 218  APG56499.1        0.06%    passed    100.00%
+ 219  ASW34302.1        0.06%    passed    100.00%
+ 220  AOI20067.1        0.06%    passed    100.00%
+ 221  QPC45468.1        0.06%    passed    100.00%
+ 222  QPC45465.1        0.06%    passed    100.00%
+ 223  QOF88734.1        0.06%    passed    100.00%
+ 224  AMK79469.1        0.06%    passed    100.00%
+ 225  QDZ58858.1        0.06%    passed    100.00%
+ 226  ALX35659.1        0.06%    passed    100.00%
+ 227  AMR39830.1        0.06%    passed    100.00%
+ 228  AMR39831.1        0.06%    passed    100.00%
+ 229  APR74597.1        0.06%    passed    100.00%
+ 230  ANA12599.1        0.06%    passed    100.00%
+ 231  ANC90425.1        0.06%    passed    100.00%
+ 232  AMX81918.1        0.06%    passed    100.00%
+ 233  AMR39834.1        0.06%    passed    100.00%
+ 234  AYI50389.1        0.06%    passed    100.00%
+ 235  AYI50390.1        0.06%    passed    100.00%
+ 236  AMD61711.1        0.06%    passed    100.00%
+ 237  AYI50388.1        0.06%    passed    100.00%
+ 238  QOF88708.1        0.06%    passed    100.00%
+ 239  AMD61710.1        0.06%    passed    100.00%
+ 240  ARB07922.1        1.37%    passed    100.00%
+ 241  ARB07962.1        0.06%    passed    100.00%
+ 242  AOY08518.2        0.06%    passed    100.00%
+ 243  AOY08517.1        0.06%    passed    100.00%
+ 244  AOY08538.2        0.06%    passed    100.00%
+ 245  AOY08541.2        0.06%    passed    100.00%
+ 246  ARB07939.1        1.49%    passed    100.00%
+ 247  ARB07967.1        0.06%    passed    100.00%
+ 248  AYV74916.1        0.06%    passed    100.00%
+ 249  AYV74917.1        0.06%    passed    100.00%
+ 250  AYV74918.1        0.06%    passed    100.00%
+ 251  AYV74919.1        0.06%    passed    100.00%
+ 252  AYV74920.1        0.06%    passed    100.00%
+ 253  AYV74921.1        0.06%    passed    100.00%
+ 254  AYV74922.1        0.06%    passed    100.00%
+ 255  AYV74923.1        0.06%    passed    100.00%
+ 256  AYV74924.1        0.06%    passed    100.00%
+ 257  AYV74925.1        0.06%    passed    100.00%
+ 258  AYV74927.1        0.06%    passed    100.00%
+ 259  AYV74928.1        0.06%    passed    100.00%
+ 260  AYV74929.1        0.06%    passed    100.00%
+ 261  AYV74930.1        0.06%    passed    100.00%
+ 262  AYV74931.1        0.06%    passed    100.00%
+ 263  AYV74932.1        0.06%    passed    100.00%
+ 264  AYV74933.1        0.06%    passed    100.00%
+ 265  AYV74934.1        0.06%    passed    100.00%
+ 266  AYV74935.1        0.06%    passed    100.00%
+ 267  AYV74936.1        0.06%    passed    100.00%
+ 268  AYV74937.1        0.06%    passed    100.00%
+ 269  ARB07978.1        0.12%    passed    100.00%
+ 270  ARB07981.1        0.09%    passed    100.00%
+ 271  AOY08526.2        0.09%    passed    100.00%
+ 272  ARB07987.1        0.29%    passed    100.00%
+ 273  AOY08542.1        0.06%    passed    100.00%
+ 274  ARB07927.1        0.41%    passed    100.00%
+ 275  AOY08524.1        0.06%    passed    100.00%
+ 276  AOY08525.1        0.06%    passed    100.00%
+ 277  ARB07988.1        0.20%    passed    100.00%
+ 278  ARB07932.1        0.06%    passed    100.00%
+ 279  AOY08521.1        0.06%    passed    100.00%
+ 280  AOY08523.3        0.06%    passed    100.00%
+ 281  AOY08539.3        0.09%    passed    100.00%
+ 282  ARB07953.1        0.06%    passed    100.00%
+ 283  AOY08535.1        0.06%    passed    100.00%
+ 284  ARB07947.1        0.38%    passed    100.00%
+ 285  ARB07954.1        0.09%    passed    100.00%
+ 286  AOY08536.1        0.06%    passed    100.00%
+ 287  ARB07960.1        0.18%    passed    100.00%
+ 288  AOY08527.2        0.12%    passed    100.00%
+ 289  AOY08540.2        0.12%    passed    100.00%
+ 290  AOY08531.2        0.29%    passed    100.00%
+ 291  AOY08533.2        0.06%    passed    100.00%
+ 292  ARB07930.1        0.09%    passed    100.00%
+ 293  ARB07976.1        0.06%    passed    100.00%
+ 294  AOY08516.1        0.06%    passed    100.00%
+ 295  AOY08546.2        0.06%    passed    100.00%
+ 296  AOY08537.2        0.06%    passed    100.00%
+ 297  APO39228.1        0.06%    passed    100.00%
+ 298  APO39229.1        0.06%    passed    100.00%
+ 299  APO39231.1        1.43%    passed    100.00%
+ 300  APO39232.1        0.06%    passed    100.00%
+ 301  APO39233.1        0.06%    passed    100.00%
+ 302  APO39236.1        0.06%    passed    100.00%
+ 303  APO39237.1        0.06%    passed    100.00%
+ 304  APO39240.1        0.44%    passed    100.00%
+ 305  APO39241.1        1.52%    passed    100.00%
+ 306  APO39243.1        0.06%    passed    100.00%
+ 307  ANF04752.1        0.06%    passed    100.00%
+ 308  ASK51714.1        0.06%    passed    100.00%
+ 309  AOE22997.1        0.06%    passed    100.00%
+ 310  AOR87336.1        0.09%    passed    100.00%
+ 311  ARO84674.1        0.12%    passed    100.00%
+ 312  AMO03410.2        0.06%    passed    100.00%
+ 313  APG56458.1        0.06%    passed    100.00%
+ 314  APG56457.1        0.06%    passed    100.00%
+ 315  ALU33341.1        0.06%    passed    100.00%
+ 316  AOO54270.1        0.06%    passed    100.00%
+ 317  QFZ95661.1        0.06%    passed    100.00%
+ 318  APH11493.1        0.06%    passed    100.00%
+ 319  APH11495.1        0.06%    passed    100.00%
+ 320  APH11496.1        1.26%    passed    100.00%
+ 321  APH11497.1        0.06%    passed    100.00%
+ 322  APH11498.1        0.06%    passed    100.00%
+ 323  APH11499.1        0.06%    passed    100.00%
+ 324  APH11500.1        0.06%    passed    100.00%
+ 325  APH11501.1        0.06%    passed    100.00%
+ 326  APH11502.1        0.06%    passed    100.00%
+ 327  APH11503.1        0.06%    passed    100.00%
+ 328  APH11504.1        0.06%    passed    100.00%
+ 329  APH11505.1        0.06%    passed    100.00%
+ 330  APH11506.1        0.06%    passed    100.00%
+ 331  APH11507.1        0.06%    passed    100.00%
+ 332  APH11508.1        0.06%    passed    100.00%
+ 333  APH11509.1        0.06%    passed    100.00%
+ 334  APH11510.1        0.26%    passed    100.00%
+ 335  APH11511.1        0.06%    passed    100.00%
+ 336  APH11512.1        0.06%    passed    100.00%
+ 337  APH11513.1        0.09%    passed    100.00%
+ 338  APH11514.1        0.06%    passed    100.00%
+ 339  APH11515.1        0.06%    passed    100.00%
+ 340  APH11516.1        0.06%    passed    100.00%
+ 341  APH11517.1        0.06%    passed    100.00%
+ 342  APH11518.1        0.06%    passed    100.00%
+ 343  APH11519.1        0.44%    passed    100.00%
+ 344  APH11520.1        0.23%    passed    100.00%
+ 345  APH11521.1        0.06%    passed    100.00%
+ 346  APH11522.1        0.73%    passed    100.00%
+ 347  APH11523.1        0.06%    passed    100.00%
+ 348  APH11524.1        0.06%    passed    100.00%
+ 349  APH11525.1        0.06%    passed    100.00%
+ 350  APH11526.1        0.09%    passed    100.00%
+ 351  APH11527.1        0.06%    passed    100.00%
+ 352  APH11528.1        0.06%    passed    100.00%
+ 353  APH11529.1        0.06%    passed    100.00%
+ 354  APH11530.1        0.06%    passed    100.00%
+ 355  APH11531.1        0.06%    passed    100.00%
+ 356  APH11532.1        0.06%    passed    100.00%
+ 357  APH11533.1        0.06%    passed    100.00%
+ 358  APH11534.1        0.06%    passed    100.00%
+ 359  APH11535.1        0.06%    passed    100.00%
+ 360  APH11536.1        0.06%    passed    100.00%
+ 361  APH11537.1        0.06%    passed    100.00%
+ 362  APH11538.1        0.06%    passed    100.00%
+ 363  APH11539.1        0.06%    passed    100.00%
+ 364  APH11540.1        0.06%    passed    100.00%
+ 365  APH11541.1        0.06%    passed    100.00%
+ 366  APH11542.1        0.06%    passed    100.00%
+ 367  APH11543.1        0.06%    passed    100.00%
+ 368  APH11544.1        0.06%    passed    100.00%
+ 369  APH11545.1        0.06%    passed    100.00%
+ 370  APH11546.1        0.06%    passed    100.00%
+ 371  APH11547.1        0.06%    passed    100.00%
+ 372  APH11548.1        0.06%    passed    100.00%
+ 373  APH11549.1        0.06%    passed    100.00%
+ 374  APH11550.1        0.06%    passed    100.00%
+ 375  APH11551.1        0.06%    passed    100.00%
+ 376  APH11552.1        0.06%    passed    100.00%
+ 377  APH11553.1        0.06%    passed    100.00%
+ 378  APH11554.1        0.06%    passed    100.00%
+ 379  APH11555.1        0.06%    passed    100.00%
+ 380  APH11556.1        0.15%    passed    100.00%
+ 381  APH11557.1        0.06%    passed    100.00%
+ 382  APH11558.1        0.06%    passed    100.00%
+ 383  APH11559.1        0.06%    passed    100.00%
+ 384  APH11560.1        0.06%    passed    100.00%
+ 385  APH11561.1        0.06%    passed    100.00%
+ 386  APH11562.1        0.06%    passed    100.00%
+ 387  APH11563.1        0.06%    passed    100.00%
+ 388  APH11564.1        0.06%    passed    100.00%
+ 389  APH11565.1        0.06%    passed    100.00%
+ 390  APH11566.1        0.06%    passed    100.00%
+ 391  APH11567.1        0.06%    passed    100.00%
+ 392  APH11568.1        0.06%    passed    100.00%
+ 393  APH11569.1        0.06%    passed    100.00%
+ 394  APH11570.1        0.06%    passed    100.00%
+ 395  APH11571.1        0.06%    passed    100.00%
+ 396  APH11572.1        0.06%    passed    100.00%
+ 397  APH11573.1        0.06%    passed    100.00%
+ 398  APH11574.1        0.06%    passed    100.00%
+ 399  APH11575.1        0.06%    passed    100.00%
+ 400  APH11576.1        0.06%    passed    100.00%
+ 401  APH11577.1        0.06%    passed    100.00%
+ 402  APH11578.1        0.06%    passed    100.00%
+ 403  APH11579.1        0.06%    passed    100.00%
+ 404  APH11580.1        0.06%    passed    100.00%
+ 405  APH11581.1        0.06%    passed    100.00%
+ 406  APH11582.1        0.06%    passed    100.00%
+ 407  APH11583.1        0.06%    passed    100.00%
+ 408  APH11584.1        0.06%    passed    100.00%
+ 409  APH11585.1        0.06%    passed    100.00%
+ 410  APH11586.1        0.06%    passed    100.00%
+ 411  APH11587.1        0.06%    passed    100.00%
+ 412  APH11588.1        1.23%    passed    100.00%
+ 413  APH11589.1        0.09%    passed    100.00%
+ 414  APH11590.1        0.06%    passed    100.00%
+ 415  APH11592.1        0.06%    passed    100.00%
+ 416  APH11593.1        0.06%    passed    100.00%
+ 417  APH11594.1        0.06%    passed    100.00%
+ 418  APH11595.1        0.06%    passed    100.00%
+ 419  APH11610.1        0.29%    passed    100.00%
+ 420  AOX49264.1        0.06%    passed    100.00%
+ 421  ANS60026.1        0.06%    passed    100.00%
+ 422  AOR82892.1        0.06%    passed    100.00%
+ 423  AOR82893.1        0.06%    passed    100.00%
+ 424  ATB53752.1        0.06%    passed    100.00%
+ 425  ANC90426.1        0.06%    passed    100.00%
+ 426  AMZ03557.1        0.06%    passed    100.00%
+ 427  ASU55390.1        0.06%    passed    100.00%
+ 428  ASU55397.1        0.06%    passed    100.00%
+ 429  ASU55398.1        0.06%    passed    100.00%
+ 430  ASU55399.1        0.06%    passed    100.00%
+ 431  ASU55409.1        0.06%    passed    100.00%
+ 432  ASU55393.1        0.06%    passed    100.00%
+ 433  ASU55395.1        0.06%    passed    100.00%
+ 434  ASU55400.1        0.06%    passed    100.00%
+ 435  ASU55410.1        0.06%    passed    100.00%
+ 436  ASU55408.1        0.06%    passed    100.00%
+ 437  ASU55403.1        0.06%    passed    100.00%
+ 438  ASU55406.1        0.06%    passed    100.00%
+ 439  ASU55396.1        0.06%    passed    100.00%
+ 440  ASU55414.1        0.06%    passed    100.00%
+ 441  ASU55405.1        0.06%    passed    100.00%
+ 442  ASU55413.1        0.06%    passed    100.00%
+ 443  ASU55391.1        0.06%    passed    100.00%
+ 444  ASU55411.1        0.06%    passed    100.00%
+ 445  ASU55412.1        0.06%    passed    100.00%
+ 446  ASU55415.1        0.06%    passed    100.00%
+ 447  ASU55394.1        0.06%    passed    100.00%
+ 448  ASU55392.1        0.06%    passed    100.00%
+ 449  ASU55404.1        0.06%    passed    100.00%
+ 450  ASU55407.1        0.06%    passed    100.00%
+ 451  ASU55401.1        0.06%    passed    100.00%
+ 452  ASU55402.1        0.06%    passed    100.00%
+ 453  ASU55419.1        0.06%    passed    100.00%
+ 454  ASU55426.1        0.06%    passed    100.00%
+ 455  ASU55420.1        0.06%    passed    100.00%
+ 456  ASU55424.1        0.06%    passed    100.00%
+ 457  ASU55422.1        0.06%    passed    100.00%
+ 458  ASU55421.1        0.06%    passed    100.00%
+ 459  ASU55418.1        0.06%    passed    100.00%
+ 460  ASU55423.1        0.06%    passed    100.00%
+ 461  ASU55425.1        0.06%    passed    100.00%
+ 462  ASU55417.1        0.06%    passed    100.00%
+ 463  ASU55416.1        0.06%    passed    100.00%
+ 464  ATG29267.1        0.06%    passed    100.00%
+ 465  ATG29273.1        0.73%    passed    100.00%
+ 466  ATG29276.1        0.06%    passed    100.00%
+ 467  ATG29270.1        0.06%    passed    100.00%
+ 468  AOC50654.1        0.06%    passed    100.00%
+ 469  ATG29284.1        0.06%    passed    100.00%
+ 470  ATG29285.1        0.26%    passed    100.00%
+ 471  ATG29287.1        0.06%    passed    100.00%
+ 472  ATG29291.1        0.06%    passed    100.00%
+ 473  ATG29292.1        0.06%    passed    100.00%
+ 474  ATG29295.1        0.06%    passed    100.00%
+ 475  ATG29299.1        0.06%    passed    100.00%
+ 476  ATG29301.1        0.06%    passed    100.00%
+ 477  ATG29302.1        0.09%    passed    100.00%
+ 478  ATG29303.1        0.06%    passed    100.00%
+ 479  ATG29306.1        0.06%    passed    100.00%
+ 480  ATG29307.1        0.06%    passed    100.00%
+ 481  ATG29280.1        1.20%    passed    100.00%
+ 482  AWF93619.1        0.06%    passed    100.00%
+ 483  AWF93617.1        0.06%    passed    100.00%
+ 484  AWF93618.1        0.06%    passed    100.00%
+ 485  AUI42194.1        0.06%    passed    100.00%
+ 486  AMR68906.1        0.23%    passed    100.00%
+ 487  ASL68973.1        0.23%    passed    100.00%
+ 488  ASL68974.1        0.06%    passed    100.00%
+ 489  ATG29315.1        0.06%    passed    100.00%
+ 490  AQZ41948.1        0.06%    passed    100.00%
+ 491  AQZ41950.1        0.06%    passed    100.00%
+ 492  AQZ41954.1        0.06%    passed    100.00%
+ 493  AQZ41956.1        0.06%    passed    100.00%
+ 494  AQZ41952.1        0.06%    passed    100.00%
+ 495  AQZ41955.1        0.06%    passed    100.00%
+ 496  AQZ41949.1        0.06%    passed    100.00%
+ 497  ASL68978.1        0.06%    passed    100.00%
+ 498  AQZ41947.1        0.06%    passed    100.00%
+ 499  AQZ41951.1        0.06%    passed    100.00%
+ 500  ASL68979.1        0.06%    passed    100.00%
+ 501  AQZ41953.1        0.06%    passed    100.00%
+ 502  ANC90428.1        0.06%    passed    100.00%
+ 503  QDZ58854.1        0.06%    passed    100.00%
+ 504  QDZ58856.1        0.06%    passed    100.00%
+ 505  ANB66183.1        0.06%    passed    100.00%
+ 506  QDZ58855.1        0.06%    passed    100.00%
+ 507  ANB66182.1        0.06%    passed    100.00%
+ 508  ANB66184.1        0.06%    passed    100.00%
+ 509  AMZ03556.1        0.06%    passed    100.00%
+ 510  ANW07476.1        0.06%    passed    100.00%
+ 511  AOC50652.1        0.06%    passed    100.00%
+ 512  AOO19564.1        0.06%    passed    100.00%
+ 513  AQS26800.1        0.09%    passed    100.00%
+ 514  AQS26806.1        0.20%    passed    100.00%
+ 515  AQS26814.1        0.09%    passed    100.00%
+ 516  AQS26816.1        0.15%    passed    100.00%
+ 517  AQS26808.1        0.15%    passed    100.00%
+ 518  AQS26828.1        0.58%    passed    100.00%
+ 519  APQ41782.1        0.06%    passed    100.00%
+ 520  APQ41783.1        0.06%    passed    100.00%
+ 521  APQ41784.1        0.06%    passed    100.00%
+ 522  APQ41785.1        0.06%    passed    100.00%
+ 523  APQ41786.1        0.06%    passed    100.00%
+ 524  AZS35403.1        0.06%    passed    100.00%
+ 525  AZS35404.1        0.06%    passed    100.00%
+ 526  AZS35405.1        0.06%    passed    100.00%
+ 527  AVZ25032.1        0.50%    passed    100.00%
+ 528  AVZ25033.1        0.06%    passed    100.00%
+ 529  AVZ25035.1        0.06%    passed    100.00%
+ 530  ARU07183.1        0.06%    passed    100.00%
+ 531  AUD54964.1        0.06%    passed    100.00%
+ 532  AOO53981.1        0.06%    passed    100.00%
+ 533  APB03017.1        0.06%    passed    100.00%
+ 534  APB03018.1        0.06%    passed    100.00%
+ 535  AOO85388.1        0.06%    passed    100.00%
+ 536  APB03019.1        0.06%    passed    100.00%
+ 537  AOS90220.1        0.06%    passed    100.00%
+ 538  APB03020.1        0.06%    passed    100.00%
+ 539  AOS90221.1        0.06%    passed    100.00%
+ 540  AOS90222.1        0.06%    passed    100.00%
+ 541  APB03021.1        0.06%    passed    100.00%
+ 542  AOS90223.1        0.06%    passed    100.00%
+ 543  AOS90224.1        0.06%    passed    100.00%
+ 544  BAV89190.1        0.06%    passed    100.00%
+ 545  BAX00477.1        0.06%    passed    100.00%
+ 546  BBC70847.1        0.06%    passed    100.00%
+ 547  BAV82373.1        0.06%    passed    100.00%
+ 548  AOX49265.1        0.06%    passed    100.00%
+ 549  ANH21697.1        0.09%    passed    100.00%
+ 550  AMU04506.1        0.06%    passed    100.00%
+ 551  AMT75536.1        0.06%    passed    100.00%
+ 552  AMM43326.1        0.06%    passed    100.00%
+ 553  AMM43325.1        0.06%    passed    100.00%
+ 554  AMM39806.1        0.06%    passed    100.00%
+ 555  AMV49165.1        0.06%    passed    100.00%
+ 556  APO08504.1        0.06%    passed    100.00%
+ 557  AOL02459.1        0.06%    passed    100.00%
+ 558  AOO19565.1        0.06%    passed    100.00%
+ 559  AWK27349.1        0.06%    passed    100.00%
+ 560  ANF16414.1        0.06%    passed    100.00%
+ 561  AUI42329.1        0.06%    passed    100.00%
+ 562  AUI42330.1        0.26%    passed    100.00%
+ 563  ARI68105.1        0.06%    passed    100.00%
+****  TOTAL             0.11%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AMC13913.1 is identical to AMC13912.1 but kept for subsequent analysis
+NOTE: APO08503.1 is identical to ANG09399.1 but kept for subsequent analysis
+NOTE: ANO46301.1 is identical to ANO46302.1 but kept for subsequent analysis
+NOTE: AOO54270.1 is identical to AND01116.2 but kept for subsequent analysis
+NOTE: AMA12084.1 is identical to AMA12087.1 but kept for subsequent analysis
+NOTE: AMA12086.1 is identical to AMA12085.1 but kept for subsequent analysis
+NOTE: ANH10698.1 is identical to AXF50015.1 but kept for subsequent analysis
+NOTE: AXQ40001.1 is identical to AXQ39998.1 but kept for subsequent analysis
+NOTE: QGA67050.1 is identical to AMN14620.1 but kept for subsequent analysis
+NOTE: ART29826.1 is identical to ART29825.1 but kept for subsequent analysis
+NOTE: QOF88733.1 is identical to QOF88701.1 but kept for subsequent analysis
+NOTE: AQX32986.1 is identical to AMM39804.1 but kept for subsequent analysis
+NOTE: AOY08521.1 is identical to AZU90719.1 but kept for subsequent analysis
+NOTE: AMR39834.1 is identical to AWH65848.1 but kept for subsequent analysis
+NOTE: AML82110.1 is identical to AMK79468.2 but kept for subsequent analysis
+NOTE: AMR39831.1 is identical to ARX97119.1 but kept for subsequent analysis
+NOTE: AMR68906.1 is identical to AEN75265.1 but kept for subsequent analysis
+NOTE: ATG29284.1 is identical to AQM74761.1 but kept for subsequent analysis
+NOTE: AMB18850.1 is identical to YP_009428568.1 but kept for subsequent analysis
+NOTE: ANO46297.1 is identical to ANO46298.1 but kept for subsequent analysis
+NOTE: ANN44857.1 is identical to AVG19275.1 but kept for subsequent analysis
+NOTE: QOU08407.1 is identical to QOU08370.1 but kept for subsequent analysis
+NOTE: AWH65849.1 is identical to ANK57897.1 but kept for subsequent analysis
+NOTE: ASU55417.1 is identical to QCG74166.1 but kept for subsequent analysis
+NOTE: APB03019.1 is identical to AMC13911.1 but kept for subsequent analysis
+NOTE: AUI42194.1 is identical to AOG18296.1 but kept for subsequent analysis
+NOTE: QKM77300.1 is identical to QKM77301.1 but kept for subsequent analysis
+NOTE: ARO84674.1 is identical to ARK18853.1 but kept for subsequent analysis
+NOTE: AMR39830.1 is identical to AMR68932.1 but kept for subsequent analysis
+NOTE: ANB66183.1 is identical to AYI50389.1 but kept for subsequent analysis
+NOTE: AOY08518.2 is identical to ARB07962.1 but kept for subsequent analysis
+NOTE: AOY08541.2 is identical to AOY08517.1 but kept for subsequent analysis
+NOTE: AYV74917.1 is identical to AYV74916.1 but kept for subsequent analysis
+NOTE: AYV74920.1 is identical to AYV74919.1 but kept for subsequent analysis
+NOTE: AYV74933.1 is identical to AYV74932.1 but kept for subsequent analysis
+NOTE: APO39243.1 is identical to APO39229.1 but kept for subsequent analysis
+NOTE: APH11498.1 is identical to APH11497.1 but kept for subsequent analysis
+NOTE: APH11504.1 is identical to APH11501.1 but kept for subsequent analysis
+NOTE: APH11512.1 is identical to APH11508.1 but kept for subsequent analysis
+NOTE: APH11529.1 is identical to APH11528.1 but kept for subsequent analysis
+NOTE: ASU55405.1 is identical to ASU55414.1 but kept for subsequent analysis
+NOTE: ANB66182.1 is identical to ASU55425.1 but kept for subsequent analysis
+NOTE: AQZ41950.1 is identical to AQZ41948.1 but kept for subsequent analysis
+NOTE: 162 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: QOU08353.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: QOU08374.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATI21641.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AOY08533.2 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATG29276.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41954.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41956.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AVZ25033.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ARU07183.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ANO46304.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: AHZ13508.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: ARB08102.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: APY24199.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AMH87239.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: QPC45465.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AOR82892.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: AOR82893.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: ATB53752.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: QOU08413.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08373.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08379.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08382.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08385.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08397.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08398.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: ARB07976.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: APW84872.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84873.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84876.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84874.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84875.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84877.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67053.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67051.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67052.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67054.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: ANH22038.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QOU08393.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOY08537.2 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOS90224.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: BAV82373.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AMZ03557.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55390.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55391.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55412.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55415.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55419.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55426.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55420.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55424.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55422.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55421.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55418.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ANC90428.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41784.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41786.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: AOY08516.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOY08546.2 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39228.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39232.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39233.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39236.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO53981.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO85388.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90221.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90222.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APB03021.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APR74597.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: AMX81918.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: ATG29306.1 (identical to AQM74761.1) is ignored but added at the end
+NOTE: AMZ03556.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: ANW07476.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: AOO19564.1 (identical to AOG18296.1) is ignored but added at the end
+NOTE: ANA12599.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANC90425.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMO03410.2 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMT75536.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMM39806.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMV49165.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANF16414.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AYV74918.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74924.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74930.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74921.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74922.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74923.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74925.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74927.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74928.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74929.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74934.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74935.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74936.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74937.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: APH11499.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11503.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11506.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11507.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11578.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11505.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11509.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11517.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11521.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11523.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11524.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11525.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11527.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11530.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11531.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11532.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11533.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11535.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11537.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11540.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11541.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11542.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11544.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11545.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11546.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11548.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11550.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11553.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11554.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11555.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11557.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11558.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11559.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11561.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11563.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11564.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11565.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11567.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11568.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11569.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11570.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11572.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11574.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11575.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11576.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11577.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11579.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11580.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11582.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11583.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11584.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11585.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11586.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11587.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11590.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11592.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11593.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11594.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: AWK27349.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11514.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11515.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11516.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11581.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11543.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11560.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11566.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: AQZ41947.1 (identical to AQZ41948.1) is ignored but added at the end
+NOTE: AQZ41951.1 (identical to AQZ41948.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to gtr_ufboot1000.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.116 seconds
+ERROR: File not found GTR
+
+******************************************************
+CHECKPOINT: Resuming analysis from gtr_ufboot1000.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    wap1010 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -pre gtr_ufboot1000 -m GTR+I+G4 -s aligned.fasta -o AEN75265.1 -bb 1000 -bnni -nt AUTO
+Seed:    220408 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 20 09:43:56 2021
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+WARNING: Number of command-line arguments differs from checkpoint
+WARNING: Command-line differs from checkpoint!
+Reading alignment file aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 563 sequences with 3425 columns, 1036 distinct patterns
+282 parsimony-informative, 357 singleton sites, 2786 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  AMC13912.1        0.06%    passed    100.00%
+   2  ANG09399.1        0.06%    passed    100.00%
+   3  ARU07076.1        0.06%    passed    100.00%
+   4  ARU07075.1        0.06%    passed    100.00%
+   5  QDH45910.1        0.06%    passed    100.00%
+   6  ARU07074.1        0.06%    passed    100.00%
+   7  AML81028.1        0.06%    passed    100.00%
+   8  ALL27019.1        0.00%    passed    100.00%
+   9  ANO46303.1        0.06%    passed    100.00%
+  10  ANO46307.1        0.06%    passed    100.00%
+  11  ANO46306.1        0.06%    passed    100.00%
+  12  ANO46309.1        0.06%    passed    100.00%
+  13  ANO46302.1        0.06%    passed    100.00%
+  14  ANO46301.1        0.06%    passed    100.00%
+  15  ANO46308.1        0.06%    passed    100.00%
+  16  ANO46305.1        0.06%    passed    100.00%
+  17  ANO46304.1        0.06%    passed    100.00%
+  18  AOW32303.1        0.06%    passed    100.00%
+  19  QGA72951.1        0.06%    passed    100.00%
+  20  AZS35409.1        0.06%    passed    100.00%
+  21  BBA85762.1        0.09%    passed    100.00%
+  22  QKU35968.1        0.06%    passed    100.00%
+  23  AMC13913.1        0.06%    passed    100.00%
+  24  AND01116.2        0.06%    passed    100.00%
+  25  QFP98590.1        0.06%    passed    100.00%
+  26  QFP98591.1        0.06%    passed    100.00%
+  27  QFP98592.1        1.08%    passed    100.00%
+  28  QFP98593.1        0.06%    passed    100.00%
+  29  AQS26698.1        0.18%    passed    100.00%
+  30  QKX95861.1        0.06%    passed    100.00%
+  31  AMQ76465.1        0.06%    passed    100.00%
+  32  AMQ76459.1        0.55%    passed    100.00%
+  33  AMA12087.1        0.06%    passed    100.00%
+  34  AMK49165.1        0.06%    passed    100.00%
+  35  AMA12084.1        0.06%    passed    100.00%
+  36  AMA12085.1        0.06%    passed    100.00%
+  37  AMA12086.1        0.06%    passed    100.00%
+  38  AMK49164.2        0.06%    passed    100.00%
+  39  AUF35021.1        0.06%    passed    100.00%
+  40  AUF35022.1        0.06%    passed    100.00%
+  41  AVV62004.1        0.06%    passed    100.00%
+  42  AQU12485.1        0.06%    passed    100.00%
+  43  AXF50014.1        0.06%    passed    100.00%
+  44  AXF50016.1        0.06%    passed    100.00%
+  45  AXF50015.1        0.06%    passed    100.00%
+  46  APY24200.1        0.06%    passed    100.00%
+  47  APY24198.1        0.06%    passed    100.00%
+  48  APY24199.1        0.06%    passed    100.00%
+  49  AMD16557.1        0.06%    passed    100.00%
+  50  AMS00611.1        0.06%    passed    100.00%
+  51  AYV62653.1        0.06%    passed    100.00%
+  52  AXQ40002.1        0.06%    passed    100.00%
+  53  AXQ40003.1        0.06%    passed    100.00%
+  54  AXQ40004.1        0.06%    passed    100.00%
+  55  AXQ40005.1        0.06%    passed    100.00%
+  56  AXQ39996.1        0.06%    passed    100.00%
+  57  AXQ39997.1        0.06%    passed    100.00%
+  58  AXQ39998.1        0.06%    passed    100.00%
+  59  AXQ39999.1        0.06%    passed    100.00%
+  60  AXQ40000.1        0.06%    passed    100.00%
+  61  AXQ40001.1        0.06%    passed    100.00%
+  62  AUI42289.1        0.06%    passed    100.00%
+  63  AVZ47169.1        0.06%    passed    100.00%
+  64  AMN14619.1        0.09%    passed    100.00%
+  65  AMN14620.1        0.06%    passed    100.00%
+  66  ASW34087.1        0.06%    passed    100.00%
+  67  ART29823.1        0.06%    passed    100.00%
+  68  ART29825.1        0.06%    passed    100.00%
+  69  ART29826.1        0.06%    passed    100.00%
+  70  QOF88701.1        0.06%    passed    100.00%
+  71  AQW43708.1        0.12%    passed    100.00%
+  72  AMQ48986.1        0.06%    passed    100.00%
+  73  AQX32984.1        0.15%    passed    100.00%
+  74  AQX32985.1        0.06%    passed    100.00%
+  75  ARM59239.1        0.06%    passed    100.00%
+  76  AMM39804.1        0.06%    passed    100.00%
+  77  AZU90720.1        0.06%    passed    100.00%
+  78  AZU90719.1        0.06%    passed    100.00%
+  79  AQX32986.1        0.06%    passed    100.00%
+  80  AQX32987.1        0.06%    passed    100.00%
+  81  AVT55532.1        0.18%    passed    100.00%
+  82  ACD75819.1        0.12%    passed    100.00%
+  83  AFD30972.1        0.09%    passed    100.00%
+  84  AWH65848.1        0.06%    passed    100.00%
+  85  AQX32988.1        0.09%    passed    100.00%
+  86  AMK79468.2        0.06%    passed    100.00%
+  87  AML82110.1        0.06%    passed    100.00%
+  88  ARX97119.1        0.06%    passed    100.00%
+  89  AMM39805.1        0.06%    passed    100.00%
+  90  AHZ13508.1        0.06%    passed    100.00%
+  91  QGA67050.1        0.06%    passed    100.00%
+  92  APW84872.1        0.06%    passed    100.00%
+  93  APW84873.1        0.06%    passed    100.00%
+  94  APW84876.1        0.06%    passed    100.00%
+  95  APW84874.1        0.06%    passed    100.00%
+  96  APW84875.1        0.06%    passed    100.00%
+  97  APW84877.1        0.06%    passed    100.00%
+  98  QGA67056.1        0.06%    passed    100.00%
+  99  QGA67053.1        0.06%    passed    100.00%
+ 100  QGA67051.1        0.06%    passed    100.00%
+ 101  QGA67052.1        0.06%    passed    100.00%
+ 102  QGA67054.1        0.06%    passed    100.00%
+ 103  AMX81919.1        0.06%    passed    100.00%
+ 104  AMB37295.1        0.06%    passed    100.00%
+ 105  QGA67055.1        0.06%    passed    100.00%
+ 106  ANH22038.1        0.06%    passed    100.00%
+ 107  ASU55505.1        0.06%    passed    100.00%
+ 108  APO08503.1        0.06%    passed    100.00%
+ 109  ANQ92019.1        0.06%    passed    100.00%
+ 110  AEN75265.1        0.23%    passed    100.00%
+ 111  AMK49492.2        0.06%    passed    100.00%
+ 112  AMQ34003.1        0.06%    passed    100.00%
+ 113  AMQ34004.1        0.06%    passed    100.00%
+ 114  AQM74760.1        0.64%    passed    100.00%
+ 115  AQM74761.1        0.06%    passed    100.00%
+ 116  AQM74762.1        0.06%    passed    100.00%
+ 117  APC60216.2        0.23%    passed    100.00%
+ 118  APC60215.1        0.06%    passed    100.00%
+ 119  AQW43707.1        0.09%    passed    100.00%
+ 120  ART29828.1        0.06%    passed    100.00%
+ 121  AMC33116.1        0.06%    passed    100.00%
+ 122  YP_009428568.1    0.06%    passed    100.00%
+ 123  AMB18850.1        0.06%    passed    100.00%
+ 124  ANO46298.1        0.06%    passed    100.00%
+ 125  ANO46297.1        0.06%    passed    100.00%
+ 126  ANH10698.1        0.06%    passed    100.00%
+ 127  QIH53581.1        0.06%    passed    100.00%
+ 128  ASB32509.1        0.06%    passed    100.00%
+ 129  ARB08102.1        0.06%    passed    100.00%
+ 130  AVG19275.1        0.06%    passed    100.00%
+ 131  ANN44857.1        0.06%    passed    100.00%
+ 132  QOU08339.1        0.99%    passed    100.00%
+ 133  QOU08340.1        0.06%    passed    100.00%
+ 134  QOU08341.1        0.76%    passed    100.00%
+ 135  QOU08342.1        0.06%    passed    100.00%
+ 136  QOU08343.1        0.38%    passed    100.00%
+ 137  QOU08412.1        0.06%    passed    100.00%
+ 138  QOU08413.1        0.06%    passed    100.00%
+ 139  QOU08414.1        0.23%    passed    100.00%
+ 140  QOU08416.1        0.06%    passed    100.00%
+ 141  QOU08420.1        0.82%    passed    100.00%
+ 142  QOU08346.1        0.55%    passed    100.00%
+ 143  QOU08347.1        0.79%    passed    100.00%
+ 144  QOU08348.1        0.55%    passed    100.00%
+ 145  QOU08350.1        0.06%    passed    100.00%
+ 146  QOU08353.1        0.06%    passed    100.00%
+ 147  QOU08354.1        0.06%    passed    100.00%
+ 148  QOU08364.1        0.55%    passed    100.00%
+ 149  QOU08418.1        1.14%    passed    100.00%
+ 150  QOU08367.1        0.06%    passed    100.00%
+ 151  QOU08368.1        0.06%    passed    100.00%
+ 152  QOU08369.1        0.06%    passed    100.00%
+ 153  QOU08370.1        0.06%    passed    100.00%
+ 154  QOU08371.1        0.06%    passed    100.00%
+ 155  QOU08372.1        0.06%    passed    100.00%
+ 156  QOU08373.1        0.06%    passed    100.00%
+ 157  QOU08374.1        0.06%    passed    100.00%
+ 158  QOU08375.1        0.15%    passed    100.00%
+ 159  QOU08376.1        0.06%    passed    100.00%
+ 160  QOU08377.1        0.06%    passed    100.00%
+ 161  QOU08378.1        0.93%    passed    100.00%
+ 162  QOU08379.1        0.06%    passed    100.00%
+ 163  QOU08380.1        0.06%    passed    100.00%
+ 164  QOU08381.1        0.32%    passed    100.00%
+ 165  QOU08382.1        0.06%    passed    100.00%
+ 166  QOU08384.1        0.06%    passed    100.00%
+ 167  QOU08385.1        0.06%    passed    100.00%
+ 168  QOU08386.1        0.06%    passed    100.00%
+ 169  QOU08387.1        1.43%    passed    100.00%
+ 170  QOU08388.1        0.06%    passed    100.00%
+ 171  QOU08390.1        0.06%    passed    100.00%
+ 172  QOU08392.1        0.06%    passed    100.00%
+ 173  QOU08393.1        0.06%    passed    100.00%
+ 174  QOU08394.1        0.06%    passed    100.00%
+ 175  QOU08419.1        0.06%    passed    100.00%
+ 176  QOU08397.1        0.06%    passed    100.00%
+ 177  QOU08398.1        0.06%    passed    100.00%
+ 178  QOU08399.1        0.06%    passed    100.00%
+ 179  QOU08400.1        0.06%    passed    100.00%
+ 180  QOU08401.1        0.06%    passed    100.00%
+ 181  QOU08402.1        0.32%    passed    100.00%
+ 182  QOU08403.1        0.06%    passed    100.00%
+ 183  QOU08404.1        0.06%    passed    100.00%
+ 184  QOU08405.1        0.06%    passed    100.00%
+ 185  QOU08407.1        0.06%    passed    100.00%
+ 186  QOU08408.1        0.06%    passed    100.00%
+ 187  QOU08411.1        0.06%    passed    100.00%
+ 188  ANK57897.1        0.06%    passed    100.00%
+ 189  AWH65849.1        0.06%    passed    100.00%
+ 190  QCG74166.1        0.06%    passed    100.00%
+ 191  AMC13911.1        0.06%    passed    100.00%
+ 192  AXQ40006.1        0.06%    passed    100.00%
+ 193  AXQ40007.1        0.06%    passed    100.00%
+ 194  AOG18295.1        0.06%    passed    100.00%
+ 195  AOG18296.1        0.06%    passed    100.00%
+ 196  QTA38993.1        0.06%    passed    100.00%
+ 197  QTA38994.1        0.06%    passed    100.00%
+ 198  APH11492.1        0.06%    passed    100.00%
+ 199  AMQ48982.1        0.06%    passed    100.00%
+ 200  AMQ48981.1        0.06%    passed    100.00%
+ 201  QKM77298.1        0.06%    passed    100.00%
+ 202  QKM77301.1        0.06%    passed    100.00%
+ 203  QKM77300.1        0.06%    passed    100.00%
+ 204  QKM77299.1        0.06%    passed    100.00%
+ 205  ATI21641.1        0.06%    passed    100.00%
+ 206  APH11611.1        0.06%    passed    100.00%
+ 207  ATL14618.1        0.06%    passed    100.00%
+ 208  AVG19202.1        0.06%    passed    100.00%
+ 209  AVG19203.1        0.09%    passed    100.00%
+ 210  AMX81915.1        0.06%    passed    100.00%
+ 211  AMX81916.1        0.06%    passed    100.00%
+ 212  APO36913.1        0.06%    passed    100.00%
+ 213  AMH87239.1        0.06%    passed    100.00%
+ 214  AMX81917.1        0.06%    passed    100.00%
+ 215  ARK18853.1        0.12%    passed    100.00%
+ 216  AMR68932.1        0.06%    passed    100.00%
+ 217  QOF88733.1        0.06%    passed    100.00%
+ 218  APG56499.1        0.06%    passed    100.00%
+ 219  ASW34302.1        0.06%    passed    100.00%
+ 220  AOI20067.1        0.06%    passed    100.00%
+ 221  QPC45468.1        0.06%    passed    100.00%
+ 222  QPC45465.1        0.06%    passed    100.00%
+ 223  QOF88734.1        0.06%    passed    100.00%
+ 224  AMK79469.1        0.06%    passed    100.00%
+ 225  QDZ58858.1        0.06%    passed    100.00%
+ 226  ALX35659.1        0.06%    passed    100.00%
+ 227  AMR39830.1        0.06%    passed    100.00%
+ 228  AMR39831.1        0.06%    passed    100.00%
+ 229  APR74597.1        0.06%    passed    100.00%
+ 230  ANA12599.1        0.06%    passed    100.00%
+ 231  ANC90425.1        0.06%    passed    100.00%
+ 232  AMX81918.1        0.06%    passed    100.00%
+ 233  AMR39834.1        0.06%    passed    100.00%
+ 234  AYI50389.1        0.06%    passed    100.00%
+ 235  AYI50390.1        0.06%    passed    100.00%
+ 236  AMD61711.1        0.06%    passed    100.00%
+ 237  AYI50388.1        0.06%    passed    100.00%
+ 238  QOF88708.1        0.06%    passed    100.00%
+ 239  AMD61710.1        0.06%    passed    100.00%
+ 240  ARB07922.1        1.37%    passed    100.00%
+ 241  ARB07962.1        0.06%    passed    100.00%
+ 242  AOY08518.2        0.06%    passed    100.00%
+ 243  AOY08517.1        0.06%    passed    100.00%
+ 244  AOY08538.2        0.06%    passed    100.00%
+ 245  AOY08541.2        0.06%    passed    100.00%
+ 246  ARB07939.1        1.49%    passed    100.00%
+ 247  ARB07967.1        0.06%    passed    100.00%
+ 248  AYV74916.1        0.06%    passed    100.00%
+ 249  AYV74917.1        0.06%    passed    100.00%
+ 250  AYV74918.1        0.06%    passed    100.00%
+ 251  AYV74919.1        0.06%    passed    100.00%
+ 252  AYV74920.1        0.06%    passed    100.00%
+ 253  AYV74921.1        0.06%    passed    100.00%
+ 254  AYV74922.1        0.06%    passed    100.00%
+ 255  AYV74923.1        0.06%    passed    100.00%
+ 256  AYV74924.1        0.06%    passed    100.00%
+ 257  AYV74925.1        0.06%    passed    100.00%
+ 258  AYV74927.1        0.06%    passed    100.00%
+ 259  AYV74928.1        0.06%    passed    100.00%
+ 260  AYV74929.1        0.06%    passed    100.00%
+ 261  AYV74930.1        0.06%    passed    100.00%
+ 262  AYV74931.1        0.06%    passed    100.00%
+ 263  AYV74932.1        0.06%    passed    100.00%
+ 264  AYV74933.1        0.06%    passed    100.00%
+ 265  AYV74934.1        0.06%    passed    100.00%
+ 266  AYV74935.1        0.06%    passed    100.00%
+ 267  AYV74936.1        0.06%    passed    100.00%
+ 268  AYV74937.1        0.06%    passed    100.00%
+ 269  ARB07978.1        0.12%    passed    100.00%
+ 270  ARB07981.1        0.09%    passed    100.00%
+ 271  AOY08526.2        0.09%    passed    100.00%
+ 272  ARB07987.1        0.29%    passed    100.00%
+ 273  AOY08542.1        0.06%    passed    100.00%
+ 274  ARB07927.1        0.41%    passed    100.00%
+ 275  AOY08524.1        0.06%    passed    100.00%
+ 276  AOY08525.1        0.06%    passed    100.00%
+ 277  ARB07988.1        0.20%    passed    100.00%
+ 278  ARB07932.1        0.06%    passed    100.00%
+ 279  AOY08521.1        0.06%    passed    100.00%
+ 280  AOY08523.3        0.06%    passed    100.00%
+ 281  AOY08539.3        0.09%    passed    100.00%
+ 282  ARB07953.1        0.06%    passed    100.00%
+ 283  AOY08535.1        0.06%    passed    100.00%
+ 284  ARB07947.1        0.38%    passed    100.00%
+ 285  ARB07954.1        0.09%    passed    100.00%
+ 286  AOY08536.1        0.06%    passed    100.00%
+ 287  ARB07960.1        0.18%    passed    100.00%
+ 288  AOY08527.2        0.12%    passed    100.00%
+ 289  AOY08540.2        0.12%    passed    100.00%
+ 290  AOY08531.2        0.29%    passed    100.00%
+ 291  AOY08533.2        0.06%    passed    100.00%
+ 292  ARB07930.1        0.09%    passed    100.00%
+ 293  ARB07976.1        0.06%    passed    100.00%
+ 294  AOY08516.1        0.06%    passed    100.00%
+ 295  AOY08546.2        0.06%    passed    100.00%
+ 296  AOY08537.2        0.06%    passed    100.00%
+ 297  APO39228.1        0.06%    passed    100.00%
+ 298  APO39229.1        0.06%    passed    100.00%
+ 299  APO39231.1        1.43%    passed    100.00%
+ 300  APO39232.1        0.06%    passed    100.00%
+ 301  APO39233.1        0.06%    passed    100.00%
+ 302  APO39236.1        0.06%    passed    100.00%
+ 303  APO39237.1        0.06%    passed    100.00%
+ 304  APO39240.1        0.44%    passed    100.00%
+ 305  APO39241.1        1.52%    passed    100.00%
+ 306  APO39243.1        0.06%    passed    100.00%
+ 307  ANF04752.1        0.06%    passed    100.00%
+ 308  ASK51714.1        0.06%    passed    100.00%
+ 309  AOE22997.1        0.06%    passed    100.00%
+ 310  AOR87336.1        0.09%    passed    100.00%
+ 311  ARO84674.1        0.12%    passed    100.00%
+ 312  AMO03410.2        0.06%    passed    100.00%
+ 313  APG56458.1        0.06%    passed    100.00%
+ 314  APG56457.1        0.06%    passed    100.00%
+ 315  ALU33341.1        0.06%    passed    100.00%
+ 316  AOO54270.1        0.06%    passed    100.00%
+ 317  QFZ95661.1        0.06%    passed    100.00%
+ 318  APH11493.1        0.06%    passed    100.00%
+ 319  APH11495.1        0.06%    passed    100.00%
+ 320  APH11496.1        1.26%    passed    100.00%
+ 321  APH11497.1        0.06%    passed    100.00%
+ 322  APH11498.1        0.06%    passed    100.00%
+ 323  APH11499.1        0.06%    passed    100.00%
+ 324  APH11500.1        0.06%    passed    100.00%
+ 325  APH11501.1        0.06%    passed    100.00%
+ 326  APH11502.1        0.06%    passed    100.00%
+ 327  APH11503.1        0.06%    passed    100.00%
+ 328  APH11504.1        0.06%    passed    100.00%
+ 329  APH11505.1        0.06%    passed    100.00%
+ 330  APH11506.1        0.06%    passed    100.00%
+ 331  APH11507.1        0.06%    passed    100.00%
+ 332  APH11508.1        0.06%    passed    100.00%
+ 333  APH11509.1        0.06%    passed    100.00%
+ 334  APH11510.1        0.26%    passed    100.00%
+ 335  APH11511.1        0.06%    passed    100.00%
+ 336  APH11512.1        0.06%    passed    100.00%
+ 337  APH11513.1        0.09%    passed    100.00%
+ 338  APH11514.1        0.06%    passed    100.00%
+ 339  APH11515.1        0.06%    passed    100.00%
+ 340  APH11516.1        0.06%    passed    100.00%
+ 341  APH11517.1        0.06%    passed    100.00%
+ 342  APH11518.1        0.06%    passed    100.00%
+ 343  APH11519.1        0.44%    passed    100.00%
+ 344  APH11520.1        0.23%    passed    100.00%
+ 345  APH11521.1        0.06%    passed    100.00%
+ 346  APH11522.1        0.73%    passed    100.00%
+ 347  APH11523.1        0.06%    passed    100.00%
+ 348  APH11524.1        0.06%    passed    100.00%
+ 349  APH11525.1        0.06%    passed    100.00%
+ 350  APH11526.1        0.09%    passed    100.00%
+ 351  APH11527.1        0.06%    passed    100.00%
+ 352  APH11528.1        0.06%    passed    100.00%
+ 353  APH11529.1        0.06%    passed    100.00%
+ 354  APH11530.1        0.06%    passed    100.00%
+ 355  APH11531.1        0.06%    passed    100.00%
+ 356  APH11532.1        0.06%    passed    100.00%
+ 357  APH11533.1        0.06%    passed    100.00%
+ 358  APH11534.1        0.06%    passed    100.00%
+ 359  APH11535.1        0.06%    passed    100.00%
+ 360  APH11536.1        0.06%    passed    100.00%
+ 361  APH11537.1        0.06%    passed    100.00%
+ 362  APH11538.1        0.06%    passed    100.00%
+ 363  APH11539.1        0.06%    passed    100.00%
+ 364  APH11540.1        0.06%    passed    100.00%
+ 365  APH11541.1        0.06%    passed    100.00%
+ 366  APH11542.1        0.06%    passed    100.00%
+ 367  APH11543.1        0.06%    passed    100.00%
+ 368  APH11544.1        0.06%    passed    100.00%
+ 369  APH11545.1        0.06%    passed    100.00%
+ 370  APH11546.1        0.06%    passed    100.00%
+ 371  APH11547.1        0.06%    passed    100.00%
+ 372  APH11548.1        0.06%    passed    100.00%
+ 373  APH11549.1        0.06%    passed    100.00%
+ 374  APH11550.1        0.06%    passed    100.00%
+ 375  APH11551.1        0.06%    passed    100.00%
+ 376  APH11552.1        0.06%    passed    100.00%
+ 377  APH11553.1        0.06%    passed    100.00%
+ 378  APH11554.1        0.06%    passed    100.00%
+ 379  APH11555.1        0.06%    passed    100.00%
+ 380  APH11556.1        0.15%    passed    100.00%
+ 381  APH11557.1        0.06%    passed    100.00%
+ 382  APH11558.1        0.06%    passed    100.00%
+ 383  APH11559.1        0.06%    passed    100.00%
+ 384  APH11560.1        0.06%    passed    100.00%
+ 385  APH11561.1        0.06%    passed    100.00%
+ 386  APH11562.1        0.06%    passed    100.00%
+ 387  APH11563.1        0.06%    passed    100.00%
+ 388  APH11564.1        0.06%    passed    100.00%
+ 389  APH11565.1        0.06%    passed    100.00%
+ 390  APH11566.1        0.06%    passed    100.00%
+ 391  APH11567.1        0.06%    passed    100.00%
+ 392  APH11568.1        0.06%    passed    100.00%
+ 393  APH11569.1        0.06%    passed    100.00%
+ 394  APH11570.1        0.06%    passed    100.00%
+ 395  APH11571.1        0.06%    passed    100.00%
+ 396  APH11572.1        0.06%    passed    100.00%
+ 397  APH11573.1        0.06%    passed    100.00%
+ 398  APH11574.1        0.06%    passed    100.00%
+ 399  APH11575.1        0.06%    passed    100.00%
+ 400  APH11576.1        0.06%    passed    100.00%
+ 401  APH11577.1        0.06%    passed    100.00%
+ 402  APH11578.1        0.06%    passed    100.00%
+ 403  APH11579.1        0.06%    passed    100.00%
+ 404  APH11580.1        0.06%    passed    100.00%
+ 405  APH11581.1        0.06%    passed    100.00%
+ 406  APH11582.1        0.06%    passed    100.00%
+ 407  APH11583.1        0.06%    passed    100.00%
+ 408  APH11584.1        0.06%    passed    100.00%
+ 409  APH11585.1        0.06%    passed    100.00%
+ 410  APH11586.1        0.06%    passed    100.00%
+ 411  APH11587.1        0.06%    passed    100.00%
+ 412  APH11588.1        1.23%    passed    100.00%
+ 413  APH11589.1        0.09%    passed    100.00%
+ 414  APH11590.1        0.06%    passed    100.00%
+ 415  APH11592.1        0.06%    passed    100.00%
+ 416  APH11593.1        0.06%    passed    100.00%
+ 417  APH11594.1        0.06%    passed    100.00%
+ 418  APH11595.1        0.06%    passed    100.00%
+ 419  APH11610.1        0.29%    passed    100.00%
+ 420  AOX49264.1        0.06%    passed    100.00%
+ 421  ANS60026.1        0.06%    passed    100.00%
+ 422  AOR82892.1        0.06%    passed    100.00%
+ 423  AOR82893.1        0.06%    passed    100.00%
+ 424  ATB53752.1        0.06%    passed    100.00%
+ 425  ANC90426.1        0.06%    passed    100.00%
+ 426  AMZ03557.1        0.06%    passed    100.00%
+ 427  ASU55390.1        0.06%    passed    100.00%
+ 428  ASU55397.1        0.06%    passed    100.00%
+ 429  ASU55398.1        0.06%    passed    100.00%
+ 430  ASU55399.1        0.06%    passed    100.00%
+ 431  ASU55409.1        0.06%    passed    100.00%
+ 432  ASU55393.1        0.06%    passed    100.00%
+ 433  ASU55395.1        0.06%    passed    100.00%
+ 434  ASU55400.1        0.06%    passed    100.00%
+ 435  ASU55410.1        0.06%    passed    100.00%
+ 436  ASU55408.1        0.06%    passed    100.00%
+ 437  ASU55403.1        0.06%    passed    100.00%
+ 438  ASU55406.1        0.06%    passed    100.00%
+ 439  ASU55396.1        0.06%    passed    100.00%
+ 440  ASU55414.1        0.06%    passed    100.00%
+ 441  ASU55405.1        0.06%    passed    100.00%
+ 442  ASU55413.1        0.06%    passed    100.00%
+ 443  ASU55391.1        0.06%    passed    100.00%
+ 444  ASU55411.1        0.06%    passed    100.00%
+ 445  ASU55412.1        0.06%    passed    100.00%
+ 446  ASU55415.1        0.06%    passed    100.00%
+ 447  ASU55394.1        0.06%    passed    100.00%
+ 448  ASU55392.1        0.06%    passed    100.00%
+ 449  ASU55404.1        0.06%    passed    100.00%
+ 450  ASU55407.1        0.06%    passed    100.00%
+ 451  ASU55401.1        0.06%    passed    100.00%
+ 452  ASU55402.1        0.06%    passed    100.00%
+ 453  ASU55419.1        0.06%    passed    100.00%
+ 454  ASU55426.1        0.06%    passed    100.00%
+ 455  ASU55420.1        0.06%    passed    100.00%
+ 456  ASU55424.1        0.06%    passed    100.00%
+ 457  ASU55422.1        0.06%    passed    100.00%
+ 458  ASU55421.1        0.06%    passed    100.00%
+ 459  ASU55418.1        0.06%    passed    100.00%
+ 460  ASU55423.1        0.06%    passed    100.00%
+ 461  ASU55425.1        0.06%    passed    100.00%
+ 462  ASU55417.1        0.06%    passed    100.00%
+ 463  ASU55416.1        0.06%    passed    100.00%
+ 464  ATG29267.1        0.06%    passed    100.00%
+ 465  ATG29273.1        0.73%    passed    100.00%
+ 466  ATG29276.1        0.06%    passed    100.00%
+ 467  ATG29270.1        0.06%    passed    100.00%
+ 468  AOC50654.1        0.06%    passed    100.00%
+ 469  ATG29284.1        0.06%    passed    100.00%
+ 470  ATG29285.1        0.26%    passed    100.00%
+ 471  ATG29287.1        0.06%    passed    100.00%
+ 472  ATG29291.1        0.06%    passed    100.00%
+ 473  ATG29292.1        0.06%    passed    100.00%
+ 474  ATG29295.1        0.06%    passed    100.00%
+ 475  ATG29299.1        0.06%    passed    100.00%
+ 476  ATG29301.1        0.06%    passed    100.00%
+ 477  ATG29302.1        0.09%    passed    100.00%
+ 478  ATG29303.1        0.06%    passed    100.00%
+ 479  ATG29306.1        0.06%    passed    100.00%
+ 480  ATG29307.1        0.06%    passed    100.00%
+ 481  ATG29280.1        1.20%    passed    100.00%
+ 482  AWF93619.1        0.06%    passed    100.00%
+ 483  AWF93617.1        0.06%    passed    100.00%
+ 484  AWF93618.1        0.06%    passed    100.00%
+ 485  AUI42194.1        0.06%    passed    100.00%
+ 486  AMR68906.1        0.23%    passed    100.00%
+ 487  ASL68973.1        0.23%    passed    100.00%
+ 488  ASL68974.1        0.06%    passed    100.00%
+ 489  ATG29315.1        0.06%    passed    100.00%
+ 490  AQZ41948.1        0.06%    passed    100.00%
+ 491  AQZ41950.1        0.06%    passed    100.00%
+ 492  AQZ41954.1        0.06%    passed    100.00%
+ 493  AQZ41956.1        0.06%    passed    100.00%
+ 494  AQZ41952.1        0.06%    passed    100.00%
+ 495  AQZ41955.1        0.06%    passed    100.00%
+ 496  AQZ41949.1        0.06%    passed    100.00%
+ 497  ASL68978.1        0.06%    passed    100.00%
+ 498  AQZ41947.1        0.06%    passed    100.00%
+ 499  AQZ41951.1        0.06%    passed    100.00%
+ 500  ASL68979.1        0.06%    passed    100.00%
+ 501  AQZ41953.1        0.06%    passed    100.00%
+ 502  ANC90428.1        0.06%    passed    100.00%
+ 503  QDZ58854.1        0.06%    passed    100.00%
+ 504  QDZ58856.1        0.06%    passed    100.00%
+ 505  ANB66183.1        0.06%    passed    100.00%
+ 506  QDZ58855.1        0.06%    passed    100.00%
+ 507  ANB66182.1        0.06%    passed    100.00%
+ 508  ANB66184.1        0.06%    passed    100.00%
+ 509  AMZ03556.1        0.06%    passed    100.00%
+ 510  ANW07476.1        0.06%    passed    100.00%
+ 511  AOC50652.1        0.06%    passed    100.00%
+ 512  AOO19564.1        0.06%    passed    100.00%
+ 513  AQS26800.1        0.09%    passed    100.00%
+ 514  AQS26806.1        0.20%    passed    100.00%
+ 515  AQS26814.1        0.09%    passed    100.00%
+ 516  AQS26816.1        0.15%    passed    100.00%
+ 517  AQS26808.1        0.15%    passed    100.00%
+ 518  AQS26828.1        0.58%    passed    100.00%
+ 519  APQ41782.1        0.06%    passed    100.00%
+ 520  APQ41783.1        0.06%    passed    100.00%
+ 521  APQ41784.1        0.06%    passed    100.00%
+ 522  APQ41785.1        0.06%    passed    100.00%
+ 523  APQ41786.1        0.06%    passed    100.00%
+ 524  AZS35403.1        0.06%    passed    100.00%
+ 525  AZS35404.1        0.06%    passed    100.00%
+ 526  AZS35405.1        0.06%    passed    100.00%
+ 527  AVZ25032.1        0.50%    passed    100.00%
+ 528  AVZ25033.1        0.06%    passed    100.00%
+ 529  AVZ25035.1        0.06%    passed    100.00%
+ 530  ARU07183.1        0.06%    passed    100.00%
+ 531  AUD54964.1        0.06%    passed    100.00%
+ 532  AOO53981.1        0.06%    passed    100.00%
+ 533  APB03017.1        0.06%    passed    100.00%
+ 534  APB03018.1        0.06%    passed    100.00%
+ 535  AOO85388.1        0.06%    passed    100.00%
+ 536  APB03019.1        0.06%    passed    100.00%
+ 537  AOS90220.1        0.06%    passed    100.00%
+ 538  APB03020.1        0.06%    passed    100.00%
+ 539  AOS90221.1        0.06%    passed    100.00%
+ 540  AOS90222.1        0.06%    passed    100.00%
+ 541  APB03021.1        0.06%    passed    100.00%
+ 542  AOS90223.1        0.06%    passed    100.00%
+ 543  AOS90224.1        0.06%    passed    100.00%
+ 544  BAV89190.1        0.06%    passed    100.00%
+ 545  BAX00477.1        0.06%    passed    100.00%
+ 546  BBC70847.1        0.06%    passed    100.00%
+ 547  BAV82373.1        0.06%    passed    100.00%
+ 548  AOX49265.1        0.06%    passed    100.00%
+ 549  ANH21697.1        0.09%    passed    100.00%
+ 550  AMU04506.1        0.06%    passed    100.00%
+ 551  AMT75536.1        0.06%    passed    100.00%
+ 552  AMM43326.1        0.06%    passed    100.00%
+ 553  AMM43325.1        0.06%    passed    100.00%
+ 554  AMM39806.1        0.06%    passed    100.00%
+ 555  AMV49165.1        0.06%    passed    100.00%
+ 556  APO08504.1        0.06%    passed    100.00%
+ 557  AOL02459.1        0.06%    passed    100.00%
+ 558  AOO19565.1        0.06%    passed    100.00%
+ 559  AWK27349.1        0.06%    passed    100.00%
+ 560  ANF16414.1        0.06%    passed    100.00%
+ 561  AUI42329.1        0.06%    passed    100.00%
+ 562  AUI42330.1        0.26%    passed    100.00%
+ 563  ARI68105.1        0.06%    passed    100.00%
+****  TOTAL             0.11%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AMC13913.1 is identical to AMC13912.1 but kept for subsequent analysis
+NOTE: APO08503.1 is identical to ANG09399.1 but kept for subsequent analysis
+NOTE: ANO46301.1 is identical to ANO46302.1 but kept for subsequent analysis
+NOTE: AOO54270.1 is identical to AND01116.2 but kept for subsequent analysis
+NOTE: AMA12084.1 is identical to AMA12087.1 but kept for subsequent analysis
+NOTE: AMA12086.1 is identical to AMA12085.1 but kept for subsequent analysis
+NOTE: ANH10698.1 is identical to AXF50015.1 but kept for subsequent analysis
+NOTE: AXQ40001.1 is identical to AXQ39998.1 but kept for subsequent analysis
+NOTE: QGA67050.1 is identical to AMN14620.1 but kept for subsequent analysis
+NOTE: ART29826.1 is identical to ART29825.1 but kept for subsequent analysis
+NOTE: QOF88733.1 is identical to QOF88701.1 but kept for subsequent analysis
+NOTE: AQX32986.1 is identical to AMM39804.1 but kept for subsequent analysis
+NOTE: AOY08521.1 is identical to AZU90719.1 but kept for subsequent analysis
+NOTE: AMR39834.1 is identical to AWH65848.1 but kept for subsequent analysis
+NOTE: AML82110.1 is identical to AMK79468.2 but kept for subsequent analysis
+NOTE: AMR39831.1 is identical to ARX97119.1 but kept for subsequent analysis
+NOTE: AMR68906.1 is identical to AEN75265.1 but kept for subsequent analysis
+NOTE: ATG29284.1 is identical to AQM74761.1 but kept for subsequent analysis
+NOTE: AMB18850.1 is identical to YP_009428568.1 but kept for subsequent analysis
+NOTE: ANO46297.1 is identical to ANO46298.1 but kept for subsequent analysis
+NOTE: ANN44857.1 is identical to AVG19275.1 but kept for subsequent analysis
+NOTE: QOU08407.1 is identical to QOU08370.1 but kept for subsequent analysis
+NOTE: AWH65849.1 is identical to ANK57897.1 but kept for subsequent analysis
+NOTE: ASU55417.1 is identical to QCG74166.1 but kept for subsequent analysis
+NOTE: APB03019.1 is identical to AMC13911.1 but kept for subsequent analysis
+NOTE: AUI42194.1 is identical to AOG18296.1 but kept for subsequent analysis
+NOTE: QKM77300.1 is identical to QKM77301.1 but kept for subsequent analysis
+NOTE: ARO84674.1 is identical to ARK18853.1 but kept for subsequent analysis
+NOTE: AMR39830.1 is identical to AMR68932.1 but kept for subsequent analysis
+NOTE: ANB66183.1 is identical to AYI50389.1 but kept for subsequent analysis
+NOTE: AOY08518.2 is identical to ARB07962.1 but kept for subsequent analysis
+NOTE: AOY08541.2 is identical to AOY08517.1 but kept for subsequent analysis
+NOTE: AYV74917.1 is identical to AYV74916.1 but kept for subsequent analysis
+NOTE: AYV74920.1 is identical to AYV74919.1 but kept for subsequent analysis
+NOTE: AYV74933.1 is identical to AYV74932.1 but kept for subsequent analysis
+NOTE: APO39243.1 is identical to APO39229.1 but kept for subsequent analysis
+NOTE: APH11498.1 is identical to APH11497.1 but kept for subsequent analysis
+NOTE: APH11504.1 is identical to APH11501.1 but kept for subsequent analysis
+NOTE: APH11512.1 is identical to APH11508.1 but kept for subsequent analysis
+NOTE: APH11529.1 is identical to APH11528.1 but kept for subsequent analysis
+NOTE: ASU55405.1 is identical to ASU55414.1 but kept for subsequent analysis
+NOTE: ANB66182.1 is identical to ASU55425.1 but kept for subsequent analysis
+NOTE: AQZ41950.1 is identical to AQZ41948.1 but kept for subsequent analysis
+NOTE: 162 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: QOU08353.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: QOU08374.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATI21641.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AOY08533.2 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATG29276.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41954.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41956.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AVZ25033.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ARU07183.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ANO46304.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: AHZ13508.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: ARB08102.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: APY24199.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AMH87239.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: QPC45465.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AOR82892.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: AOR82893.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: ATB53752.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: QOU08413.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08373.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08379.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08382.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08385.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08397.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08398.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: ARB07976.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: APW84872.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84873.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84876.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84874.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84875.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84877.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67053.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67051.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67052.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67054.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: ANH22038.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QOU08393.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOY08537.2 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOS90224.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: BAV82373.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AMZ03557.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55390.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55391.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55412.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55415.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55419.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55426.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55420.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55424.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55422.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55421.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55418.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ANC90428.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41784.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41786.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: AOY08516.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOY08546.2 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39228.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39232.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39233.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39236.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO53981.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO85388.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90221.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90222.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APB03021.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APR74597.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: AMX81918.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: ATG29306.1 (identical to AQM74761.1) is ignored but added at the end
+NOTE: AMZ03556.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: ANW07476.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: AOO19564.1 (identical to AOG18296.1) is ignored but added at the end
+NOTE: ANA12599.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANC90425.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMO03410.2 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMT75536.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMM39806.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMV49165.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANF16414.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AYV74918.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74924.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74930.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74921.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74922.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74923.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74925.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74927.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74928.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74929.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74934.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74935.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74936.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74937.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: APH11499.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11503.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11506.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11507.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11578.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11505.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11509.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11517.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11521.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11523.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11524.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11525.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11527.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11530.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11531.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11532.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11533.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11535.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11537.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11540.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11541.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11542.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11544.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11545.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11546.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11548.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11550.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11553.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11554.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11555.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11557.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11558.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11559.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11561.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11563.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11564.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11565.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11567.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11568.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11569.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11570.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11572.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11574.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11575.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11576.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11577.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11579.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11580.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11582.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11583.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11584.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11585.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11586.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11587.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11590.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11592.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11593.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11594.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: AWK27349.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11514.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11515.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11516.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11581.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11543.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11560.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11566.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: AQZ41947.1 (identical to AQZ41948.1) is ignored but added at the end
+NOTE: AQZ41951.1 (identical to AQZ41948.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to gtr_ufboot1000.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 220408)...
+ERROR: File not found GTR
+
+******************************************************
+CHECKPOINT: Resuming analysis from gtr_ufboot1000.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    wap1010 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -pre gtr_ufboot1000 -m GTR+I+G4 -s aligned.fasta -o AEN75265.1 -bb 1000 -bnni -nt AUTO
+Seed:    363292 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 20 09:46:44 2021
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+WARNING: Number of command-line arguments differs from checkpoint
+WARNING: Command-line differs from checkpoint!
+Reading alignment file aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 563 sequences with 3425 columns, 1036 distinct patterns
+282 parsimony-informative, 357 singleton sites, 2786 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  AMC13912.1        0.06%    passed    100.00%
+   2  ANG09399.1        0.06%    passed    100.00%
+   3  ARU07076.1        0.06%    passed    100.00%
+   4  ARU07075.1        0.06%    passed    100.00%
+   5  QDH45910.1        0.06%    passed    100.00%
+   6  ARU07074.1        0.06%    passed    100.00%
+   7  AML81028.1        0.06%    passed    100.00%
+   8  ALL27019.1        0.00%    passed    100.00%
+   9  ANO46303.1        0.06%    passed    100.00%
+  10  ANO46307.1        0.06%    passed    100.00%
+  11  ANO46306.1        0.06%    passed    100.00%
+  12  ANO46309.1        0.06%    passed    100.00%
+  13  ANO46302.1        0.06%    passed    100.00%
+  14  ANO46301.1        0.06%    passed    100.00%
+  15  ANO46308.1        0.06%    passed    100.00%
+  16  ANO46305.1        0.06%    passed    100.00%
+  17  ANO46304.1        0.06%    passed    100.00%
+  18  AOW32303.1        0.06%    passed    100.00%
+  19  QGA72951.1        0.06%    passed    100.00%
+  20  AZS35409.1        0.06%    passed    100.00%
+  21  BBA85762.1        0.09%    passed    100.00%
+  22  QKU35968.1        0.06%    passed    100.00%
+  23  AMC13913.1        0.06%    passed    100.00%
+  24  AND01116.2        0.06%    passed    100.00%
+  25  QFP98590.1        0.06%    passed    100.00%
+  26  QFP98591.1        0.06%    passed    100.00%
+  27  QFP98592.1        1.08%    passed    100.00%
+  28  QFP98593.1        0.06%    passed    100.00%
+  29  AQS26698.1        0.18%    passed    100.00%
+  30  QKX95861.1        0.06%    passed    100.00%
+  31  AMQ76465.1        0.06%    passed    100.00%
+  32  AMQ76459.1        0.55%    passed    100.00%
+  33  AMA12087.1        0.06%    passed    100.00%
+  34  AMK49165.1        0.06%    passed    100.00%
+  35  AMA12084.1        0.06%    passed    100.00%
+  36  AMA12085.1        0.06%    passed    100.00%
+  37  AMA12086.1        0.06%    passed    100.00%
+  38  AMK49164.2        0.06%    passed    100.00%
+  39  AUF35021.1        0.06%    passed    100.00%
+  40  AUF35022.1        0.06%    passed    100.00%
+  41  AVV62004.1        0.06%    passed    100.00%
+  42  AQU12485.1        0.06%    passed    100.00%
+  43  AXF50014.1        0.06%    passed    100.00%
+  44  AXF50016.1        0.06%    passed    100.00%
+  45  AXF50015.1        0.06%    passed    100.00%
+  46  APY24200.1        0.06%    passed    100.00%
+  47  APY24198.1        0.06%    passed    100.00%
+  48  APY24199.1        0.06%    passed    100.00%
+  49  AMD16557.1        0.06%    passed    100.00%
+  50  AMS00611.1        0.06%    passed    100.00%
+  51  AYV62653.1        0.06%    passed    100.00%
+  52  AXQ40002.1        0.06%    passed    100.00%
+  53  AXQ40003.1        0.06%    passed    100.00%
+  54  AXQ40004.1        0.06%    passed    100.00%
+  55  AXQ40005.1        0.06%    passed    100.00%
+  56  AXQ39996.1        0.06%    passed    100.00%
+  57  AXQ39997.1        0.06%    passed    100.00%
+  58  AXQ39998.1        0.06%    passed    100.00%
+  59  AXQ39999.1        0.06%    passed    100.00%
+  60  AXQ40000.1        0.06%    passed    100.00%
+  61  AXQ40001.1        0.06%    passed    100.00%
+  62  AUI42289.1        0.06%    passed    100.00%
+  63  AVZ47169.1        0.06%    passed    100.00%
+  64  AMN14619.1        0.09%    passed    100.00%
+  65  AMN14620.1        0.06%    passed    100.00%
+  66  ASW34087.1        0.06%    passed    100.00%
+  67  ART29823.1        0.06%    passed    100.00%
+  68  ART29825.1        0.06%    passed    100.00%
+  69  ART29826.1        0.06%    passed    100.00%
+  70  QOF88701.1        0.06%    passed    100.00%
+  71  AQW43708.1        0.12%    passed    100.00%
+  72  AMQ48986.1        0.06%    passed    100.00%
+  73  AQX32984.1        0.15%    passed    100.00%
+  74  AQX32985.1        0.06%    passed    100.00%
+  75  ARM59239.1        0.06%    passed    100.00%
+  76  AMM39804.1        0.06%    passed    100.00%
+  77  AZU90720.1        0.06%    passed    100.00%
+  78  AZU90719.1        0.06%    passed    100.00%
+  79  AQX32986.1        0.06%    passed    100.00%
+  80  AQX32987.1        0.06%    passed    100.00%
+  81  AVT55532.1        0.18%    passed    100.00%
+  82  ACD75819.1        0.12%    passed    100.00%
+  83  AFD30972.1        0.09%    passed    100.00%
+  84  AWH65848.1        0.06%    passed    100.00%
+  85  AQX32988.1        0.09%    passed    100.00%
+  86  AMK79468.2        0.06%    passed    100.00%
+  87  AML82110.1        0.06%    passed    100.00%
+  88  ARX97119.1        0.06%    passed    100.00%
+  89  AMM39805.1        0.06%    passed    100.00%
+  90  AHZ13508.1        0.06%    passed    100.00%
+  91  QGA67050.1        0.06%    passed    100.00%
+  92  APW84872.1        0.06%    passed    100.00%
+  93  APW84873.1        0.06%    passed    100.00%
+  94  APW84876.1        0.06%    passed    100.00%
+  95  APW84874.1        0.06%    passed    100.00%
+  96  APW84875.1        0.06%    passed    100.00%
+  97  APW84877.1        0.06%    passed    100.00%
+  98  QGA67056.1        0.06%    passed    100.00%
+  99  QGA67053.1        0.06%    passed    100.00%
+ 100  QGA67051.1        0.06%    passed    100.00%
+ 101  QGA67052.1        0.06%    passed    100.00%
+ 102  QGA67054.1        0.06%    passed    100.00%
+ 103  AMX81919.1        0.06%    passed    100.00%
+ 104  AMB37295.1        0.06%    passed    100.00%
+ 105  QGA67055.1        0.06%    passed    100.00%
+ 106  ANH22038.1        0.06%    passed    100.00%
+ 107  ASU55505.1        0.06%    passed    100.00%
+ 108  APO08503.1        0.06%    passed    100.00%
+ 109  ANQ92019.1        0.06%    passed    100.00%
+ 110  AEN75265.1        0.23%    passed    100.00%
+ 111  AMK49492.2        0.06%    passed    100.00%
+ 112  AMQ34003.1        0.06%    passed    100.00%
+ 113  AMQ34004.1        0.06%    passed    100.00%
+ 114  AQM74760.1        0.64%    passed    100.00%
+ 115  AQM74761.1        0.06%    passed    100.00%
+ 116  AQM74762.1        0.06%    passed    100.00%
+ 117  APC60216.2        0.23%    passed    100.00%
+ 118  APC60215.1        0.06%    passed    100.00%
+ 119  AQW43707.1        0.09%    passed    100.00%
+ 120  ART29828.1        0.06%    passed    100.00%
+ 121  AMC33116.1        0.06%    passed    100.00%
+ 122  YP_009428568.1    0.06%    passed    100.00%
+ 123  AMB18850.1        0.06%    passed    100.00%
+ 124  ANO46298.1        0.06%    passed    100.00%
+ 125  ANO46297.1        0.06%    passed    100.00%
+ 126  ANH10698.1        0.06%    passed    100.00%
+ 127  QIH53581.1        0.06%    passed    100.00%
+ 128  ASB32509.1        0.06%    passed    100.00%
+ 129  ARB08102.1        0.06%    passed    100.00%
+ 130  AVG19275.1        0.06%    passed    100.00%
+ 131  ANN44857.1        0.06%    passed    100.00%
+ 132  QOU08339.1        0.99%    passed    100.00%
+ 133  QOU08340.1        0.06%    passed    100.00%
+ 134  QOU08341.1        0.76%    passed    100.00%
+ 135  QOU08342.1        0.06%    passed    100.00%
+ 136  QOU08343.1        0.38%    passed    100.00%
+ 137  QOU08412.1        0.06%    passed    100.00%
+ 138  QOU08413.1        0.06%    passed    100.00%
+ 139  QOU08414.1        0.23%    passed    100.00%
+ 140  QOU08416.1        0.06%    passed    100.00%
+ 141  QOU08420.1        0.82%    passed    100.00%
+ 142  QOU08346.1        0.55%    passed    100.00%
+ 143  QOU08347.1        0.79%    passed    100.00%
+ 144  QOU08348.1        0.55%    passed    100.00%
+ 145  QOU08350.1        0.06%    passed    100.00%
+ 146  QOU08353.1        0.06%    passed    100.00%
+ 147  QOU08354.1        0.06%    passed    100.00%
+ 148  QOU08364.1        0.55%    passed    100.00%
+ 149  QOU08418.1        1.14%    passed    100.00%
+ 150  QOU08367.1        0.06%    passed    100.00%
+ 151  QOU08368.1        0.06%    passed    100.00%
+ 152  QOU08369.1        0.06%    passed    100.00%
+ 153  QOU08370.1        0.06%    passed    100.00%
+ 154  QOU08371.1        0.06%    passed    100.00%
+ 155  QOU08372.1        0.06%    passed    100.00%
+ 156  QOU08373.1        0.06%    passed    100.00%
+ 157  QOU08374.1        0.06%    passed    100.00%
+ 158  QOU08375.1        0.15%    passed    100.00%
+ 159  QOU08376.1        0.06%    passed    100.00%
+ 160  QOU08377.1        0.06%    passed    100.00%
+ 161  QOU08378.1        0.93%    passed    100.00%
+ 162  QOU08379.1        0.06%    passed    100.00%
+ 163  QOU08380.1        0.06%    passed    100.00%
+ 164  QOU08381.1        0.32%    passed    100.00%
+ 165  QOU08382.1        0.06%    passed    100.00%
+ 166  QOU08384.1        0.06%    passed    100.00%
+ 167  QOU08385.1        0.06%    passed    100.00%
+ 168  QOU08386.1        0.06%    passed    100.00%
+ 169  QOU08387.1        1.43%    passed    100.00%
+ 170  QOU08388.1        0.06%    passed    100.00%
+ 171  QOU08390.1        0.06%    passed    100.00%
+ 172  QOU08392.1        0.06%    passed    100.00%
+ 173  QOU08393.1        0.06%    passed    100.00%
+ 174  QOU08394.1        0.06%    passed    100.00%
+ 175  QOU08419.1        0.06%    passed    100.00%
+ 176  QOU08397.1        0.06%    passed    100.00%
+ 177  QOU08398.1        0.06%    passed    100.00%
+ 178  QOU08399.1        0.06%    passed    100.00%
+ 179  QOU08400.1        0.06%    passed    100.00%
+ 180  QOU08401.1        0.06%    passed    100.00%
+ 181  QOU08402.1        0.32%    passed    100.00%
+ 182  QOU08403.1        0.06%    passed    100.00%
+ 183  QOU08404.1        0.06%    passed    100.00%
+ 184  QOU08405.1        0.06%    passed    100.00%
+ 185  QOU08407.1        0.06%    passed    100.00%
+ 186  QOU08408.1        0.06%    passed    100.00%
+ 187  QOU08411.1        0.06%    passed    100.00%
+ 188  ANK57897.1        0.06%    passed    100.00%
+ 189  AWH65849.1        0.06%    passed    100.00%
+ 190  QCG74166.1        0.06%    passed    100.00%
+ 191  AMC13911.1        0.06%    passed    100.00%
+ 192  AXQ40006.1        0.06%    passed    100.00%
+ 193  AXQ40007.1        0.06%    passed    100.00%
+ 194  AOG18295.1        0.06%    passed    100.00%
+ 195  AOG18296.1        0.06%    passed    100.00%
+ 196  QTA38993.1        0.06%    passed    100.00%
+ 197  QTA38994.1        0.06%    passed    100.00%
+ 198  APH11492.1        0.06%    passed    100.00%
+ 199  AMQ48982.1        0.06%    passed    100.00%
+ 200  AMQ48981.1        0.06%    passed    100.00%
+ 201  QKM77298.1        0.06%    passed    100.00%
+ 202  QKM77301.1        0.06%    passed    100.00%
+ 203  QKM77300.1        0.06%    passed    100.00%
+ 204  QKM77299.1        0.06%    passed    100.00%
+ 205  ATI21641.1        0.06%    passed    100.00%
+ 206  APH11611.1        0.06%    passed    100.00%
+ 207  ATL14618.1        0.06%    passed    100.00%
+ 208  AVG19202.1        0.06%    passed    100.00%
+ 209  AVG19203.1        0.09%    passed    100.00%
+ 210  AMX81915.1        0.06%    passed    100.00%
+ 211  AMX81916.1        0.06%    passed    100.00%
+ 212  APO36913.1        0.06%    passed    100.00%
+ 213  AMH87239.1        0.06%    passed    100.00%
+ 214  AMX81917.1        0.06%    passed    100.00%
+ 215  ARK18853.1        0.12%    passed    100.00%
+ 216  AMR68932.1        0.06%    passed    100.00%
+ 217  QOF88733.1        0.06%    passed    100.00%
+ 218  APG56499.1        0.06%    passed    100.00%
+ 219  ASW34302.1        0.06%    passed    100.00%
+ 220  AOI20067.1        0.06%    passed    100.00%
+ 221  QPC45468.1        0.06%    passed    100.00%
+ 222  QPC45465.1        0.06%    passed    100.00%
+ 223  QOF88734.1        0.06%    passed    100.00%
+ 224  AMK79469.1        0.06%    passed    100.00%
+ 225  QDZ58858.1        0.06%    passed    100.00%
+ 226  ALX35659.1        0.06%    passed    100.00%
+ 227  AMR39830.1        0.06%    passed    100.00%
+ 228  AMR39831.1        0.06%    passed    100.00%
+ 229  APR74597.1        0.06%    passed    100.00%
+ 230  ANA12599.1        0.06%    passed    100.00%
+ 231  ANC90425.1        0.06%    passed    100.00%
+ 232  AMX81918.1        0.06%    passed    100.00%
+ 233  AMR39834.1        0.06%    passed    100.00%
+ 234  AYI50389.1        0.06%    passed    100.00%
+ 235  AYI50390.1        0.06%    passed    100.00%
+ 236  AMD61711.1        0.06%    passed    100.00%
+ 237  AYI50388.1        0.06%    passed    100.00%
+ 238  QOF88708.1        0.06%    passed    100.00%
+ 239  AMD61710.1        0.06%    passed    100.00%
+ 240  ARB07922.1        1.37%    passed    100.00%
+ 241  ARB07962.1        0.06%    passed    100.00%
+ 242  AOY08518.2        0.06%    passed    100.00%
+ 243  AOY08517.1        0.06%    passed    100.00%
+ 244  AOY08538.2        0.06%    passed    100.00%
+ 245  AOY08541.2        0.06%    passed    100.00%
+ 246  ARB07939.1        1.49%    passed    100.00%
+ 247  ARB07967.1        0.06%    passed    100.00%
+ 248  AYV74916.1        0.06%    passed    100.00%
+ 249  AYV74917.1        0.06%    passed    100.00%
+ 250  AYV74918.1        0.06%    passed    100.00%
+ 251  AYV74919.1        0.06%    passed    100.00%
+ 252  AYV74920.1        0.06%    passed    100.00%
+ 253  AYV74921.1        0.06%    passed    100.00%
+ 254  AYV74922.1        0.06%    passed    100.00%
+ 255  AYV74923.1        0.06%    passed    100.00%
+ 256  AYV74924.1        0.06%    passed    100.00%
+ 257  AYV74925.1        0.06%    passed    100.00%
+ 258  AYV74927.1        0.06%    passed    100.00%
+ 259  AYV74928.1        0.06%    passed    100.00%
+ 260  AYV74929.1        0.06%    passed    100.00%
+ 261  AYV74930.1        0.06%    passed    100.00%
+ 262  AYV74931.1        0.06%    passed    100.00%
+ 263  AYV74932.1        0.06%    passed    100.00%
+ 264  AYV74933.1        0.06%    passed    100.00%
+ 265  AYV74934.1        0.06%    passed    100.00%
+ 266  AYV74935.1        0.06%    passed    100.00%
+ 267  AYV74936.1        0.06%    passed    100.00%
+ 268  AYV74937.1        0.06%    passed    100.00%
+ 269  ARB07978.1        0.12%    passed    100.00%
+ 270  ARB07981.1        0.09%    passed    100.00%
+ 271  AOY08526.2        0.09%    passed    100.00%
+ 272  ARB07987.1        0.29%    passed    100.00%
+ 273  AOY08542.1        0.06%    passed    100.00%
+ 274  ARB07927.1        0.41%    passed    100.00%
+ 275  AOY08524.1        0.06%    passed    100.00%
+ 276  AOY08525.1        0.06%    passed    100.00%
+ 277  ARB07988.1        0.20%    passed    100.00%
+ 278  ARB07932.1        0.06%    passed    100.00%
+ 279  AOY08521.1        0.06%    passed    100.00%
+ 280  AOY08523.3        0.06%    passed    100.00%
+ 281  AOY08539.3        0.09%    passed    100.00%
+ 282  ARB07953.1        0.06%    passed    100.00%
+ 283  AOY08535.1        0.06%    passed    100.00%
+ 284  ARB07947.1        0.38%    passed    100.00%
+ 285  ARB07954.1        0.09%    passed    100.00%
+ 286  AOY08536.1        0.06%    passed    100.00%
+ 287  ARB07960.1        0.18%    passed    100.00%
+ 288  AOY08527.2        0.12%    passed    100.00%
+ 289  AOY08540.2        0.12%    passed    100.00%
+ 290  AOY08531.2        0.29%    passed    100.00%
+ 291  AOY08533.2        0.06%    passed    100.00%
+ 292  ARB07930.1        0.09%    passed    100.00%
+ 293  ARB07976.1        0.06%    passed    100.00%
+ 294  AOY08516.1        0.06%    passed    100.00%
+ 295  AOY08546.2        0.06%    passed    100.00%
+ 296  AOY08537.2        0.06%    passed    100.00%
+ 297  APO39228.1        0.06%    passed    100.00%
+ 298  APO39229.1        0.06%    passed    100.00%
+ 299  APO39231.1        1.43%    passed    100.00%
+ 300  APO39232.1        0.06%    passed    100.00%
+ 301  APO39233.1        0.06%    passed    100.00%
+ 302  APO39236.1        0.06%    passed    100.00%
+ 303  APO39237.1        0.06%    passed    100.00%
+ 304  APO39240.1        0.44%    passed    100.00%
+ 305  APO39241.1        1.52%    passed    100.00%
+ 306  APO39243.1        0.06%    passed    100.00%
+ 307  ANF04752.1        0.06%    passed    100.00%
+ 308  ASK51714.1        0.06%    passed    100.00%
+ 309  AOE22997.1        0.06%    passed    100.00%
+ 310  AOR87336.1        0.09%    passed    100.00%
+ 311  ARO84674.1        0.12%    passed    100.00%
+ 312  AMO03410.2        0.06%    passed    100.00%
+ 313  APG56458.1        0.06%    passed    100.00%
+ 314  APG56457.1        0.06%    passed    100.00%
+ 315  ALU33341.1        0.06%    passed    100.00%
+ 316  AOO54270.1        0.06%    passed    100.00%
+ 317  QFZ95661.1        0.06%    passed    100.00%
+ 318  APH11493.1        0.06%    passed    100.00%
+ 319  APH11495.1        0.06%    passed    100.00%
+ 320  APH11496.1        1.26%    passed    100.00%
+ 321  APH11497.1        0.06%    passed    100.00%
+ 322  APH11498.1        0.06%    passed    100.00%
+ 323  APH11499.1        0.06%    passed    100.00%
+ 324  APH11500.1        0.06%    passed    100.00%
+ 325  APH11501.1        0.06%    passed    100.00%
+ 326  APH11502.1        0.06%    passed    100.00%
+ 327  APH11503.1        0.06%    passed    100.00%
+ 328  APH11504.1        0.06%    passed    100.00%
+ 329  APH11505.1        0.06%    passed    100.00%
+ 330  APH11506.1        0.06%    passed    100.00%
+ 331  APH11507.1        0.06%    passed    100.00%
+ 332  APH11508.1        0.06%    passed    100.00%
+ 333  APH11509.1        0.06%    passed    100.00%
+ 334  APH11510.1        0.26%    passed    100.00%
+ 335  APH11511.1        0.06%    passed    100.00%
+ 336  APH11512.1        0.06%    passed    100.00%
+ 337  APH11513.1        0.09%    passed    100.00%
+ 338  APH11514.1        0.06%    passed    100.00%
+ 339  APH11515.1        0.06%    passed    100.00%
+ 340  APH11516.1        0.06%    passed    100.00%
+ 341  APH11517.1        0.06%    passed    100.00%
+ 342  APH11518.1        0.06%    passed    100.00%
+ 343  APH11519.1        0.44%    passed    100.00%
+ 344  APH11520.1        0.23%    passed    100.00%
+ 345  APH11521.1        0.06%    passed    100.00%
+ 346  APH11522.1        0.73%    passed    100.00%
+ 347  APH11523.1        0.06%    passed    100.00%
+ 348  APH11524.1        0.06%    passed    100.00%
+ 349  APH11525.1        0.06%    passed    100.00%
+ 350  APH11526.1        0.09%    passed    100.00%
+ 351  APH11527.1        0.06%    passed    100.00%
+ 352  APH11528.1        0.06%    passed    100.00%
+ 353  APH11529.1        0.06%    passed    100.00%
+ 354  APH11530.1        0.06%    passed    100.00%
+ 355  APH11531.1        0.06%    passed    100.00%
+ 356  APH11532.1        0.06%    passed    100.00%
+ 357  APH11533.1        0.06%    passed    100.00%
+ 358  APH11534.1        0.06%    passed    100.00%
+ 359  APH11535.1        0.06%    passed    100.00%
+ 360  APH11536.1        0.06%    passed    100.00%
+ 361  APH11537.1        0.06%    passed    100.00%
+ 362  APH11538.1        0.06%    passed    100.00%
+ 363  APH11539.1        0.06%    passed    100.00%
+ 364  APH11540.1        0.06%    passed    100.00%
+ 365  APH11541.1        0.06%    passed    100.00%
+ 366  APH11542.1        0.06%    passed    100.00%
+ 367  APH11543.1        0.06%    passed    100.00%
+ 368  APH11544.1        0.06%    passed    100.00%
+ 369  APH11545.1        0.06%    passed    100.00%
+ 370  APH11546.1        0.06%    passed    100.00%
+ 371  APH11547.1        0.06%    passed    100.00%
+ 372  APH11548.1        0.06%    passed    100.00%
+ 373  APH11549.1        0.06%    passed    100.00%
+ 374  APH11550.1        0.06%    passed    100.00%
+ 375  APH11551.1        0.06%    passed    100.00%
+ 376  APH11552.1        0.06%    passed    100.00%
+ 377  APH11553.1        0.06%    passed    100.00%
+ 378  APH11554.1        0.06%    passed    100.00%
+ 379  APH11555.1        0.06%    passed    100.00%
+ 380  APH11556.1        0.15%    passed    100.00%
+ 381  APH11557.1        0.06%    passed    100.00%
+ 382  APH11558.1        0.06%    passed    100.00%
+ 383  APH11559.1        0.06%    passed    100.00%
+ 384  APH11560.1        0.06%    passed    100.00%
+ 385  APH11561.1        0.06%    passed    100.00%
+ 386  APH11562.1        0.06%    passed    100.00%
+ 387  APH11563.1        0.06%    passed    100.00%
+ 388  APH11564.1        0.06%    passed    100.00%
+ 389  APH11565.1        0.06%    passed    100.00%
+ 390  APH11566.1        0.06%    passed    100.00%
+ 391  APH11567.1        0.06%    passed    100.00%
+ 392  APH11568.1        0.06%    passed    100.00%
+ 393  APH11569.1        0.06%    passed    100.00%
+ 394  APH11570.1        0.06%    passed    100.00%
+ 395  APH11571.1        0.06%    passed    100.00%
+ 396  APH11572.1        0.06%    passed    100.00%
+ 397  APH11573.1        0.06%    passed    100.00%
+ 398  APH11574.1        0.06%    passed    100.00%
+ 399  APH11575.1        0.06%    passed    100.00%
+ 400  APH11576.1        0.06%    passed    100.00%
+ 401  APH11577.1        0.06%    passed    100.00%
+ 402  APH11578.1        0.06%    passed    100.00%
+ 403  APH11579.1        0.06%    passed    100.00%
+ 404  APH11580.1        0.06%    passed    100.00%
+ 405  APH11581.1        0.06%    passed    100.00%
+ 406  APH11582.1        0.06%    passed    100.00%
+ 407  APH11583.1        0.06%    passed    100.00%
+ 408  APH11584.1        0.06%    passed    100.00%
+ 409  APH11585.1        0.06%    passed    100.00%
+ 410  APH11586.1        0.06%    passed    100.00%
+ 411  APH11587.1        0.06%    passed    100.00%
+ 412  APH11588.1        1.23%    passed    100.00%
+ 413  APH11589.1        0.09%    passed    100.00%
+ 414  APH11590.1        0.06%    passed    100.00%
+ 415  APH11592.1        0.06%    passed    100.00%
+ 416  APH11593.1        0.06%    passed    100.00%
+ 417  APH11594.1        0.06%    passed    100.00%
+ 418  APH11595.1        0.06%    passed    100.00%
+ 419  APH11610.1        0.29%    passed    100.00%
+ 420  AOX49264.1        0.06%    passed    100.00%
+ 421  ANS60026.1        0.06%    passed    100.00%
+ 422  AOR82892.1        0.06%    passed    100.00%
+ 423  AOR82893.1        0.06%    passed    100.00%
+ 424  ATB53752.1        0.06%    passed    100.00%
+ 425  ANC90426.1        0.06%    passed    100.00%
+ 426  AMZ03557.1        0.06%    passed    100.00%
+ 427  ASU55390.1        0.06%    passed    100.00%
+ 428  ASU55397.1        0.06%    passed    100.00%
+ 429  ASU55398.1        0.06%    passed    100.00%
+ 430  ASU55399.1        0.06%    passed    100.00%
+ 431  ASU55409.1        0.06%    passed    100.00%
+ 432  ASU55393.1        0.06%    passed    100.00%
+ 433  ASU55395.1        0.06%    passed    100.00%
+ 434  ASU55400.1        0.06%    passed    100.00%
+ 435  ASU55410.1        0.06%    passed    100.00%
+ 436  ASU55408.1        0.06%    passed    100.00%
+ 437  ASU55403.1        0.06%    passed    100.00%
+ 438  ASU55406.1        0.06%    passed    100.00%
+ 439  ASU55396.1        0.06%    passed    100.00%
+ 440  ASU55414.1        0.06%    passed    100.00%
+ 441  ASU55405.1        0.06%    passed    100.00%
+ 442  ASU55413.1        0.06%    passed    100.00%
+ 443  ASU55391.1        0.06%    passed    100.00%
+ 444  ASU55411.1        0.06%    passed    100.00%
+ 445  ASU55412.1        0.06%    passed    100.00%
+ 446  ASU55415.1        0.06%    passed    100.00%
+ 447  ASU55394.1        0.06%    passed    100.00%
+ 448  ASU55392.1        0.06%    passed    100.00%
+ 449  ASU55404.1        0.06%    passed    100.00%
+ 450  ASU55407.1        0.06%    passed    100.00%
+ 451  ASU55401.1        0.06%    passed    100.00%
+ 452  ASU55402.1        0.06%    passed    100.00%
+ 453  ASU55419.1        0.06%    passed    100.00%
+ 454  ASU55426.1        0.06%    passed    100.00%
+ 455  ASU55420.1        0.06%    passed    100.00%
+ 456  ASU55424.1        0.06%    passed    100.00%
+ 457  ASU55422.1        0.06%    passed    100.00%
+ 458  ASU55421.1        0.06%    passed    100.00%
+ 459  ASU55418.1        0.06%    passed    100.00%
+ 460  ASU55423.1        0.06%    passed    100.00%
+ 461  ASU55425.1        0.06%    passed    100.00%
+ 462  ASU55417.1        0.06%    passed    100.00%
+ 463  ASU55416.1        0.06%    passed    100.00%
+ 464  ATG29267.1        0.06%    passed    100.00%
+ 465  ATG29273.1        0.73%    passed    100.00%
+ 466  ATG29276.1        0.06%    passed    100.00%
+ 467  ATG29270.1        0.06%    passed    100.00%
+ 468  AOC50654.1        0.06%    passed    100.00%
+ 469  ATG29284.1        0.06%    passed    100.00%
+ 470  ATG29285.1        0.26%    passed    100.00%
+ 471  ATG29287.1        0.06%    passed    100.00%
+ 472  ATG29291.1        0.06%    passed    100.00%
+ 473  ATG29292.1        0.06%    passed    100.00%
+ 474  ATG29295.1        0.06%    passed    100.00%
+ 475  ATG29299.1        0.06%    passed    100.00%
+ 476  ATG29301.1        0.06%    passed    100.00%
+ 477  ATG29302.1        0.09%    passed    100.00%
+ 478  ATG29303.1        0.06%    passed    100.00%
+ 479  ATG29306.1        0.06%    passed    100.00%
+ 480  ATG29307.1        0.06%    passed    100.00%
+ 481  ATG29280.1        1.20%    passed    100.00%
+ 482  AWF93619.1        0.06%    passed    100.00%
+ 483  AWF93617.1        0.06%    passed    100.00%
+ 484  AWF93618.1        0.06%    passed    100.00%
+ 485  AUI42194.1        0.06%    passed    100.00%
+ 486  AMR68906.1        0.23%    passed    100.00%
+ 487  ASL68973.1        0.23%    passed    100.00%
+ 488  ASL68974.1        0.06%    passed    100.00%
+ 489  ATG29315.1        0.06%    passed    100.00%
+ 490  AQZ41948.1        0.06%    passed    100.00%
+ 491  AQZ41950.1        0.06%    passed    100.00%
+ 492  AQZ41954.1        0.06%    passed    100.00%
+ 493  AQZ41956.1        0.06%    passed    100.00%
+ 494  AQZ41952.1        0.06%    passed    100.00%
+ 495  AQZ41955.1        0.06%    passed    100.00%
+ 496  AQZ41949.1        0.06%    passed    100.00%
+ 497  ASL68978.1        0.06%    passed    100.00%
+ 498  AQZ41947.1        0.06%    passed    100.00%
+ 499  AQZ41951.1        0.06%    passed    100.00%
+ 500  ASL68979.1        0.06%    passed    100.00%
+ 501  AQZ41953.1        0.06%    passed    100.00%
+ 502  ANC90428.1        0.06%    passed    100.00%
+ 503  QDZ58854.1        0.06%    passed    100.00%
+ 504  QDZ58856.1        0.06%    passed    100.00%
+ 505  ANB66183.1        0.06%    passed    100.00%
+ 506  QDZ58855.1        0.06%    passed    100.00%
+ 507  ANB66182.1        0.06%    passed    100.00%
+ 508  ANB66184.1        0.06%    passed    100.00%
+ 509  AMZ03556.1        0.06%    passed    100.00%
+ 510  ANW07476.1        0.06%    passed    100.00%
+ 511  AOC50652.1        0.06%    passed    100.00%
+ 512  AOO19564.1        0.06%    passed    100.00%
+ 513  AQS26800.1        0.09%    passed    100.00%
+ 514  AQS26806.1        0.20%    passed    100.00%
+ 515  AQS26814.1        0.09%    passed    100.00%
+ 516  AQS26816.1        0.15%    passed    100.00%
+ 517  AQS26808.1        0.15%    passed    100.00%
+ 518  AQS26828.1        0.58%    passed    100.00%
+ 519  APQ41782.1        0.06%    passed    100.00%
+ 520  APQ41783.1        0.06%    passed    100.00%
+ 521  APQ41784.1        0.06%    passed    100.00%
+ 522  APQ41785.1        0.06%    passed    100.00%
+ 523  APQ41786.1        0.06%    passed    100.00%
+ 524  AZS35403.1        0.06%    passed    100.00%
+ 525  AZS35404.1        0.06%    passed    100.00%
+ 526  AZS35405.1        0.06%    passed    100.00%
+ 527  AVZ25032.1        0.50%    passed    100.00%
+ 528  AVZ25033.1        0.06%    passed    100.00%
+ 529  AVZ25035.1        0.06%    passed    100.00%
+ 530  ARU07183.1        0.06%    passed    100.00%
+ 531  AUD54964.1        0.06%    passed    100.00%
+ 532  AOO53981.1        0.06%    passed    100.00%
+ 533  APB03017.1        0.06%    passed    100.00%
+ 534  APB03018.1        0.06%    passed    100.00%
+ 535  AOO85388.1        0.06%    passed    100.00%
+ 536  APB03019.1        0.06%    passed    100.00%
+ 537  AOS90220.1        0.06%    passed    100.00%
+ 538  APB03020.1        0.06%    passed    100.00%
+ 539  AOS90221.1        0.06%    passed    100.00%
+ 540  AOS90222.1        0.06%    passed    100.00%
+ 541  APB03021.1        0.06%    passed    100.00%
+ 542  AOS90223.1        0.06%    passed    100.00%
+ 543  AOS90224.1        0.06%    passed    100.00%
+ 544  BAV89190.1        0.06%    passed    100.00%
+ 545  BAX00477.1        0.06%    passed    100.00%
+ 546  BBC70847.1        0.06%    passed    100.00%
+ 547  BAV82373.1        0.06%    passed    100.00%
+ 548  AOX49265.1        0.06%    passed    100.00%
+ 549  ANH21697.1        0.09%    passed    100.00%
+ 550  AMU04506.1        0.06%    passed    100.00%
+ 551  AMT75536.1        0.06%    passed    100.00%
+ 552  AMM43326.1        0.06%    passed    100.00%
+ 553  AMM43325.1        0.06%    passed    100.00%
+ 554  AMM39806.1        0.06%    passed    100.00%
+ 555  AMV49165.1        0.06%    passed    100.00%
+ 556  APO08504.1        0.06%    passed    100.00%
+ 557  AOL02459.1        0.06%    passed    100.00%
+ 558  AOO19565.1        0.06%    passed    100.00%
+ 559  AWK27349.1        0.06%    passed    100.00%
+ 560  ANF16414.1        0.06%    passed    100.00%
+ 561  AUI42329.1        0.06%    passed    100.00%
+ 562  AUI42330.1        0.26%    passed    100.00%
+ 563  ARI68105.1        0.06%    passed    100.00%
+****  TOTAL             0.11%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AMC13913.1 is identical to AMC13912.1 but kept for subsequent analysis
+NOTE: APO08503.1 is identical to ANG09399.1 but kept for subsequent analysis
+NOTE: ANO46301.1 is identical to ANO46302.1 but kept for subsequent analysis
+NOTE: AOO54270.1 is identical to AND01116.2 but kept for subsequent analysis
+NOTE: AMA12084.1 is identical to AMA12087.1 but kept for subsequent analysis
+NOTE: AMA12086.1 is identical to AMA12085.1 but kept for subsequent analysis
+NOTE: ANH10698.1 is identical to AXF50015.1 but kept for subsequent analysis
+NOTE: AXQ40001.1 is identical to AXQ39998.1 but kept for subsequent analysis
+NOTE: QGA67050.1 is identical to AMN14620.1 but kept for subsequent analysis
+NOTE: ART29826.1 is identical to ART29825.1 but kept for subsequent analysis
+NOTE: QOF88733.1 is identical to QOF88701.1 but kept for subsequent analysis
+NOTE: AQX32986.1 is identical to AMM39804.1 but kept for subsequent analysis
+NOTE: AOY08521.1 is identical to AZU90719.1 but kept for subsequent analysis
+NOTE: AMR39834.1 is identical to AWH65848.1 but kept for subsequent analysis
+NOTE: AML82110.1 is identical to AMK79468.2 but kept for subsequent analysis
+NOTE: AMR39831.1 is identical to ARX97119.1 but kept for subsequent analysis
+NOTE: AMR68906.1 is identical to AEN75265.1 but kept for subsequent analysis
+NOTE: ATG29284.1 is identical to AQM74761.1 but kept for subsequent analysis
+NOTE: AMB18850.1 is identical to YP_009428568.1 but kept for subsequent analysis
+NOTE: ANO46297.1 is identical to ANO46298.1 but kept for subsequent analysis
+NOTE: ANN44857.1 is identical to AVG19275.1 but kept for subsequent analysis
+NOTE: QOU08407.1 is identical to QOU08370.1 but kept for subsequent analysis
+NOTE: AWH65849.1 is identical to ANK57897.1 but kept for subsequent analysis
+NOTE: ASU55417.1 is identical to QCG74166.1 but kept for subsequent analysis
+NOTE: APB03019.1 is identical to AMC13911.1 but kept for subsequent analysis
+NOTE: AUI42194.1 is identical to AOG18296.1 but kept for subsequent analysis
+NOTE: QKM77300.1 is identical to QKM77301.1 but kept for subsequent analysis
+NOTE: ARO84674.1 is identical to ARK18853.1 but kept for subsequent analysis
+NOTE: AMR39830.1 is identical to AMR68932.1 but kept for subsequent analysis
+NOTE: ANB66183.1 is identical to AYI50389.1 but kept for subsequent analysis
+NOTE: AOY08518.2 is identical to ARB07962.1 but kept for subsequent analysis
+NOTE: AOY08541.2 is identical to AOY08517.1 but kept for subsequent analysis
+NOTE: AYV74917.1 is identical to AYV74916.1 but kept for subsequent analysis
+NOTE: AYV74920.1 is identical to AYV74919.1 but kept for subsequent analysis
+NOTE: AYV74933.1 is identical to AYV74932.1 but kept for subsequent analysis
+NOTE: APO39243.1 is identical to APO39229.1 but kept for subsequent analysis
+NOTE: APH11498.1 is identical to APH11497.1 but kept for subsequent analysis
+NOTE: APH11504.1 is identical to APH11501.1 but kept for subsequent analysis
+NOTE: APH11512.1 is identical to APH11508.1 but kept for subsequent analysis
+NOTE: APH11529.1 is identical to APH11528.1 but kept for subsequent analysis
+NOTE: ASU55405.1 is identical to ASU55414.1 but kept for subsequent analysis
+NOTE: ANB66182.1 is identical to ASU55425.1 but kept for subsequent analysis
+NOTE: AQZ41950.1 is identical to AQZ41948.1 but kept for subsequent analysis
+NOTE: 162 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: QOU08353.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: QOU08374.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATI21641.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AOY08533.2 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATG29276.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41954.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41956.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AVZ25033.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ARU07183.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ANO46304.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: AHZ13508.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: ARB08102.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: APY24199.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AMH87239.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: QPC45465.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AOR82892.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: AOR82893.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: ATB53752.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: QOU08413.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08373.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08379.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08382.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08385.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08397.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08398.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: ARB07976.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: APW84872.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84873.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84876.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84874.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84875.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84877.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67053.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67051.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67052.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67054.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: ANH22038.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QOU08393.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOY08537.2 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOS90224.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: BAV82373.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AMZ03557.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55390.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55391.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55412.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55415.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55419.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55426.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55420.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55424.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55422.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55421.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55418.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ANC90428.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41784.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41786.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: AOY08516.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOY08546.2 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39228.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39232.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39233.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39236.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO53981.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO85388.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90221.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90222.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APB03021.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APR74597.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: AMX81918.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: ATG29306.1 (identical to AQM74761.1) is ignored but added at the end
+NOTE: AMZ03556.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: ANW07476.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: AOO19564.1 (identical to AOG18296.1) is ignored but added at the end
+NOTE: ANA12599.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANC90425.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMO03410.2 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMT75536.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMM39806.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMV49165.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANF16414.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AYV74918.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74924.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74930.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74921.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74922.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74923.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74925.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74927.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74928.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74929.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74934.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74935.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74936.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74937.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: APH11499.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11503.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11506.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11507.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11578.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11505.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11509.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11517.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11521.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11523.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11524.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11525.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11527.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11530.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11531.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11532.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11533.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11535.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11537.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11540.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11541.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11542.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11544.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11545.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11546.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11548.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11550.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11553.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11554.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11555.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11557.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11558.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11559.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11561.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11563.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11564.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11565.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11567.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11568.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11569.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11570.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11572.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11574.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11575.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11576.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11577.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11579.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11580.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11582.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11583.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11584.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11585.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11586.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11587.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11590.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11592.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11593.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11594.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: AWK27349.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11514.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11515.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11516.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11581.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11543.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11560.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11566.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: AQZ41947.1 (identical to AQZ41948.1) is ignored but added at the end
+NOTE: AQZ41951.1 (identical to AQZ41948.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to gtr_ufboot1000.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 363292)...
+ERROR: File not found GTR
+
+******************************************************
+CHECKPOINT: Resuming analysis from gtr_ufboot1000.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    wap1010 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -pre gtr_ufboot1000 -m LG+I+G4 -s aligned.fasta -o AEN75265.1 -bb 1000 -bnni -nt AUTO
+Seed:    756944 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 20 09:48:13 2021
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+WARNING: Command-line argument `LG+I+G4` differs from checkpoint `GTR+I+G4`
+WARNING: Number of command-line arguments differs from checkpoint
+WARNING: Command-line differs from checkpoint!
+Reading alignment file aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 563 sequences with 3425 columns, 1036 distinct patterns
+282 parsimony-informative, 357 singleton sites, 2786 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  AMC13912.1        0.06%    passed    100.00%
+   2  ANG09399.1        0.06%    passed    100.00%
+   3  ARU07076.1        0.06%    passed    100.00%
+   4  ARU07075.1        0.06%    passed    100.00%
+   5  QDH45910.1        0.06%    passed    100.00%
+   6  ARU07074.1        0.06%    passed    100.00%
+   7  AML81028.1        0.06%    passed    100.00%
+   8  ALL27019.1        0.00%    passed    100.00%
+   9  ANO46303.1        0.06%    passed    100.00%
+  10  ANO46307.1        0.06%    passed    100.00%
+  11  ANO46306.1        0.06%    passed    100.00%
+  12  ANO46309.1        0.06%    passed    100.00%
+  13  ANO46302.1        0.06%    passed    100.00%
+  14  ANO46301.1        0.06%    passed    100.00%
+  15  ANO46308.1        0.06%    passed    100.00%
+  16  ANO46305.1        0.06%    passed    100.00%
+  17  ANO46304.1        0.06%    passed    100.00%
+  18  AOW32303.1        0.06%    passed    100.00%
+  19  QGA72951.1        0.06%    passed    100.00%
+  20  AZS35409.1        0.06%    passed    100.00%
+  21  BBA85762.1        0.09%    passed    100.00%
+  22  QKU35968.1        0.06%    passed    100.00%
+  23  AMC13913.1        0.06%    passed    100.00%
+  24  AND01116.2        0.06%    passed    100.00%
+  25  QFP98590.1        0.06%    passed    100.00%
+  26  QFP98591.1        0.06%    passed    100.00%
+  27  QFP98592.1        1.08%    passed    100.00%
+  28  QFP98593.1        0.06%    passed    100.00%
+  29  AQS26698.1        0.18%    passed    100.00%
+  30  QKX95861.1        0.06%    passed    100.00%
+  31  AMQ76465.1        0.06%    passed    100.00%
+  32  AMQ76459.1        0.55%    passed    100.00%
+  33  AMA12087.1        0.06%    passed    100.00%
+  34  AMK49165.1        0.06%    passed    100.00%
+  35  AMA12084.1        0.06%    passed    100.00%
+  36  AMA12085.1        0.06%    passed    100.00%
+  37  AMA12086.1        0.06%    passed    100.00%
+  38  AMK49164.2        0.06%    passed    100.00%
+  39  AUF35021.1        0.06%    passed    100.00%
+  40  AUF35022.1        0.06%    passed    100.00%
+  41  AVV62004.1        0.06%    passed    100.00%
+  42  AQU12485.1        0.06%    passed    100.00%
+  43  AXF50014.1        0.06%    passed    100.00%
+  44  AXF50016.1        0.06%    passed    100.00%
+  45  AXF50015.1        0.06%    passed    100.00%
+  46  APY24200.1        0.06%    passed    100.00%
+  47  APY24198.1        0.06%    passed    100.00%
+  48  APY24199.1        0.06%    passed    100.00%
+  49  AMD16557.1        0.06%    passed    100.00%
+  50  AMS00611.1        0.06%    passed    100.00%
+  51  AYV62653.1        0.06%    passed    100.00%
+  52  AXQ40002.1        0.06%    passed    100.00%
+  53  AXQ40003.1        0.06%    passed    100.00%
+  54  AXQ40004.1        0.06%    passed    100.00%
+  55  AXQ40005.1        0.06%    passed    100.00%
+  56  AXQ39996.1        0.06%    passed    100.00%
+  57  AXQ39997.1        0.06%    passed    100.00%
+  58  AXQ39998.1        0.06%    passed    100.00%
+  59  AXQ39999.1        0.06%    passed    100.00%
+  60  AXQ40000.1        0.06%    passed    100.00%
+  61  AXQ40001.1        0.06%    passed    100.00%
+  62  AUI42289.1        0.06%    passed    100.00%
+  63  AVZ47169.1        0.06%    passed    100.00%
+  64  AMN14619.1        0.09%    passed    100.00%
+  65  AMN14620.1        0.06%    passed    100.00%
+  66  ASW34087.1        0.06%    passed    100.00%
+  67  ART29823.1        0.06%    passed    100.00%
+  68  ART29825.1        0.06%    passed    100.00%
+  69  ART29826.1        0.06%    passed    100.00%
+  70  QOF88701.1        0.06%    passed    100.00%
+  71  AQW43708.1        0.12%    passed    100.00%
+  72  AMQ48986.1        0.06%    passed    100.00%
+  73  AQX32984.1        0.15%    passed    100.00%
+  74  AQX32985.1        0.06%    passed    100.00%
+  75  ARM59239.1        0.06%    passed    100.00%
+  76  AMM39804.1        0.06%    passed    100.00%
+  77  AZU90720.1        0.06%    passed    100.00%
+  78  AZU90719.1        0.06%    passed    100.00%
+  79  AQX32986.1        0.06%    passed    100.00%
+  80  AQX32987.1        0.06%    passed    100.00%
+  81  AVT55532.1        0.18%    passed    100.00%
+  82  ACD75819.1        0.12%    passed    100.00%
+  83  AFD30972.1        0.09%    passed    100.00%
+  84  AWH65848.1        0.06%    passed    100.00%
+  85  AQX32988.1        0.09%    passed    100.00%
+  86  AMK79468.2        0.06%    passed    100.00%
+  87  AML82110.1        0.06%    passed    100.00%
+  88  ARX97119.1        0.06%    passed    100.00%
+  89  AMM39805.1        0.06%    passed    100.00%
+  90  AHZ13508.1        0.06%    passed    100.00%
+  91  QGA67050.1        0.06%    passed    100.00%
+  92  APW84872.1        0.06%    passed    100.00%
+  93  APW84873.1        0.06%    passed    100.00%
+  94  APW84876.1        0.06%    passed    100.00%
+  95  APW84874.1        0.06%    passed    100.00%
+  96  APW84875.1        0.06%    passed    100.00%
+  97  APW84877.1        0.06%    passed    100.00%
+  98  QGA67056.1        0.06%    passed    100.00%
+  99  QGA67053.1        0.06%    passed    100.00%
+ 100  QGA67051.1        0.06%    passed    100.00%
+ 101  QGA67052.1        0.06%    passed    100.00%
+ 102  QGA67054.1        0.06%    passed    100.00%
+ 103  AMX81919.1        0.06%    passed    100.00%
+ 104  AMB37295.1        0.06%    passed    100.00%
+ 105  QGA67055.1        0.06%    passed    100.00%
+ 106  ANH22038.1        0.06%    passed    100.00%
+ 107  ASU55505.1        0.06%    passed    100.00%
+ 108  APO08503.1        0.06%    passed    100.00%
+ 109  ANQ92019.1        0.06%    passed    100.00%
+ 110  AEN75265.1        0.23%    passed    100.00%
+ 111  AMK49492.2        0.06%    passed    100.00%
+ 112  AMQ34003.1        0.06%    passed    100.00%
+ 113  AMQ34004.1        0.06%    passed    100.00%
+ 114  AQM74760.1        0.64%    passed    100.00%
+ 115  AQM74761.1        0.06%    passed    100.00%
+ 116  AQM74762.1        0.06%    passed    100.00%
+ 117  APC60216.2        0.23%    passed    100.00%
+ 118  APC60215.1        0.06%    passed    100.00%
+ 119  AQW43707.1        0.09%    passed    100.00%
+ 120  ART29828.1        0.06%    passed    100.00%
+ 121  AMC33116.1        0.06%    passed    100.00%
+ 122  YP_009428568.1    0.06%    passed    100.00%
+ 123  AMB18850.1        0.06%    passed    100.00%
+ 124  ANO46298.1        0.06%    passed    100.00%
+ 125  ANO46297.1        0.06%    passed    100.00%
+ 126  ANH10698.1        0.06%    passed    100.00%
+ 127  QIH53581.1        0.06%    passed    100.00%
+ 128  ASB32509.1        0.06%    passed    100.00%
+ 129  ARB08102.1        0.06%    passed    100.00%
+ 130  AVG19275.1        0.06%    passed    100.00%
+ 131  ANN44857.1        0.06%    passed    100.00%
+ 132  QOU08339.1        0.99%    passed    100.00%
+ 133  QOU08340.1        0.06%    passed    100.00%
+ 134  QOU08341.1        0.76%    passed    100.00%
+ 135  QOU08342.1        0.06%    passed    100.00%
+ 136  QOU08343.1        0.38%    passed    100.00%
+ 137  QOU08412.1        0.06%    passed    100.00%
+ 138  QOU08413.1        0.06%    passed    100.00%
+ 139  QOU08414.1        0.23%    passed    100.00%
+ 140  QOU08416.1        0.06%    passed    100.00%
+ 141  QOU08420.1        0.82%    passed    100.00%
+ 142  QOU08346.1        0.55%    passed    100.00%
+ 143  QOU08347.1        0.79%    passed    100.00%
+ 144  QOU08348.1        0.55%    passed    100.00%
+ 145  QOU08350.1        0.06%    passed    100.00%
+ 146  QOU08353.1        0.06%    passed    100.00%
+ 147  QOU08354.1        0.06%    passed    100.00%
+ 148  QOU08364.1        0.55%    passed    100.00%
+ 149  QOU08418.1        1.14%    passed    100.00%
+ 150  QOU08367.1        0.06%    passed    100.00%
+ 151  QOU08368.1        0.06%    passed    100.00%
+ 152  QOU08369.1        0.06%    passed    100.00%
+ 153  QOU08370.1        0.06%    passed    100.00%
+ 154  QOU08371.1        0.06%    passed    100.00%
+ 155  QOU08372.1        0.06%    passed    100.00%
+ 156  QOU08373.1        0.06%    passed    100.00%
+ 157  QOU08374.1        0.06%    passed    100.00%
+ 158  QOU08375.1        0.15%    passed    100.00%
+ 159  QOU08376.1        0.06%    passed    100.00%
+ 160  QOU08377.1        0.06%    passed    100.00%
+ 161  QOU08378.1        0.93%    passed    100.00%
+ 162  QOU08379.1        0.06%    passed    100.00%
+ 163  QOU08380.1        0.06%    passed    100.00%
+ 164  QOU08381.1        0.32%    passed    100.00%
+ 165  QOU08382.1        0.06%    passed    100.00%
+ 166  QOU08384.1        0.06%    passed    100.00%
+ 167  QOU08385.1        0.06%    passed    100.00%
+ 168  QOU08386.1        0.06%    passed    100.00%
+ 169  QOU08387.1        1.43%    passed    100.00%
+ 170  QOU08388.1        0.06%    passed    100.00%
+ 171  QOU08390.1        0.06%    passed    100.00%
+ 172  QOU08392.1        0.06%    passed    100.00%
+ 173  QOU08393.1        0.06%    passed    100.00%
+ 174  QOU08394.1        0.06%    passed    100.00%
+ 175  QOU08419.1        0.06%    passed    100.00%
+ 176  QOU08397.1        0.06%    passed    100.00%
+ 177  QOU08398.1        0.06%    passed    100.00%
+ 178  QOU08399.1        0.06%    passed    100.00%
+ 179  QOU08400.1        0.06%    passed    100.00%
+ 180  QOU08401.1        0.06%    passed    100.00%
+ 181  QOU08402.1        0.32%    passed    100.00%
+ 182  QOU08403.1        0.06%    passed    100.00%
+ 183  QOU08404.1        0.06%    passed    100.00%
+ 184  QOU08405.1        0.06%    passed    100.00%
+ 185  QOU08407.1        0.06%    passed    100.00%
+ 186  QOU08408.1        0.06%    passed    100.00%
+ 187  QOU08411.1        0.06%    passed    100.00%
+ 188  ANK57897.1        0.06%    passed    100.00%
+ 189  AWH65849.1        0.06%    passed    100.00%
+ 190  QCG74166.1        0.06%    passed    100.00%
+ 191  AMC13911.1        0.06%    passed    100.00%
+ 192  AXQ40006.1        0.06%    passed    100.00%
+ 193  AXQ40007.1        0.06%    passed    100.00%
+ 194  AOG18295.1        0.06%    passed    100.00%
+ 195  AOG18296.1        0.06%    passed    100.00%
+ 196  QTA38993.1        0.06%    passed    100.00%
+ 197  QTA38994.1        0.06%    passed    100.00%
+ 198  APH11492.1        0.06%    passed    100.00%
+ 199  AMQ48982.1        0.06%    passed    100.00%
+ 200  AMQ48981.1        0.06%    passed    100.00%
+ 201  QKM77298.1        0.06%    passed    100.00%
+ 202  QKM77301.1        0.06%    passed    100.00%
+ 203  QKM77300.1        0.06%    passed    100.00%
+ 204  QKM77299.1        0.06%    passed    100.00%
+ 205  ATI21641.1        0.06%    passed    100.00%
+ 206  APH11611.1        0.06%    passed    100.00%
+ 207  ATL14618.1        0.06%    passed    100.00%
+ 208  AVG19202.1        0.06%    passed    100.00%
+ 209  AVG19203.1        0.09%    passed    100.00%
+ 210  AMX81915.1        0.06%    passed    100.00%
+ 211  AMX81916.1        0.06%    passed    100.00%
+ 212  APO36913.1        0.06%    passed    100.00%
+ 213  AMH87239.1        0.06%    passed    100.00%
+ 214  AMX81917.1        0.06%    passed    100.00%
+ 215  ARK18853.1        0.12%    passed    100.00%
+ 216  AMR68932.1        0.06%    passed    100.00%
+ 217  QOF88733.1        0.06%    passed    100.00%
+ 218  APG56499.1        0.06%    passed    100.00%
+ 219  ASW34302.1        0.06%    passed    100.00%
+ 220  AOI20067.1        0.06%    passed    100.00%
+ 221  QPC45468.1        0.06%    passed    100.00%
+ 222  QPC45465.1        0.06%    passed    100.00%
+ 223  QOF88734.1        0.06%    passed    100.00%
+ 224  AMK79469.1        0.06%    passed    100.00%
+ 225  QDZ58858.1        0.06%    passed    100.00%
+ 226  ALX35659.1        0.06%    passed    100.00%
+ 227  AMR39830.1        0.06%    passed    100.00%
+ 228  AMR39831.1        0.06%    passed    100.00%
+ 229  APR74597.1        0.06%    passed    100.00%
+ 230  ANA12599.1        0.06%    passed    100.00%
+ 231  ANC90425.1        0.06%    passed    100.00%
+ 232  AMX81918.1        0.06%    passed    100.00%
+ 233  AMR39834.1        0.06%    passed    100.00%
+ 234  AYI50389.1        0.06%    passed    100.00%
+ 235  AYI50390.1        0.06%    passed    100.00%
+ 236  AMD61711.1        0.06%    passed    100.00%
+ 237  AYI50388.1        0.06%    passed    100.00%
+ 238  QOF88708.1        0.06%    passed    100.00%
+ 239  AMD61710.1        0.06%    passed    100.00%
+ 240  ARB07922.1        1.37%    passed    100.00%
+ 241  ARB07962.1        0.06%    passed    100.00%
+ 242  AOY08518.2        0.06%    passed    100.00%
+ 243  AOY08517.1        0.06%    passed    100.00%
+ 244  AOY08538.2        0.06%    passed    100.00%
+ 245  AOY08541.2        0.06%    passed    100.00%
+ 246  ARB07939.1        1.49%    passed    100.00%
+ 247  ARB07967.1        0.06%    passed    100.00%
+ 248  AYV74916.1        0.06%    passed    100.00%
+ 249  AYV74917.1        0.06%    passed    100.00%
+ 250  AYV74918.1        0.06%    passed    100.00%
+ 251  AYV74919.1        0.06%    passed    100.00%
+ 252  AYV74920.1        0.06%    passed    100.00%
+ 253  AYV74921.1        0.06%    passed    100.00%
+ 254  AYV74922.1        0.06%    passed    100.00%
+ 255  AYV74923.1        0.06%    passed    100.00%
+ 256  AYV74924.1        0.06%    passed    100.00%
+ 257  AYV74925.1        0.06%    passed    100.00%
+ 258  AYV74927.1        0.06%    passed    100.00%
+ 259  AYV74928.1        0.06%    passed    100.00%
+ 260  AYV74929.1        0.06%    passed    100.00%
+ 261  AYV74930.1        0.06%    passed    100.00%
+ 262  AYV74931.1        0.06%    passed    100.00%
+ 263  AYV74932.1        0.06%    passed    100.00%
+ 264  AYV74933.1        0.06%    passed    100.00%
+ 265  AYV74934.1        0.06%    passed    100.00%
+ 266  AYV74935.1        0.06%    passed    100.00%
+ 267  AYV74936.1        0.06%    passed    100.00%
+ 268  AYV74937.1        0.06%    passed    100.00%
+ 269  ARB07978.1        0.12%    passed    100.00%
+ 270  ARB07981.1        0.09%    passed    100.00%
+ 271  AOY08526.2        0.09%    passed    100.00%
+ 272  ARB07987.1        0.29%    passed    100.00%
+ 273  AOY08542.1        0.06%    passed    100.00%
+ 274  ARB07927.1        0.41%    passed    100.00%
+ 275  AOY08524.1        0.06%    passed    100.00%
+ 276  AOY08525.1        0.06%    passed    100.00%
+ 277  ARB07988.1        0.20%    passed    100.00%
+ 278  ARB07932.1        0.06%    passed    100.00%
+ 279  AOY08521.1        0.06%    passed    100.00%
+ 280  AOY08523.3        0.06%    passed    100.00%
+ 281  AOY08539.3        0.09%    passed    100.00%
+ 282  ARB07953.1        0.06%    passed    100.00%
+ 283  AOY08535.1        0.06%    passed    100.00%
+ 284  ARB07947.1        0.38%    passed    100.00%
+ 285  ARB07954.1        0.09%    passed    100.00%
+ 286  AOY08536.1        0.06%    passed    100.00%
+ 287  ARB07960.1        0.18%    passed    100.00%
+ 288  AOY08527.2        0.12%    passed    100.00%
+ 289  AOY08540.2        0.12%    passed    100.00%
+ 290  AOY08531.2        0.29%    passed    100.00%
+ 291  AOY08533.2        0.06%    passed    100.00%
+ 292  ARB07930.1        0.09%    passed    100.00%
+ 293  ARB07976.1        0.06%    passed    100.00%
+ 294  AOY08516.1        0.06%    passed    100.00%
+ 295  AOY08546.2        0.06%    passed    100.00%
+ 296  AOY08537.2        0.06%    passed    100.00%
+ 297  APO39228.1        0.06%    passed    100.00%
+ 298  APO39229.1        0.06%    passed    100.00%
+ 299  APO39231.1        1.43%    passed    100.00%
+ 300  APO39232.1        0.06%    passed    100.00%
+ 301  APO39233.1        0.06%    passed    100.00%
+ 302  APO39236.1        0.06%    passed    100.00%
+ 303  APO39237.1        0.06%    passed    100.00%
+ 304  APO39240.1        0.44%    passed    100.00%
+ 305  APO39241.1        1.52%    passed    100.00%
+ 306  APO39243.1        0.06%    passed    100.00%
+ 307  ANF04752.1        0.06%    passed    100.00%
+ 308  ASK51714.1        0.06%    passed    100.00%
+ 309  AOE22997.1        0.06%    passed    100.00%
+ 310  AOR87336.1        0.09%    passed    100.00%
+ 311  ARO84674.1        0.12%    passed    100.00%
+ 312  AMO03410.2        0.06%    passed    100.00%
+ 313  APG56458.1        0.06%    passed    100.00%
+ 314  APG56457.1        0.06%    passed    100.00%
+ 315  ALU33341.1        0.06%    passed    100.00%
+ 316  AOO54270.1        0.06%    passed    100.00%
+ 317  QFZ95661.1        0.06%    passed    100.00%
+ 318  APH11493.1        0.06%    passed    100.00%
+ 319  APH11495.1        0.06%    passed    100.00%
+ 320  APH11496.1        1.26%    passed    100.00%
+ 321  APH11497.1        0.06%    passed    100.00%
+ 322  APH11498.1        0.06%    passed    100.00%
+ 323  APH11499.1        0.06%    passed    100.00%
+ 324  APH11500.1        0.06%    passed    100.00%
+ 325  APH11501.1        0.06%    passed    100.00%
+ 326  APH11502.1        0.06%    passed    100.00%
+ 327  APH11503.1        0.06%    passed    100.00%
+ 328  APH11504.1        0.06%    passed    100.00%
+ 329  APH11505.1        0.06%    passed    100.00%
+ 330  APH11506.1        0.06%    passed    100.00%
+ 331  APH11507.1        0.06%    passed    100.00%
+ 332  APH11508.1        0.06%    passed    100.00%
+ 333  APH11509.1        0.06%    passed    100.00%
+ 334  APH11510.1        0.26%    passed    100.00%
+ 335  APH11511.1        0.06%    passed    100.00%
+ 336  APH11512.1        0.06%    passed    100.00%
+ 337  APH11513.1        0.09%    passed    100.00%
+ 338  APH11514.1        0.06%    passed    100.00%
+ 339  APH11515.1        0.06%    passed    100.00%
+ 340  APH11516.1        0.06%    passed    100.00%
+ 341  APH11517.1        0.06%    passed    100.00%
+ 342  APH11518.1        0.06%    passed    100.00%
+ 343  APH11519.1        0.44%    passed    100.00%
+ 344  APH11520.1        0.23%    passed    100.00%
+ 345  APH11521.1        0.06%    passed    100.00%
+ 346  APH11522.1        0.73%    passed    100.00%
+ 347  APH11523.1        0.06%    passed    100.00%
+ 348  APH11524.1        0.06%    passed    100.00%
+ 349  APH11525.1        0.06%    passed    100.00%
+ 350  APH11526.1        0.09%    passed    100.00%
+ 351  APH11527.1        0.06%    passed    100.00%
+ 352  APH11528.1        0.06%    passed    100.00%
+ 353  APH11529.1        0.06%    passed    100.00%
+ 354  APH11530.1        0.06%    passed    100.00%
+ 355  APH11531.1        0.06%    passed    100.00%
+ 356  APH11532.1        0.06%    passed    100.00%
+ 357  APH11533.1        0.06%    passed    100.00%
+ 358  APH11534.1        0.06%    passed    100.00%
+ 359  APH11535.1        0.06%    passed    100.00%
+ 360  APH11536.1        0.06%    passed    100.00%
+ 361  APH11537.1        0.06%    passed    100.00%
+ 362  APH11538.1        0.06%    passed    100.00%
+ 363  APH11539.1        0.06%    passed    100.00%
+ 364  APH11540.1        0.06%    passed    100.00%
+ 365  APH11541.1        0.06%    passed    100.00%
+ 366  APH11542.1        0.06%    passed    100.00%
+ 367  APH11543.1        0.06%    passed    100.00%
+ 368  APH11544.1        0.06%    passed    100.00%
+ 369  APH11545.1        0.06%    passed    100.00%
+ 370  APH11546.1        0.06%    passed    100.00%
+ 371  APH11547.1        0.06%    passed    100.00%
+ 372  APH11548.1        0.06%    passed    100.00%
+ 373  APH11549.1        0.06%    passed    100.00%
+ 374  APH11550.1        0.06%    passed    100.00%
+ 375  APH11551.1        0.06%    passed    100.00%
+ 376  APH11552.1        0.06%    passed    100.00%
+ 377  APH11553.1        0.06%    passed    100.00%
+ 378  APH11554.1        0.06%    passed    100.00%
+ 379  APH11555.1        0.06%    passed    100.00%
+ 380  APH11556.1        0.15%    passed    100.00%
+ 381  APH11557.1        0.06%    passed    100.00%
+ 382  APH11558.1        0.06%    passed    100.00%
+ 383  APH11559.1        0.06%    passed    100.00%
+ 384  APH11560.1        0.06%    passed    100.00%
+ 385  APH11561.1        0.06%    passed    100.00%
+ 386  APH11562.1        0.06%    passed    100.00%
+ 387  APH11563.1        0.06%    passed    100.00%
+ 388  APH11564.1        0.06%    passed    100.00%
+ 389  APH11565.1        0.06%    passed    100.00%
+ 390  APH11566.1        0.06%    passed    100.00%
+ 391  APH11567.1        0.06%    passed    100.00%
+ 392  APH11568.1        0.06%    passed    100.00%
+ 393  APH11569.1        0.06%    passed    100.00%
+ 394  APH11570.1        0.06%    passed    100.00%
+ 395  APH11571.1        0.06%    passed    100.00%
+ 396  APH11572.1        0.06%    passed    100.00%
+ 397  APH11573.1        0.06%    passed    100.00%
+ 398  APH11574.1        0.06%    passed    100.00%
+ 399  APH11575.1        0.06%    passed    100.00%
+ 400  APH11576.1        0.06%    passed    100.00%
+ 401  APH11577.1        0.06%    passed    100.00%
+ 402  APH11578.1        0.06%    passed    100.00%
+ 403  APH11579.1        0.06%    passed    100.00%
+ 404  APH11580.1        0.06%    passed    100.00%
+ 405  APH11581.1        0.06%    passed    100.00%
+ 406  APH11582.1        0.06%    passed    100.00%
+ 407  APH11583.1        0.06%    passed    100.00%
+ 408  APH11584.1        0.06%    passed    100.00%
+ 409  APH11585.1        0.06%    passed    100.00%
+ 410  APH11586.1        0.06%    passed    100.00%
+ 411  APH11587.1        0.06%    passed    100.00%
+ 412  APH11588.1        1.23%    passed    100.00%
+ 413  APH11589.1        0.09%    passed    100.00%
+ 414  APH11590.1        0.06%    passed    100.00%
+ 415  APH11592.1        0.06%    passed    100.00%
+ 416  APH11593.1        0.06%    passed    100.00%
+ 417  APH11594.1        0.06%    passed    100.00%
+ 418  APH11595.1        0.06%    passed    100.00%
+ 419  APH11610.1        0.29%    passed    100.00%
+ 420  AOX49264.1        0.06%    passed    100.00%
+ 421  ANS60026.1        0.06%    passed    100.00%
+ 422  AOR82892.1        0.06%    passed    100.00%
+ 423  AOR82893.1        0.06%    passed    100.00%
+ 424  ATB53752.1        0.06%    passed    100.00%
+ 425  ANC90426.1        0.06%    passed    100.00%
+ 426  AMZ03557.1        0.06%    passed    100.00%
+ 427  ASU55390.1        0.06%    passed    100.00%
+ 428  ASU55397.1        0.06%    passed    100.00%
+ 429  ASU55398.1        0.06%    passed    100.00%
+ 430  ASU55399.1        0.06%    passed    100.00%
+ 431  ASU55409.1        0.06%    passed    100.00%
+ 432  ASU55393.1        0.06%    passed    100.00%
+ 433  ASU55395.1        0.06%    passed    100.00%
+ 434  ASU55400.1        0.06%    passed    100.00%
+ 435  ASU55410.1        0.06%    passed    100.00%
+ 436  ASU55408.1        0.06%    passed    100.00%
+ 437  ASU55403.1        0.06%    passed    100.00%
+ 438  ASU55406.1        0.06%    passed    100.00%
+ 439  ASU55396.1        0.06%    passed    100.00%
+ 440  ASU55414.1        0.06%    passed    100.00%
+ 441  ASU55405.1        0.06%    passed    100.00%
+ 442  ASU55413.1        0.06%    passed    100.00%
+ 443  ASU55391.1        0.06%    passed    100.00%
+ 444  ASU55411.1        0.06%    passed    100.00%
+ 445  ASU55412.1        0.06%    passed    100.00%
+ 446  ASU55415.1        0.06%    passed    100.00%
+ 447  ASU55394.1        0.06%    passed    100.00%
+ 448  ASU55392.1        0.06%    passed    100.00%
+ 449  ASU55404.1        0.06%    passed    100.00%
+ 450  ASU55407.1        0.06%    passed    100.00%
+ 451  ASU55401.1        0.06%    passed    100.00%
+ 452  ASU55402.1        0.06%    passed    100.00%
+ 453  ASU55419.1        0.06%    passed    100.00%
+ 454  ASU55426.1        0.06%    passed    100.00%
+ 455  ASU55420.1        0.06%    passed    100.00%
+ 456  ASU55424.1        0.06%    passed    100.00%
+ 457  ASU55422.1        0.06%    passed    100.00%
+ 458  ASU55421.1        0.06%    passed    100.00%
+ 459  ASU55418.1        0.06%    passed    100.00%
+ 460  ASU55423.1        0.06%    passed    100.00%
+ 461  ASU55425.1        0.06%    passed    100.00%
+ 462  ASU55417.1        0.06%    passed    100.00%
+ 463  ASU55416.1        0.06%    passed    100.00%
+ 464  ATG29267.1        0.06%    passed    100.00%
+ 465  ATG29273.1        0.73%    passed    100.00%
+ 466  ATG29276.1        0.06%    passed    100.00%
+ 467  ATG29270.1        0.06%    passed    100.00%
+ 468  AOC50654.1        0.06%    passed    100.00%
+ 469  ATG29284.1        0.06%    passed    100.00%
+ 470  ATG29285.1        0.26%    passed    100.00%
+ 471  ATG29287.1        0.06%    passed    100.00%
+ 472  ATG29291.1        0.06%    passed    100.00%
+ 473  ATG29292.1        0.06%    passed    100.00%
+ 474  ATG29295.1        0.06%    passed    100.00%
+ 475  ATG29299.1        0.06%    passed    100.00%
+ 476  ATG29301.1        0.06%    passed    100.00%
+ 477  ATG29302.1        0.09%    passed    100.00%
+ 478  ATG29303.1        0.06%    passed    100.00%
+ 479  ATG29306.1        0.06%    passed    100.00%
+ 480  ATG29307.1        0.06%    passed    100.00%
+ 481  ATG29280.1        1.20%    passed    100.00%
+ 482  AWF93619.1        0.06%    passed    100.00%
+ 483  AWF93617.1        0.06%    passed    100.00%
+ 484  AWF93618.1        0.06%    passed    100.00%
+ 485  AUI42194.1        0.06%    passed    100.00%
+ 486  AMR68906.1        0.23%    passed    100.00%
+ 487  ASL68973.1        0.23%    passed    100.00%
+ 488  ASL68974.1        0.06%    passed    100.00%
+ 489  ATG29315.1        0.06%    passed    100.00%
+ 490  AQZ41948.1        0.06%    passed    100.00%
+ 491  AQZ41950.1        0.06%    passed    100.00%
+ 492  AQZ41954.1        0.06%    passed    100.00%
+ 493  AQZ41956.1        0.06%    passed    100.00%
+ 494  AQZ41952.1        0.06%    passed    100.00%
+ 495  AQZ41955.1        0.06%    passed    100.00%
+ 496  AQZ41949.1        0.06%    passed    100.00%
+ 497  ASL68978.1        0.06%    passed    100.00%
+ 498  AQZ41947.1        0.06%    passed    100.00%
+ 499  AQZ41951.1        0.06%    passed    100.00%
+ 500  ASL68979.1        0.06%    passed    100.00%
+ 501  AQZ41953.1        0.06%    passed    100.00%
+ 502  ANC90428.1        0.06%    passed    100.00%
+ 503  QDZ58854.1        0.06%    passed    100.00%
+ 504  QDZ58856.1        0.06%    passed    100.00%
+ 505  ANB66183.1        0.06%    passed    100.00%
+ 506  QDZ58855.1        0.06%    passed    100.00%
+ 507  ANB66182.1        0.06%    passed    100.00%
+ 508  ANB66184.1        0.06%    passed    100.00%
+ 509  AMZ03556.1        0.06%    passed    100.00%
+ 510  ANW07476.1        0.06%    passed    100.00%
+ 511  AOC50652.1        0.06%    passed    100.00%
+ 512  AOO19564.1        0.06%    passed    100.00%
+ 513  AQS26800.1        0.09%    passed    100.00%
+ 514  AQS26806.1        0.20%    passed    100.00%
+ 515  AQS26814.1        0.09%    passed    100.00%
+ 516  AQS26816.1        0.15%    passed    100.00%
+ 517  AQS26808.1        0.15%    passed    100.00%
+ 518  AQS26828.1        0.58%    passed    100.00%
+ 519  APQ41782.1        0.06%    passed    100.00%
+ 520  APQ41783.1        0.06%    passed    100.00%
+ 521  APQ41784.1        0.06%    passed    100.00%
+ 522  APQ41785.1        0.06%    passed    100.00%
+ 523  APQ41786.1        0.06%    passed    100.00%
+ 524  AZS35403.1        0.06%    passed    100.00%
+ 525  AZS35404.1        0.06%    passed    100.00%
+ 526  AZS35405.1        0.06%    passed    100.00%
+ 527  AVZ25032.1        0.50%    passed    100.00%
+ 528  AVZ25033.1        0.06%    passed    100.00%
+ 529  AVZ25035.1        0.06%    passed    100.00%
+ 530  ARU07183.1        0.06%    passed    100.00%
+ 531  AUD54964.1        0.06%    passed    100.00%
+ 532  AOO53981.1        0.06%    passed    100.00%
+ 533  APB03017.1        0.06%    passed    100.00%
+ 534  APB03018.1        0.06%    passed    100.00%
+ 535  AOO85388.1        0.06%    passed    100.00%
+ 536  APB03019.1        0.06%    passed    100.00%
+ 537  AOS90220.1        0.06%    passed    100.00%
+ 538  APB03020.1        0.06%    passed    100.00%
+ 539  AOS90221.1        0.06%    passed    100.00%
+ 540  AOS90222.1        0.06%    passed    100.00%
+ 541  APB03021.1        0.06%    passed    100.00%
+ 542  AOS90223.1        0.06%    passed    100.00%
+ 543  AOS90224.1        0.06%    passed    100.00%
+ 544  BAV89190.1        0.06%    passed    100.00%
+ 545  BAX00477.1        0.06%    passed    100.00%
+ 546  BBC70847.1        0.06%    passed    100.00%
+ 547  BAV82373.1        0.06%    passed    100.00%
+ 548  AOX49265.1        0.06%    passed    100.00%
+ 549  ANH21697.1        0.09%    passed    100.00%
+ 550  AMU04506.1        0.06%    passed    100.00%
+ 551  AMT75536.1        0.06%    passed    100.00%
+ 552  AMM43326.1        0.06%    passed    100.00%
+ 553  AMM43325.1        0.06%    passed    100.00%
+ 554  AMM39806.1        0.06%    passed    100.00%
+ 555  AMV49165.1        0.06%    passed    100.00%
+ 556  APO08504.1        0.06%    passed    100.00%
+ 557  AOL02459.1        0.06%    passed    100.00%
+ 558  AOO19565.1        0.06%    passed    100.00%
+ 559  AWK27349.1        0.06%    passed    100.00%
+ 560  ANF16414.1        0.06%    passed    100.00%
+ 561  AUI42329.1        0.06%    passed    100.00%
+ 562  AUI42330.1        0.26%    passed    100.00%
+ 563  ARI68105.1        0.06%    passed    100.00%
+****  TOTAL             0.11%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AMC13913.1 is identical to AMC13912.1 but kept for subsequent analysis
+NOTE: APO08503.1 is identical to ANG09399.1 but kept for subsequent analysis
+NOTE: ANO46301.1 is identical to ANO46302.1 but kept for subsequent analysis
+NOTE: AOO54270.1 is identical to AND01116.2 but kept for subsequent analysis
+NOTE: AMA12084.1 is identical to AMA12087.1 but kept for subsequent analysis
+NOTE: AMA12086.1 is identical to AMA12085.1 but kept for subsequent analysis
+NOTE: ANH10698.1 is identical to AXF50015.1 but kept for subsequent analysis
+NOTE: AXQ40001.1 is identical to AXQ39998.1 but kept for subsequent analysis
+NOTE: QGA67050.1 is identical to AMN14620.1 but kept for subsequent analysis
+NOTE: ART29826.1 is identical to ART29825.1 but kept for subsequent analysis
+NOTE: QOF88733.1 is identical to QOF88701.1 but kept for subsequent analysis
+NOTE: AQX32986.1 is identical to AMM39804.1 but kept for subsequent analysis
+NOTE: AOY08521.1 is identical to AZU90719.1 but kept for subsequent analysis
+NOTE: AMR39834.1 is identical to AWH65848.1 but kept for subsequent analysis
+NOTE: AML82110.1 is identical to AMK79468.2 but kept for subsequent analysis
+NOTE: AMR39831.1 is identical to ARX97119.1 but kept for subsequent analysis
+NOTE: AMR68906.1 is identical to AEN75265.1 but kept for subsequent analysis
+NOTE: ATG29284.1 is identical to AQM74761.1 but kept for subsequent analysis
+NOTE: AMB18850.1 is identical to YP_009428568.1 but kept for subsequent analysis
+NOTE: ANO46297.1 is identical to ANO46298.1 but kept for subsequent analysis
+NOTE: ANN44857.1 is identical to AVG19275.1 but kept for subsequent analysis
+NOTE: QOU08407.1 is identical to QOU08370.1 but kept for subsequent analysis
+NOTE: AWH65849.1 is identical to ANK57897.1 but kept for subsequent analysis
+NOTE: ASU55417.1 is identical to QCG74166.1 but kept for subsequent analysis
+NOTE: APB03019.1 is identical to AMC13911.1 but kept for subsequent analysis
+NOTE: AUI42194.1 is identical to AOG18296.1 but kept for subsequent analysis
+NOTE: QKM77300.1 is identical to QKM77301.1 but kept for subsequent analysis
+NOTE: ARO84674.1 is identical to ARK18853.1 but kept for subsequent analysis
+NOTE: AMR39830.1 is identical to AMR68932.1 but kept for subsequent analysis
+NOTE: ANB66183.1 is identical to AYI50389.1 but kept for subsequent analysis
+NOTE: AOY08518.2 is identical to ARB07962.1 but kept for subsequent analysis
+NOTE: AOY08541.2 is identical to AOY08517.1 but kept for subsequent analysis
+NOTE: AYV74917.1 is identical to AYV74916.1 but kept for subsequent analysis
+NOTE: AYV74920.1 is identical to AYV74919.1 but kept for subsequent analysis
+NOTE: AYV74933.1 is identical to AYV74932.1 but kept for subsequent analysis
+NOTE: APO39243.1 is identical to APO39229.1 but kept for subsequent analysis
+NOTE: APH11498.1 is identical to APH11497.1 but kept for subsequent analysis
+NOTE: APH11504.1 is identical to APH11501.1 but kept for subsequent analysis
+NOTE: APH11512.1 is identical to APH11508.1 but kept for subsequent analysis
+NOTE: APH11529.1 is identical to APH11528.1 but kept for subsequent analysis
+NOTE: ASU55405.1 is identical to ASU55414.1 but kept for subsequent analysis
+NOTE: ANB66182.1 is identical to ASU55425.1 but kept for subsequent analysis
+NOTE: AQZ41950.1 is identical to AQZ41948.1 but kept for subsequent analysis
+NOTE: 162 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: QOU08353.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: QOU08374.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATI21641.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AOY08533.2 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ATG29276.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41954.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AQZ41956.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: AVZ25033.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ARU07183.1 (identical to ANG09399.1) is ignored but added at the end
+NOTE: ANO46304.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: AHZ13508.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: ARB08102.1 (identical to ANO46302.1) is ignored but added at the end
+NOTE: APY24199.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AMH87239.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: QPC45465.1 (identical to AMA12085.1) is ignored but added at the end
+NOTE: AOR82892.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: AOR82893.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: ATB53752.1 (identical to AXF50015.1) is ignored but added at the end
+NOTE: QOU08413.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08373.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08379.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08382.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08385.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08397.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: QOU08398.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: ARB07976.1 (identical to AXQ39998.1) is ignored but added at the end
+NOTE: APW84872.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84873.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84876.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84874.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84875.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: APW84877.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67053.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67051.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67052.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QGA67054.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: ANH22038.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: QOU08393.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOY08537.2 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AOS90224.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: BAV82373.1 (identical to AMN14620.1) is ignored but added at the end
+NOTE: AMZ03557.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55390.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55391.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55412.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55415.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55419.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55426.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55420.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55424.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55422.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55421.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ASU55418.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: ANC90428.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41784.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: APQ41786.1 (identical to AMM39804.1) is ignored but added at the end
+NOTE: AOY08516.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOY08546.2 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39228.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39232.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39233.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APO39236.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO53981.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOO85388.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90221.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: AOS90222.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APB03021.1 (identical to AZU90719.1) is ignored but added at the end
+NOTE: APR74597.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: AMX81918.1 (identical to ARX97119.1) is ignored but added at the end
+NOTE: ATG29306.1 (identical to AQM74761.1) is ignored but added at the end
+NOTE: AMZ03556.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: ANW07476.1 (identical to QCG74166.1) is ignored but added at the end
+NOTE: AOO19564.1 (identical to AOG18296.1) is ignored but added at the end
+NOTE: ANA12599.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANC90425.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMO03410.2 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMT75536.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMM39806.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AMV49165.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: ANF16414.1 (identical to AMR68932.1) is ignored but added at the end
+NOTE: AYV74918.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74924.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74930.1 (identical to AYV74916.1) is ignored but added at the end
+NOTE: AYV74921.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74922.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74923.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74925.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74927.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74928.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74929.1 (identical to AYV74919.1) is ignored but added at the end
+NOTE: AYV74934.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74935.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74936.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: AYV74937.1 (identical to AYV74932.1) is ignored but added at the end
+NOTE: APH11499.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11503.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11506.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11507.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11578.1 (identical to APH11497.1) is ignored but added at the end
+NOTE: APH11505.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11509.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11517.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11521.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11523.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11524.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11525.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11527.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11530.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11531.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11532.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11533.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11535.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11537.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11540.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11541.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11542.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11544.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11545.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11546.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11548.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11550.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11553.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11554.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11555.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11557.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11558.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11559.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11561.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11563.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11564.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11565.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11567.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11568.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11569.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11570.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11572.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11574.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11575.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11576.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11577.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11579.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11580.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11582.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11583.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11584.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11585.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11586.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11587.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11590.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11592.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11593.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11594.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: AWK27349.1 (identical to APH11501.1) is ignored but added at the end
+NOTE: APH11514.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11515.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11516.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11581.1 (identical to APH11508.1) is ignored but added at the end
+NOTE: APH11543.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11560.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: APH11566.1 (identical to APH11528.1) is ignored but added at the end
+NOTE: AQZ41947.1 (identical to AQZ41948.1) is ignored but added at the end
+NOTE: AQZ41951.1 (identical to AQZ41948.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to gtr_ufboot1000.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 756944)...
+
+NOTE: 265 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 31.650 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -28223
+Threads: 2 / Time: 16.122 sec / Speedup: 1.963 / Efficiency: 98% / LogL: -28223
+Threads: 3 / Time: 13.989 sec / Speedup: 2.263 / Efficiency: 75% / LogL: -28223
+Threads: 4 / Time: 12.511 sec / Speedup: 2.530 / Efficiency: 63% / LogL: -28223
+Threads: 5 / Time: 10.714 sec / Speedup: 2.954 / Efficiency: 59% / LogL: -28223
+Threads: 6 / Time: 8.947 sec / Speedup: 3.538 / Efficiency: 59% / LogL: -28223
+Threads: 7 / Time: 8.268 sec / Speedup: 3.828 / Efficiency: 55% / LogL: -28223
+Threads: 8 / Time: 7.598 sec / Speedup: 4.166 / Efficiency: 52% / LogL: -28223
+Threads: 9 / Time: 6.852 sec / Speedup: 4.619 / Efficiency: 51% / LogL: -28223
+Threads: 10 / Time: 6.430 sec / Speedup: 4.922 / Efficiency: 49% / LogL: -28223
+BEST NUMBER OF THREADS: 9
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.284 / LogL: -19006.078
+Init pinv, alpha: 0.090, 1.000 / Estimate: 0.092, 0.348 / LogL: -19004.613
+Init pinv, alpha: 0.181, 1.000 / Estimate: 0.184, 0.434 / LogL: -19003.282
+Init pinv, alpha: 0.271, 1.000 / Estimate: 0.275, 0.558 / LogL: -19002.159
+Init pinv, alpha: 0.362, 1.000 / Estimate: 0.365, 0.752 / LogL: -19001.334
+Init pinv, alpha: 0.452, 1.000 / Estimate: 0.453, 1.088 / LogL: -19001.060
+Init pinv, alpha: 0.542, 1.000 / Estimate: 0.539, 1.789 / LogL: -19001.971
+Init pinv, alpha: 0.633, 1.000 / Estimate: 0.579, 2.466 / LogL: -19003.736
+Init pinv, alpha: 0.723, 1.000 / Estimate: 0.582, 2.540 / LogL: -19005.039
+Init pinv, alpha: 0.813, 1.000 / Estimate: 0.589, 2.702 / LogL: -19007.584
+Optimal pinv,alpha: 0.453, 1.088 / LogL: -19001.060
+
+Parameters optimization took 87.526 sec
+Computing ML distances based on estimated model parameters... 17.275 sec
+Computing BIONJ tree...
+0.087 seconds
+Log-likelihood of BIONJ tree: -18978.818
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 13.428 second
+Computing log-likelihood of 98 initial trees ... 45.210 seconds
+Current best score: -18952.854
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18952.068
+Iteration 10 / LogL: -18962.989 / Time: 0h:5m:48s
+Iteration 20 / LogL: -18967.275 / Time: 0h:7m:3s
+Finish initializing candidate tree set (20)
+Current best tree score: -18952.068 / CPU time: 210.755
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -18951.702
+Iteration 30 / LogL: -18960.692 / Time: 0h:8m:29s (0h:28m:7s left)
+Iteration 40 / LogL: -18954.233 / Time: 0h:10m:4s (0h:22m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -18950.774
+Iteration 50 / LogL: -18957.215 / Time: 0h:11m:21s (0h:22m:56s left)
+Iteration 60 / LogL: -18979.287 / Time: 0h:12m:44s (0h:19m:13s left)
+Iteration 70 / LogL: -18958.323 / Time: 0h:14m:11s (0h:16m:14s left)
+Iteration 80 / LogL: -18956.892 / Time: 0h:15m:41s (0h:13m:42s left)
+Iteration 90 / LogL: -18956.014 / Time: 0h:17m:12s (0h:11m:24s left)
+Iteration 100 / LogL: -18969.352 / Time: 0h:18m:39s (0h:9m:13s left)
+BETTER TREE FOUND at iteration 108: -18950.769
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -18948.829
+Iteration 110 / LogL: -18948.829 / Time: 0h:20m:6s (0h:18m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 117: -18947.457
+Iteration 120 / LogL: -18954.441 / Time: 0h:21m:39s (0h:17m:39s left)
+BETTER TREE FOUND at iteration 121: -18947.451
+Iteration 130 / LogL: -18986.758 / Time: 0h:23m:5s (0h:16m:17s left)
+Iteration 140 / LogL: -18960.948 / Time: 0h:24m:32s (0h:14m:18s left)
+Iteration 150 / LogL: -18947.457 / Time: 0h:26m:2s (0h:12m:24s left)
+BETTER TREE FOUND at iteration 153: -18947.449
+Iteration 160 / LogL: -18952.080 / Time: 0h:27m:22s (0h:16m:0s left)
+Iteration 170 / LogL: -19002.111 / Time: 0h:28m:44s (0h:14m:6s left)
+BETTER TREE FOUND at iteration 179: -18947.449
+Iteration 180 / LogL: -18977.888 / Time: 0h:30m:3s (0h:16m:37s left)
+Iteration 190 / LogL: -18947.451 / Time: 0h:31m:33s (0h:14m:51s left)
+BETTER TREE FOUND at iteration 198: -18947.444
+Iteration 200 / LogL: -18976.363 / Time: 0h:33m:3s (0h:16m:16s left)
+BETTER TREE FOUND at iteration 206: -18947.441
+Iteration 210 / LogL: -18947.453 / Time: 0h:34m:29s (0h:15m:50s left)
+Iteration 220 / LogL: -18989.010 / Time: 0h:35m:52s (0h:14m:5s left)
+BETTER TREE FOUND at iteration 228: -18947.438
+Iteration 230 / LogL: -18975.413 / Time: 0h:37m:15s (0h:15m:56s left)
+Iteration 240 / LogL: -18947.457 / Time: 0h:38m:43s (0h:14m:15s left)
+Iteration 250 / LogL: -18955.808 / Time: 0h:40m:12s (0h:12m:35s left)
+BETTER TREE FOUND at iteration 255: -18947.434
+Iteration 260 / LogL: -18947.458 / Time: 0h:42m:16s (0h:15m:30s left)
+Iteration 270 / LogL: -18963.931 / Time: 0h:43m:45s (0h:13m:49s left)
+Iteration 280 / LogL: -18947.449 / Time: 0h:45m:16s (0h:12m:10s left)
+Iteration 290 / LogL: -18951.389 / Time: 0h:46m:38s (0h:10m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 298: -18946.675
+Iteration 300 / LogL: -18963.832 / Time: 0h:48m:8s (0h:15m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 302: -18945.465
+Iteration 310 / LogL: -18945.482 / Time: 0h:49m:37s (0h:14m:46s left)
+Iteration 320 / LogL: -18945.491 / Time: 0h:51m:8s (0h:13m:8s left)
+Iteration 330 / LogL: -18961.015 / Time: 0h:52m:32s (0h:11m:29s left)
+Iteration 340 / LogL: -18946.689 / Time: 0h:53m:59s (0h:9m:52s left)
+Iteration 350 / LogL: -18959.107 / Time: 0h:55m:22s (0h:8m:15s left)
+Iteration 360 / LogL: -18976.879 / Time: 0h:56m:38s (0h:6m:37s left)
+BETTER TREE FOUND at iteration 368: -18945.461
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 369: -18943.231
+Iteration 370 / LogL: -18956.477 / Time: 0h:58m:6s (0h:15m:35s left)
+Iteration 380 / LogL: -18957.036 / Time: 0h:59m:26s (0h:13m:57s left)
+Iteration 390 / LogL: -18976.153 / Time: 1h:0m:57s (0h:12m:22s left)
+Iteration 400 / LogL: -18955.679 / Time: 1h:2m:23s (0h:10m:47s left)
+Iteration 410 / LogL: -18947.513 / Time: 1h:3m:48s (0h:9m:12s left)
+BETTER TREE FOUND at iteration 411: -18943.222
+Iteration 420 / LogL: -18943.241 / Time: 1h:5m:12s (0h:14m:9s left)
+Iteration 430 / LogL: -19008.237 / Time: 1h:6m:33s (0h:12m:34s left)
+Iteration 440 / LogL: -18943.230 / Time: 1h:8m:4s (0h:11m:0s left)
+Iteration 450 / LogL: -18943.233 / Time: 1h:9m:31s (0h:9m:26s left)
+Iteration 460 / LogL: -18993.138 / Time: 1h:10m:56s (0h:7m:52s left)
+Iteration 470 / LogL: -18950.470 / Time: 1h:12m:18s (0h:6m:19s left)
+Iteration 480 / LogL: -18943.236 / Time: 1h:13m:44s (0h:4m:46s left)
+Iteration 490 / LogL: -18947.504 / Time: 1h:15m:10s (0h:3m:13s left)
+Iteration 500 / LogL: -18948.722 / Time: 1h:16m:39s (0h:1m:41s left)
+Iteration 510 / LogL: -18959.546 / Time: 1h:18m:11s (0h:0m:9s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 512 ITERATIONS / Time: 1h:41m:57s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18943.222
+Optimal log-likelihood: -18943.221
+Proportion of invariable sites: 0.456
+Gamma shape alpha: 1.138
+Parameters optimization took 1 rounds (0.855 sec)
+BEST SCORE FOUND : -18943.221
+Creating bootstrap support values...
+Split supports printed to NEXUS file gtr_ufboot1000.splits.nex
+Total tree length: 0.283
+
+Total number of iterations: 512
+CPU time used for tree search: 51560.818 sec (14h:19m:20s)
+Wall-clock time used for tree search: 5903.732 sec (1h:38m:23s)
+Total CPU time used: 52860.591 sec (14h:41m:0s)
+Total wall-clock time used: 6119.918 sec (1h:41m:59s)
+UFBoot trees printed to gtr_ufboot1000.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file gtr_ufboot1000.splits.nex...
+401 taxa and 39784 splits.
+Consensus tree written to gtr_ufboot1000.contree
+Reading input trees file gtr_ufboot1000.contree
+Log-likelihood of consensus tree: -18947.961
+
+Analysis results written to: 
+  IQ-TREE report:                gtr_ufboot1000.iqtree
+  Maximum-likelihood tree:       gtr_ufboot1000.treefile
+  Likelihood distances:          gtr_ufboot1000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          gtr_ufboot1000.splits.nex
+  Consensus tree:                gtr_ufboot1000.contree
+  UFBoot trees:                  gtr_ufboot1000.ufboot
+  Screen log file:               gtr_ufboot1000.log
+
+Date and Time: Thu May 20 11:30:20 2021
