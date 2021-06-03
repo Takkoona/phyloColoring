@@ -1,0 +1,1110 @@
+IQ-TREE 1.6.12 built Mar 23 2020
+
+Input file name: HA1_aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 907014
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 255 sequences with 328 amino-acid sites
+Number of constant sites: 173 (= 52.7439% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 173 (= 52.7439% of all sites)
+Number of parsimony informative sites: 102
+Number of distinct site patterns: 174
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR20+F+I+G4
+
+WARNING: This model has 208 parameters that may be overfitting. Please use with caution!
+
+Substitution parameters (lower-diagonal) and state frequencies in PAML format (can be used as input for IQ-TREE): 
+
+	0.0001
+	0.0001	0.0001
+	3.6971	0.0001	29.9658
+	0.0001	0.0001	0.0001	0.0001
+	0.0001	16.8003	0.0001	0.0001	0.0001
+	3.5746	0.0001	0.0001	53.2360	0.0001	0.0001
+	0.0001	19.3440	0.0001	24.8245	0.0001	0.0001	19.3045
+	0.0001	4.6361	6.1784	0.0001	0.0001	38.9248	0.0001	0.0001
+	0.0001	6.4485	2.9348	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001
+	0.0001	1.2025	0.0001	0.0001	0.0001	20.4586	0.0001	0.0001	3.7426	11.9491
+	0.0001	47.9494	22.4468	0.0001	0.0001	15.3911	45.1322	1.0272	0.0001	4.4525	0.0001
+	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	64.1486	17.2311	0.0001
+	0.0001	0.0001	0.0001	0.0001	5.7330	0.0001	0.0001	0.0001	0.0001	0.0001	16.3073	0.0001	0.0001
+	3.3113	1.4099	0.0001	0.0001	0.0001	2.4899	0.0001	0.0001	4.2987	0.0001	1.0926	0.0001	0.0001	0.0001
+	5.2486	4.7541	14.3534	0.7008	2.9060	0.0001	0.0001	7.3635	0.0001	7.1584	1.1530	0.0001	0.0001	2.7576	13.6199
+	23.5992	0.0001	9.3521	0.0001	0.0001	0.0001	0.0001	0.0001	3.5635	26.7421	0.0001	7.7194	0.0001	0.0001	2.1252	1.0478
+	0.0001	4.2246	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001	0.0001
+	0.0001	0.0001	2.0114	0.0001	0.0001	0.0001	0.0001	0.0001	26.1166	0.0001	0.0001	0.0001	0.0001	15.7242	0.0001	5.9101	1.6079	0.0001
+	8.4383	1.3248	0.0001	4.4259	0.0001	0.0001	2.6995	3.3443	0.0001	62.5208	1.9140	0.0001	0.0001	5.3745	0.0001	0.0001	0.0001	0.0001	0.2341
+	0.0441	0.0523	0.0786	0.0529	0.0275	0.0360	0.0299	0.0746	0.0205	0.0646	0.0728	0.0556	0.0098	0.0283	0.0586	0.0965	0.0799	0.0182	0.0380	0.0613
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0441
+  pi(R) = 0.0523
+  pi(N) = 0.0786
+  pi(D) = 0.0529
+  pi(C) = 0.0275
+  pi(Q) = 0.0360
+  pi(E) = 0.0299
+  pi(G) = 0.0746
+  pi(H) = 0.0205
+  pi(I) = 0.0646
+  pi(L) = 0.0728
+  pi(K) = 0.0556
+  pi(M) = 0.0098
+  pi(F) = 0.0283
+  pi(P) = 0.0586
+  pi(S) = 0.0965
+  pi(T) = 0.0799
+  pi(W) = 0.0182
+  pi(Y) = 0.0380
+  pi(V) = 0.0613
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1803
+Gamma shape alpha: 0.6686
+
+ Category  Relative_rate  Proportion
+  0         0              0.1803
+  1         0.0823         0.2049
+  2         0.4249         0.2049
+  3         1.1134         0.2049
+  4         3.2592         0.2049
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4190.4267 (s.e. 258.6914)
+Unconstrained log-likelihood (without tree): -1505.8611
+Number of free parameters (#branches + #model parameters): 633
+Akaike information criterion (AIC) score: 9646.8534
+Corrected Akaike information criterion (AICc) score: 812290.8534
+Bayesian information criterion (BIC) score: 12047.8310
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 633
+Sample size (n, alignment length): 328
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 1.5997
+Sum of internal branch lengths: 0.6278 (39.2465% of tree length)
+
+WARNING: 103 near-zero internal branches (<0.0030) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AF201874.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                                                                           +**AY661211.1
+                                                                                                                        +--| (93)
+                                                                                                                        |  +**AY661148.1
+                                                                                                                     +**| (23)
+                                                                                                                     |  |                                                     +**AY661210.1
+                                                                                                                     |  |                                                  +**| (36)
+                                                                                                                     |  |                                                  |  |     +--AY661209.1
+                                                                                                                     |  |                                                  |  |  +**| (69)
+                                                                                                                     |  |                                                  |  |  |  +--AY661203.1
+                                                                                                                     |  |                                                  |  +--| (76)
+                                                                                                                     |  |                                                  |     |     +--AY661202.1
+                                                                                                                     |  |                                                  |     |  +**| (31)
+                                                                                                                     |  |                                                  |     |  |  |  +--AF180643.1
+                                                                                                                     |  |                                                  |     |  |  +--| (70)
+                                                                                                                     |  |                                                  |     |  |     +--AF368446.1
+                                                                                                                     |  |                                                  |     +--| (69)
+                                                                                                                     |  |                                                  |        +--AF368444.1
+                                                                                                                     |  |                                               +--| (31)
+                                                                                                                     |  |                                               |  +--AF131997.1
+                                                                                                                     |  |                                            +**| (25)
+                                                                                                                     |  |                                            |  |                    +--AY661208.1
+                                                                                                                     |  |                                            |  |                 +--| (65)
+                                                                                                                     |  |                                            |  |                 |  +**AY661207.1
+                                                                                                                     |  |                                            |  |              +--| (83)
+                                                                                                                     |  |                                            |  |              |  |                            +**AY661037.1
+                                                                                                                     |  |                                            |  |              |  |                         +--| (92)
+                                                                                                                     |  |                                            |  |              |  |                         |  +**AY661036.1
+                                                                                                                     |  |                                            |  |              |  |                      +**| (18)
+                                                                                                                     |  |                                            |  |              |  |                      |  +--KM821324.1
+                                                                                                                     |  |                                            |  |              |  |                   +**| (53)
+                                                                                                                     |  |                                            |  |              |  |                   |  +**AY661032.1
+                                                                                                                     |  |                                            |  |              |  |              +----| (100)
+                                                                                                                     |  |                                            |  |              |  |              |    +--AY661034.1
+                                                                                                                     |  |                                            |  |              |  |           +--| (72)
+                                                                                                                     |  |                                            |  |              |  |           |  |        +--AY661033.1
+                                                                                                                     |  |                                            |  |              |  |           |  |     +--| (79)
+                                                                                                                     |  |                                            |  |              |  |           |  |     |  +--AY661030.1
+                                                                                                                     |  |                                            |  |              |  |           |  |  +**| (37)
+                                                                                                                     |  |                                            |  |              |  |           |  |  |  +--AY661022.1
+                                                                                                                     |  |                                            |  |              |  |           |  +--| (77)
+                                                                                                                     |  |                                            |  |              |  |           |     +--AY661031.1
+                                                                                                                     |  |                                            |  |              |  |        +**| (1)
+                                                                                                                     |  |                                            |  |              |  |        |  |  +--AY661023.1
+                                                                                                                     |  |                                            |  |              |  |        |  +--| (85)
+                                                                                                                     |  |                                            |  |              |  |        |     +--AY661021.1
+                                                                                                                     |  |                                            |  |              |  |     +**| (4)
+                                                                                                                     |  |                                            |  |              |  |     |  |  +**AY661026.1
+                                                                                                                     |  |                                            |  |              |  |     |  +--| (65)
+                                                                                                                     |  |                                            |  |              |  |     |     +--AY661024.1
+                                                                                                                     |  |                                            |  |              |  |  +--| (93)
+                                                                                                                     |  |                                            |  |              |  |  |  +--KM821317.1
+                                                                                                                     |  |                                            |  |              |  +--| (90)
+                                                                                                                     |  |                                            |  |              |     +--AY661019.1
+                                                                                                                     |  |                                            |  |           +**| (56)
+                                                                                                                     |  |                                            |  |           |  +--AY661206.1
+                                                                                                                     |  |                                            |  |        +--| (100)
+                                                                                                                     |  |                                            |  |        |  |  +--AY661205.1
+                                                                                                                     |  |                                            |  |        |  +--| (74)
+                                                                                                                     |  |                                            |  |        |     |  +**AY661201.1
+                                                                                                                     |  |                                            |  |        |     +--| (65)
+                                                                                                                     |  |                                            |  |        |        +--KM821316.1
+                                                                                                                     |  |                                            |  |     +--| (66)
+                                                                                                                     |  |                                            |  |     |  +--AF008711.1
+                                                                                                                     |  |                                            |  |  +--| (83)
+                                                                                                                     |  |                                            |  |  |  +--AF180602.1
+                                                                                                                     |  |                                            |  +--| (72)
+                                                                                                                     |  |                                            |     +--AY661193.1
+                                                                                                                     |  |                                         +**| (3)
+                                                                                                                     |  |                                         |  |     +--AY661200.1
+                                                                                                                     |  |                                         |  |  +--| (89)
+                                                                                                                     |  |                                         |  |  |  |  +**AY661199.1
+                                                                                                                     |  |                                         |  |  |  +**| (95)
+                                                                                                                     |  |                                         |  |  |     +**AY661198.1
+                                                                                                                     |  |                                         |  +**| (21)
+                                                                                                                     |  |                                         |     +--AY661197.1
+                                                                                                                     |  |                                      +**| (9)
+                                                                                                                     |  |                                      |  +**AY661195.1
+                                                                                                                     |  |                                   +--| (31)
+                                                                                                                     |  |                                   |  +--AY661189.1
+                                                                                                                     |  |                                +--| (87)
+                                                                                                                     |  |                                |  |  +--AY661190.1
+                                                                                                                     |  |                                |  +**| (36)
+                                                                                                                     |  |                                |     +--AF008725.1
+                                                                                                                     |  |                             +--| (11)
+                                                                                                                     |  |                             |  +**AY661187.1
+                                                                                                                     |  |                          +**| (2)
+                                                                                                                     |  |                          |  +--AY661191.1
+                                                                                                                     |  |                       +--| (32)
+                                                                                                                     |  |                       |  |  +**AY661196.1
+                                                                                                                     |  |                       |  +**| (81)
+                                                                                                                     |  |                       |     +**AY661192.1
+                                                                                                                     |  |                    +--| (25)
+                                                                                                                     |  |                    |  |  +**AY661194.1
+                                                                                                                     |  |                    |  +**| (89)
+                                                                                                                     |  |                    |     +**AY661188.1
+                                                                                                                     |  |                 +--| (98)
+                                                                                                                     |  |                 |  |           +--AY661186.1
+                                                                                                                     |  |                 |  |        +**| (24)
+                                                                                                                     |  |                 |  |        |  +--AY661183.1
+                                                                                                                     |  |                 |  |     +**| (14)
+                                                                                                                     |  |                 |  |     |  +**AY661182.1
+                                                                                                                     |  |                 |  |  +--| (58)
+                                                                                                                     |  |                 |  |  |  +--AF008755.1
+                                                                                                                     |  |                 |  +**| (17)
+                                                                                                                     |  |                 |     +**AY661185.1
+                                                                                                                     |  |              +--| (90)
+                                                                                                                     |  |              |  +--AY661178.1
+                                                                                                                     |  |           +**| (6)
+                                                                                                                     |  |           |  |  +--AY661151.1
+                                                                                                                     |  |           |  +--| (48)
+                                                                                                                     |  |           |     +--AF008828.1
+                                                                                                                     |  |        +**| (6)
+                                                                                                                     |  |        |  |  +**AY661161.1
+                                                                                                                     |  |        |  +**| (7)
+                                                                                                                     |  |        |     |        +--AY661158.1
+                                                                                                                     |  |        |     |     +**| (11)
+                                                                                                                     |  |        |     |     |  +--Z46408.1
+                                                                                                                     |  |        |     |  +**| (7)
+                                                                                                                     |  |        |     |  |  |  +--AY661147.1
+                                                                                                                     |  |        |     |  |  +**| (7)
+                                                                                                                     |  |        |     |  |     +--AY661145.1
+                                                                                                                     |  |        |     +**| (4)
+                                                                                                                     |  |        |        +**AY661149.1
+                                                                                                                     |  |     +--| (62)
+                                                                                                                     |  |     |  |              +**AY661204.1
+                                                                                                                     |  |     |  |           +**| (84)
+                                                                                                                     |  |     |  |           |  +**AY661175.1
+                                                                                                                     |  |     |  |        +**| (17)
+                                                                                                                     |  |     |  |        |  |     +**AY661180.1
+                                                                                                                     |  |     |  |        |  |  +--| (68)
+                                                                                                                     |  |     |  |        |  |  |  +--AF180570.1
+                                                                                                                     |  |     |  |        |  +**| (9)
+                                                                                                                     |  |     |  |        |     |  +--AY661179.1
+                                                                                                                     |  |     |  |        |     +--| (62)
+                                                                                                                     |  |     |  |        |        +--AF008769.1
+                                                                                                                     |  |     |  |     +--| (97)
+                                                                                                                     |  |     |  |     |  +--AY661181.1
+                                                                                                                     |  |     |  |  +**| (68)
+                                                                                                                     |  |     |  |  |  |  +**AY661177.1
+                                                                                                                     |  |     |  |  |  +--| (99)
+                                                                                                                     |  |     |  |  |     +**AY661176.1
+                                                                                                                     |  |     |  +--| (49)
+                                                                                                                     |  |     |     |              +--AY661173.1
+                                                                                                                     |  |     |     |           +**| (24)
+                                                                                                                     |  |     |     |           |  +--AY661164.1
+                                                                                                                     |  |     |     |        +**| (9)
+                                                                                                                     |  |     |     |        |  |  +--AY661172.1
+                                                                                                                     |  |     |     |        |  +**| (9)
+                                                                                                                     |  |     |     |        |     |  +--AY661163.1
+                                                                                                                     |  |     |     |        |     +--| (68)
+                                                                                                                     |  |     |     |        |        +--Z46405.1
+                                                                                                                     |  |     |     |     +**| (3)
+                                                                                                                     |  |     |     |     |  +**AY661160.1
+                                                                                                                     |  |     |     |  +**| (9)
+                                                                                                                     |  |     |     |  |  +**AY661166.1
+                                                                                                                     |  |     |     +--| (55)
+                                                                                                                     |  |     |        |     +--AY661171.1
+                                                                                                                     |  |     |        |  +--| (56)
+                                                                                                                     |  |     |        |  |  +**AY661170.1
+                                                                                                                     |  |     |        +**| (12)
+                                                                                                                     |  |     |           +--AY661020.1
+                                                                                                                     |  |  +**| (23)
+                                                                                                                     |  |  |  |  +**AY661168.1
+                                                                                                                     |  |  |  +--| (72)
+                                                                                                                     |  |  |     +--AY661155.1
+                                                                                                                     |  +--| (70)
+                                                                                                                     |     |  +**AY661141.1
+                                                                                                                     |     +--| (95)
+                                                                                                                     |        +**AY661140.1
+                                                                                                                  +**| (33)
+                                                                                                                  |  |  +**AY661138.1
+                                                                                                                  |  +**| (66)
+                                                                                                                  |     +**AY661136.1
+                                                                                                               +--| (73)
+                                                                                                               |  |     +--AY661159.1
+                                                                                                               |  |  +**| (38)
+                                                                                                               |  |  |  +--AY661152.1
+                                                                                                               |  +--| (63)
+                                                                                                               |     |  +**AY661156.1
+                                                                                                               |     +**| (79)
+                                                                                                               |        +**AY661154.1
+                                                                                                            +--| (71)
+                                                                                                            |  |              +--AY661174.1
+                                                                                                            |  |           +**| (49)
+                                                                                                            |  |           |  +--AY661157.1
+                                                                                                            |  |        +**| (33)
+                                                                                                            |  |        |  +**AY661165.1
+                                                                                                            |  |     +**| (40)
+                                                                                                            |  |     |  |  +--AY661167.1
+                                                                                                            |  |     |  +--| (66)
+                                                                                                            |  |     |     +**AY661162.1
+                                                                                                            |  |  +--| (46)
+                                                                                                            |  |  |  +--AY661169.1
+                                                                                                            |  +--| (92)
+                                                                                                            |     +--Z46413.1
+                                                                                                         +--| (81)
+                                                                                                         |  |  +--AY661133.1
+                                                                                                         |  +--| (89)
+                                                                                                         |     +**AY661131.1
+                                                                                                      +--| (71)
+                                                                                                      |  +--AY661130.1
+                                                                                                   +--| (68)
+                                                                                                   |  +--AY661125.1
+                                                                                                +--| (97)
+                                                                                                |  +--AY661074.1
+                                                                                             +--| (63)
+                                                                                             |  |  +**AY661068.1
+                                                                                             |  +**| (58)
+                                                                                             |     +--AY661029.1
+                                                                                          +**| (24)
+                                                                                          |  +--AY661064.1
+                                                                                       +**| (5)
+                                                                                       |  +**AY661072.1
+                                                                                    +**| (9)
+                                                                                    |  +**AY661067.1
+                                                                                 +**| (24)
+                                                                                 |  |                                      +--AY661150.1
+                                                                                 |  |                                   +--| (69)
+                                                                                 |  |                                   |  |     +**AY661137.1
+                                                                                 |  |                                   |  |  +**| (84)
+                                                                                 |  |                                   |  |  |  +**AY661134.1
+                                                                                 |  |                                   |  +**| (45)
+                                                                                 |  |                                   |     +--AY661135.1
+                                                                                 |  |                                +--| (41)
+                                                                                 |  |                                |  +**AY661132.1
+                                                                                 |  |                             +--| (47)
+                                                                                 |  |                             |  |  +**AY661097.1
+                                                                                 |  |                             |  +**| (86)
+                                                                                 |  |                             |     +**AY661096.1
+                                                                                 |  |                          +**| (16)
+                                                                                 |  |                          |  |              +--AY661146.1
+                                                                                 |  |                          |  |           +--| (70)
+                                                                                 |  |                          |  |           |  |        +**AY661143.1
+                                                                                 |  |                          |  |           |  |     +--| (94)
+                                                                                 |  |                          |  |           |  |     |  +**AY661142.1
+                                                                                 |  |                          |  |           |  |  +**| (26)
+                                                                                 |  |                          |  |           |  |  |  +--AF008697.1
+                                                                                 |  |                          |  |           |  +**| (19)
+                                                                                 |  |                          |  |           |     +**AY661120.1
+                                                                                 |  |                          |  |        +**| (25)
+                                                                                 |  |                          |  |        |  +**AY661075.1
+                                                                                 |  |                          |  |     +--| (29)
+                                                                                 |  |                          |  |     |  |  +--AY661095.1
+                                                                                 |  |                          |  |     |  +--| (85)
+                                                                                 |  |                          |  |     |     +**AY661080.1
+                                                                                 |  |                          |  |  +**| (12)
+                                                                                 |  |                          |  |  |  +--AY661081.1
+                                                                                 |  |                          |  +**| (4)
+                                                                                 |  |                          |     +**AY661093.1
+                                                                                 |  |                       +--| (83)
+                                                                                 |  |                       |  +--AY661088.1
+                                                                                 |  |                    +**| (55)
+                                                                                 |  |                    |  |           +**AY661128.1
+                                                                                 |  |                    |  |        +**| (16)
+                                                                                 |  |                    |  |        |  |  +**AY661127.1
+                                                                                 |  |                    |  |        |  +**| (9)
+                                                                                 |  |                    |  |        |     |     +--AY661124.1
+                                                                                 |  |                    |  |        |     |  +**| (10)
+                                                                                 |  |                    |  |        |     |  |  +--AY661089.1
+                                                                                 |  |                    |  |        |     +**| (10)
+                                                                                 |  |                    |  |        |        |  +--AY661112.1
+                                                                                 |  |                    |  |        |        +**| (7)
+                                                                                 |  |                    |  |        |           +--AY661085.1
+                                                                                 |  |                    |  |     +**| (39)
+                                                                                 |  |                    |  |     |  +--AY661122.1
+                                                                                 |  |                    |  |  +--| (81)
+                                                                                 |  |                    |  |  |  +--AY661101.1
+                                                                                 |  |                    |  +--| (61)
+                                                                                 |  |                    |     |  +**AY661119.1
+                                                                                 |  |                    |     +--| (99)
+                                                                                 |  |                    |        +**AY661110.1
+                                                                                 |  |                 +**| (29)
+                                                                                 |  |                 |  +--AY661073.1
+                                                                                 |  |              +--| (71)
+                                                                                 |  |              |  |        +**AY661118.1
+                                                                                 |  |              |  |     +**| (88)
+                                                                                 |  |              |  |     |  +**AY661116.1
+                                                                                 |  |              |  |  +**| (65)
+                                                                                 |  |              |  |  |  +--AY661079.1
+                                                                                 |  |              |  +--| (87)
+                                                                                 |  |              |     +--AY661117.1
+                                                                                 |  |           +**| (50)
+                                                                                 |  |           |  +**AY661066.1
+                                                                                 |  |        +--| (67)
+                                                                                 |  |        |  +--D49961.1
+                                                                                 |  |     +--| (66)
+                                                                                 |  |     |  +**AY661059.1
+                                                                                 |  |  +**| (11)
+                                                                                 |  |  |  |     +**AY661070.1
+                                                                                 |  |  |  |  +--| (100)
+                                                                                 |  |  |  |  |  +**AY661069.1
+                                                                                 |  |  |  +--| (81)
+                                                                                 |  |  |     +--AY661057.1
+                                                                                 |  +**| (3)
+                                                                                 |     |  +--AY661076.1
+                                                                                 |     +--| (70)
+                                                                                 |        +**AY661071.1
+                                                                              +--| (95)
+                                                                              |  +--AF008665.1
+                                                                           +**| (48)
+                                                                           |  |     +**AY661065.1
+                                                                           |  |  +--| (88)
+                                                                           |  |  |  +--D21173.1
+                                                                           |  +--| (68)
+                                                                           |     +--AY661056.1
+                                                                        +**| (30)
+                                                                        |  +**AF008888.1
+                                                                     +--| (84)
+                                                                     |  +--AF008886.1
+                                                                  +--| (89)
+                                                                  |  |  +--AY661055.1
+                                                                  |  +--| (65)
+                                                                  |     +--AY661054.1
+                                                               +--| (74)
+                                                               |  +--AY661053.1
+                                                            +**| (54)
+                                                            |  |     +--AY661052.1
+                                                            |  |  +**| (66)
+                                                            |  |  |  +--AF008903.1
+                                                            |  +--| (89)
+                                                            |     +--AF008905.1
+                                                         +--| (78)
+                                                         |  |  +**AY661051.1
+                                                         |  +**| (93)
+                                                         |     +**AY661050.1
+                                                      +--| (72)
+                                                      |  +--AY661049.1
+                                                   +--| (93)
+                                                   |  +--AF008867.1
+                                                +**| (20)
+                                                |  |  +--AY661025.1
+                                                |  +**| (17)
+                                                |     +--U08858.1
+                                             +--| (99)
+                                             |  +--AY661048.1
+                                          +**| (41)
+                                          |  |     +**AY661047.1
+                                          |  |  +**| (99)
+                                          |  |  |  +**AY661014.1
+                                          |  +--| (85)
+                                          |     |  +--AY661016.1
+                                          |     +--| (95)
+                                          |        +--AY661015.1
+                                       +--| (100)
+                                       |  +--AY661046.1
+                                    +--| (100)
+                                    |  +--CY120992.1
+                                 +--| (93)
+                                 |  |  +**AY661044.1
+                                 |  +--| (98)
+                                 |     +--AY661007.1
+                              +--| (100)
+                              |  |                  +--AY661045.1
+                              |  |               +**| (21)
+                              |  |               |  +--EF626609.1
+                              |  |            +**| (14)
+                              |  |            |  +--AY661008.1
+                              |  |         +**| (12)
+                              |  |         |  |  +**AY661010.1
+                              |  |         |  +**| (35)
+                              |  |         |     +**AY661006.1
+                              |  |      +**| (10)
+                              |  |      |  |  +--AY661013.1
+                              |  |      |  +**| (10)
+                              |  |      |     +--AY661012.1
+                              |  |   +**| (28)
+                              |  |   |  +--AY661011.1
+                              |  +---| (100)
+                              |      +--AY661009.1
+                           +**| (59)
+                           |  |  +**AY661028.1
+                           |  +--| (96)
+                           |     +**AY661027.1
+                        +**| (56)
+                        |  |  +**AY661042.1
+                        |  +**| (94)
+                        |     +**AY661017.1
+                     +--| (96)
+                     |  +--AY661005.1
+                  +--| (78)
+                  |  +--AF092062.1
+               +--| (87)
+               |  |           +----AY661043.1
+               |  |        +--| (85)
+               |  |        |  +--AY661018.1
+               |  |     +**| (59)
+               |  |     |  +--AY661002.1
+               |  |  +**| (30)
+               |  |  |  |  +**AY661004.1
+               |  |  |  +--| (97)
+               |  |  |     +**AY661003.1
+               |  +**| (67)
+               |     |  +**AY661041.1
+               |     +**| (83)
+               |        +**AY661001.1
+            +--| (99)
+            |  +----AF201875.1
+         +--| (93)
+         |  |     +--AY660999.1
+         |  |  +**| (46)
+         |  |  |  +**AY660998.1
+         |  +--| (62)
+         |     +--AY660997.1
+      +--| (59)
+      |  +--AY660996.1
+   +--| (59)
+   |  +**AY661038.1
++**| (87)
+|  |        +**AY661039.1
+|  |     +**| (99)
+|  |     |  +**AY660991.1
+|  |  +--| (85)
+|  |  |  |     +--AY660995.1
+|  |  |  |  +**| (39)
+|  |  |  |  |  +--AY660994.1
+|  |  |  +--| (49)
+|  |  |     |  +**AY660993.1
+|  |  |     +**| (97)
+|  |  |        +**AY660992.1
+|  +**| (40)
+|     +----CY112289.1
+|
++--AY661040.1
+|
++----AF201874.1
+
+Tree in newick format:
+
+((((((((((((((((((((((((((((((((((((((((((AY661211.1:0.0000026284,AY661148.1:0.0000023883)93:0.0034369140,((((((((((((((((((AY661210.1:0.0000023039,((AY661209.1:0.0138685799,AY661203.1:0.0102981551)69:0.0000025244,((AY661202.1:0.0034286139,(AF180643.1:0.0137554339,AF368446.1:0.0034478197)70:0.0034249099)31:0.0000026000,AF368444.1:0.0034220497)69:0.0034351827)76:0.0034366191)36:0.0000025700,AF131997.1:0.0068039626)31:0.0034341539,(((((((AY661208.1:0.0103019208,AY661207.1:0.0000025028)65:0.0033997830,(((((((((AY661037.1:0.0000020788,AY661036.1:0.0000021884)92:0.0033623450,KM821324.1:0.0033558614)18:0.0000025350,AY661032.1:0.0000026278)53:0.0000026865,AY661034.1:0.0101316580)100:0.0348129571,(((AY661033.1:0.0172136226,AY661030.1:0.0034492564)79:0.0033713092,AY661022.1:0.0068492262)37:0.0000028602,AY661031.1:0.0034120301)77:0.0034442866)72:0.0033879584,(AY661023.1:0.0103845613,AY661021.1:0.0104086243)85:0.0103742034)1:0.0000025789,(AY661026.1:0.0000024950,AY661024.1:0.0103099520)65:0.0034031477)4:0.0000030429,KM821317.1:0.0103259897)93:0.0104796514,AY661019.1:0.0139266980)90:0.0034847199)83:0.0034227326,AY661206.1:0.0068569868)56:0.0000021392,(AY661205.1:0.0033813969,(AY661201.1:0.0000026036,KM821316.1:0.0134891201)65:0.0033659323)74:0.0034029989)100:0.0209105696,AF008711.1:0.0034465155)66:0.0034497873,AF180602.1:0.0034273752)83:0.0034914208,AY661193.1:0.0139554660)72:0.0069233479)25:0.0000022432,((AY661200.1:0.0034043508,(AY661199.1:0.0000021322,AY661198.1:0.0000025887)95:0.0000024229)89:0.0069063060,AY661197.1:0.0103830488)21:0.0000021537)3:0.0000024266,AY661195.1:0.0000025887)9:0.0000024691,AY661189.1:0.0069050514)31:0.0034233541,(AY661190.1:0.0033969444,AF008725.1:0.0034208223)36:0.0000021451)87:0.0068293564,AY661187.1:0.0000026693)11:0.0033695091,AY661191.1:0.0067281294)2:0.0000027202,(AY661196.1:0.0000025887,AY661192.1:0.0000025887)81:0.0000026433)32:0.0033630099,(AY661194.1:0.0000025887,AY661188.1:0.0000025887)89:0.0000023078)25:0.0033843039,((((AY661186.1:0.0033726325,AY661183.1:0.0101676270)24:0.0000025895,AY661182.1:0.0000025887)14:0.0000025695,AF008755.1:0.0033824318)58:0.0033846240,AY661185.1:0.0000025163)17:0.0000021221)98:0.0136408745,AY661178.1:0.0033807007)90:0.0067666688,(AY661151.1:0.0067927653,AF008828.1:0.0137743624)48:0.0034063640)6:0.0000027143,(AY661161.1:0.0000025887,(((AY661158.1:0.0102604845,Z46408.1:0.0102920204)11:0.0000029351,(AY661147.1:0.0033966673,AY661145.1:0.0033857432)7:0.0000020890)7:0.0000023620,AY661149.1:0.0000023219)4:0.0000021065)7:0.0000026106)6:0.0000027748,(((((AY661204.1:0.0000025887,AY661175.1:0.0000025887)84:0.0000028989,((AY661180.1:0.0000025264,AF180570.1:0.0034184548)68:0.0034251091,(AY661179.1:0.0104350653,AF008769.1:0.0174606346)62:0.0034693451)9:0.0000024280)17:0.0000023464,AY661181.1:0.0104151810)97:0.0103437292,(AY661177.1:0.0000026221,AY661176.1:0.0000021740)99:0.0068768103)68:0.0000027987,(((((AY661173.1:0.0138365990,AY661164.1:0.0103241201)24:0.0000022442,(AY661172.1:0.0034178457,(AY661163.1:0.0034007574,Z46405.1:0.0034135640)68:0.0034090208)9:0.0000024573)9:0.0000025797,AY661160.1:0.0000025887)3:0.0000021147,AY661166.1:0.0000025887)9:0.0000027163,((AY661171.1:0.0034262305,AY661170.1:0.0000024966)56:0.0034085454,AY661020.1:0.0034090987)12:0.0000025933)55:0.0034000968)49:0.0034092276)62:0.0037193209,(AY661168.1:0.0000024722,AY661155.1:0.0034259349)72:0.0034298405)23:0.0000021620,(AY661141.1:0.0000027226,AY661140.1:0.0000027226)95:0.0034281881)70:0.0034335145)23:0.0000028334,(AY661138.1:0.0000030511,AY661136.1:0.0000030002)66:0.0000027450)33:0.0000028161,((AY661159.1:0.0034398095,AY661152.1:0.0034081905)38:0.0000027852,(AY661156.1:0.0000025887,AY661154.1:0.0000025887)79:0.0000028275)63:0.0034331096)73:0.0034476647,(((((AY661174.1:0.0068868500,AY661157.1:0.0069197809)49:0.0000025778,AY661165.1:0.0000025887)33:0.0000026288,(AY661167.1:0.0034452887,AY661162.1:0.0000025887)66:0.0034521123)40:0.0000025898,AY661169.1:0.0139470544)46:0.0035079378,Z46413.1:0.0034701337)92:0.0070081304)71:0.0034914127,(AY661133.1:0.0033961174,AY661131.1:0.0000028908)89:0.0068672456)81:0.0035862815,AY661130.1:0.0032887790)71:0.0034259591,AY661125.1:0.0104424730)68:0.0038111287,AY661074.1:0.0067291478)97:0.0105517234,(AY661068.1:0.0000023593,AY661029.1:0.0034340009)58:0.0000026777)63:0.0034273699,AY661064.1:0.0034299030)24:0.0000026151,AY661072.1:0.0000025887)5:0.0000023400,AY661067.1:0.0000025887)9:0.0000025223,(((((((((((((AY661150.1:0.0033341710,((AY661137.1:0.0000025887,AY661134.1:0.0000025887)84:0.0000021660,AY661135.1:0.0033387503)45:0.0000027439)69:0.0033438289,AY661132.1:0.0000026363)41:0.0033469807,(AY661097.1:0.0000027471,AY661096.1:0.0000022970)86:0.0000030002)47:0.0033510296,(((((AY661146.1:0.0033529176,(((AY661143.1:0.0000028070,AY661142.1:0.0000023483)94:0.0033530601,AF008697.1:0.0033636990)26:0.0000025675,AY661120.1:0.0000021987)19:0.0000021282)70:0.0033561321,AY661075.1:0.0000026345)25:0.0000027306,(AY661095.1:0.0033666900,AY661080.1:0.0000027532)85:0.0067357950)29:0.0033600457,AY661081.1:0.0067171545)12:0.0000025997,AY661093.1:0.0000025675)4:0.0000026810)16:0.0000026837,AY661088.1:0.0033499070)83:0.0067733785,((((AY661128.1:0.0000025887,(AY661127.1:0.0000025887,((AY661124.1:0.0034480174,AY661089.1:0.0034412875)10:0.0000025886,(AY661112.1:0.0070134867,AY661085.1:0.0034495954)7:0.0000025886)10:0.0000023932)9:0.0000024493)16:0.0000025886,AY661122.1:0.0034419152)39:0.0000022044,AY661101.1:0.0068705379)81:0.0034680653,(AY661119.1:0.0000026210,AY661110.1:0.0000026140)99:0.0068359744)61:0.0034101041)55:0.0000021359,AY661073.1:0.0033917330)29:0.0000025633,(((AY661118.1:0.0000025887,AY661116.1:0.0000025887)88:0.0000020936,AY661079.1:0.0033742036)65:0.0000025898,AY661117.1:0.0033770728)87:0.0067952649)71:0.0033921399,AY661066.1:0.0000023386)50:0.0000023487,D49961.1:0.0067756397)67:0.0033941013,AY661059.1:0.0000022787)66:0.0034298773,((AY661070.1:0.0000021948,AY661069.1:0.0000024269)100:0.0104107361,AY661057.1:0.0069116902)81:0.0034112065)11:0.0000026015,(AY661076.1:0.0034114607,AY661071.1:0.0000023181)70:0.0034215815)3:0.0000022015)24:0.0000027609,AF008665.1:0.0136564245)95:0.0137995379,((AY661065.1:0.0000020550,D21173.1:0.0034113987)88:0.0068086477,AY661056.1:0.0033868539)68:0.0034288899)48:0.0000022874,AF008888.1:0.0000028307)30:0.0000025774,AF008886.1:0.0034213623)84:0.0034426486,(AY661055.1:0.0034517131,AY661054.1:0.0139333676)65:0.0034117172)89:0.0069318662,AY661053.1:0.0104172615)74:0.0034097526,((AY661052.1:0.0034335107,AF008903.1:0.0034236426)66:0.0000021849,AF008905.1:0.0140394910)89:0.0068931098)54:0.0000026254,(AY661051.1:0.0000025887,AY661050.1:0.0000025887)93:0.0000023404)78:0.0034447505,AY661049.1:0.0034290284)72:0.0034436900,AF008867.1:0.0103343375)93:0.0068863486,(AY661025.1:0.0034089222,U08858.1:0.0136842765)17:0.0000025690)20:0.0000022213,AY661048.1:0.0034191008)99:0.0137374817,((AY661047.1:0.0000025887,AY661014.1:0.0000025887)99:0.0000023968,(AY661016.1:0.0033919146,AY661015.1:0.0034440714)95:0.0102976327)85:0.0068069034)41:0.0000028185,AY661046.1:0.0033739443)100:0.0246154986,CY120992.1:0.0031100413)100:0.0212003840,(AY661044.1:0.0000028015,AY661007.1:0.0033588288)98:0.0038979728)93:0.0131887696,((((((AY661045.1:0.0033454032,EF626609.1:0.0067636070)21:0.0000025886,AY661008.1:0.0033640003)14:0.0000025886,(AY661010.1:0.0000025887,AY661006.1:0.0000025887)35:0.0000022142)12:0.0000025886,(AY661013.1:0.0101289746,AY661012.1:0.0067718276)10:0.0000025886)10:0.0000025886,AY661011.1:0.0068050176)28:0.0000023398,AY661009.1:0.0033526561)100:0.0251830588)100:0.0169693284,(AY661028.1:0.0000025887,AY661027.1:0.0000021147)96:0.0033150685)59:0.0000025704,(AY661042.1:0.0000025887,AY661017.1:0.0000025887)94:0.0000025616)56:0.0000023062,AY661005.1:0.0134329260)96:0.0101378680,AF092062.1:0.0033335503)78:0.0067301044,((((AY661043.1:0.0318264255,AY661018.1:0.0129795538)85:0.0043652035,AY661002.1:0.0033448129)59:0.0000025746,(AY661004.1:0.0000027381,AY661003.1:0.0000027381)97:0.0033499358)30:0.0000025786,(AY661041.1:0.0000025887,AY661001.1:0.0000025887)83:0.0000024897)67:0.0000030098)87:0.0063906638,AF201875.1:0.0320885564)99:0.0143189126,((AY660999.1:0.0135703695,AY660998.1:0.0000023447)46:0.0000025746,AY660997.1:0.0067090281)62:0.0066726379)93:0.0102771542,AY660996.1:0.0033150692)59:0.0033342194,AY661038.1:0.0000022322)59:0.0056453261,(((AY661039.1:0.0000025887,AY660991.1:0.0000025887)99:0.0000027130,((AY660995.1:0.0033417227,AY660994.1:0.0067336066)39:0.0000021839,(AY660993.1:0.0000025887,AY660992.1:0.0000025887)97:0.0000025886)49:0.0033471463)85:0.0067902809,CY112289.1:0.0348404985)40:0.0021039604)87:0.0019248444,AY661040.1:0.0105706297,AF201874.1:0.0346509515);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -4191.012121
+Robinson-Foulds distance between ML tree and consensus tree: 92
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                                                                                  +**AY661211.1
+                                                                                                                               +**|
+                                                                                                                               |  +**AY661139.1
+                                                                                                                            +--|
+                                                                                                                            |  +**AY661144.1
+                                                                                                                         +--| (93)
+                                                                                                                         |  +--AY661148.1
+                                                                                                                      +--| (23)
+                                                                                                                      |  |  +--AY661138.1
+                                                                                                                      |  +--| (66)
+                                                                                                                      |     +--AY661136.1
+                                                                                                                   +--| (33)
+                                                                                                                   |  |                                                     +--AY661210.1
+                                                                                                                   |  |                                                  +--| (36)
+                                                                                                                   |  |                                                  |  |     +--AY661209.1
+                                                                                                                   |  |                                                  |  |  +--| (69)
+                                                                                                                   |  |                                                  |  |  |  +--AY661203.1
+                                                                                                                   |  |                                                  |  +--| (76)
+                                                                                                                   |  |                                                  |     |     +--AY661202.1
+                                                                                                                   |  |                                                  |     |  +--| (34)
+                                                                                                                   |  |                                                  |     |  |  +--AF368444.1
+                                                                                                                   |  |                                                  |     +--| (69)
+                                                                                                                   |  |                                                  |        |  +--AF180643.1
+                                                                                                                   |  |                                                  |        +--| (70)
+                                                                                                                   |  |                                                  |           +--AF368446.1
+                                                                                                                   |  |                                               +--| (31)
+                                                                                                                   |  |                                               |  +--AF131997.1
+                                                                                                                   |  |                                            +--| (25)
+                                                                                                                   |  |                                            |  |                    +--AY661208.1
+                                                                                                                   |  |                                            |  |                 +--| (65)
+                                                                                                                   |  |                                            |  |                 |  +--AY661207.1
+                                                                                                                   |  |                                            |  |              +--| (83)
+                                                                                                                   |  |                                            |  |              |  |                            +**AY661037.1
+                                                                                                                   |  |                                            |  |              |  |                         +--|
+                                                                                                                   |  |                                            |  |              |  |                         |  +**AY661035.1
+                                                                                                                   |  |                                            |  |              |  |                      +--| (92)
+                                                                                                                   |  |                                            |  |              |  |                      |  +--AY661036.1
+                                                                                                                   |  |                                            |  |              |  |                   +--| (29)
+                                                                                                                   |  |                                            |  |              |  |                   |  +--AY661032.1
+                                                                                                                   |  |                                            |  |              |  |                +--| (53)
+                                                                                                                   |  |                                            |  |              |  |                |  +--KM821324.1
+                                                                                                                   |  |                                            |  |              |  |           +----| (100)
+                                                                                                                   |  |                                            |  |              |  |           |    +--AY661034.1
+                                                                                                                   |  |                                            |  |              |  |        +--| (72)
+                                                                                                                   |  |                                            |  |              |  |        |  |        +--AY661033.1
+                                                                                                                   |  |                                            |  |              |  |        |  |     +--| (79)
+                                                                                                                   |  |                                            |  |              |  |        |  |     |  +--AY661030.1
+                                                                                                                   |  |                                            |  |              |  |        |  |  +--| (37)
+                                                                                                                   |  |                                            |  |              |  |        |  |  |  +--AY661022.1
+                                                                                                                   |  |                                            |  |              |  |        |  +--| (77)
+                                                                                                                   |  |                                            |  |              |  |        |     +--AY661031.1
+                                                                                                                   |  |                                            |  |              |  |     +--| (70)
+                                                                                                                   |  |                                            |  |              |  |     |  |     +--AY661026.1
+                                                                                                                   |  |                                            |  |              |  |     |  |  +--| (65)
+                                                                                                                   |  |                                            |  |              |  |     |  |  |  +--AY661024.1
+                                                                                                                   |  |                                            |  |              |  |     |  +--| (33)
+                                                                                                                   |  |                                            |  |              |  |     |     +--KM821317.1
+                                                                                                                   |  |                                            |  |              |  |  +--| (93)
+                                                                                                                   |  |                                            |  |              |  |  |  |  +--AY661023.1
+                                                                                                                   |  |                                            |  |              |  |  |  +--| (85)
+                                                                                                                   |  |                                            |  |              |  |  |     +--AY661021.1
+                                                                                                                   |  |                                            |  |              |  +--| (90)
+                                                                                                                   |  |                                            |  |              |     +--AY661019.1
+                                                                                                                   |  |                                            |  |           +--| (56)
+                                                                                                                   |  |                                            |  |           |  +--AY661206.1
+                                                                                                                   |  |                                            |  |        +--| (100)
+                                                                                                                   |  |                                            |  |        |  |  +--AY661205.1
+                                                                                                                   |  |                                            |  |        |  +--| (74)
+                                                                                                                   |  |                                            |  |        |     |  +--AY661201.1
+                                                                                                                   |  |                                            |  |        |     +--| (65)
+                                                                                                                   |  |                                            |  |        |        +--KM821316.1
+                                                                                                                   |  |                                            |  |     +--| (66)
+                                                                                                                   |  |                                            |  |     |  +--AF008711.1
+                                                                                                                   |  |                                            |  |  +--| (83)
+                                                                                                                   |  |                                            |  |  |  +--AF180602.1
+                                                                                                                   |  |                                            |  +--| (72)
+                                                                                                                   |  |                                            |     +--AY661193.1
+                                                                                                                   |  |                                         +--| (5)
+                                                                                                                   |  |                                         |  +--AY661195.1
+                                                                                                                   |  |                                      +--| (9)
+                                                                                                                   |  |                                      |  |     +--AY661200.1
+                                                                                                                   |  |                                      |  |  +--| (89)
+                                                                                                                   |  |                                      |  |  |  |  +--AY661199.1
+                                                                                                                   |  |                                      |  |  |  +--| (95)
+                                                                                                                   |  |                                      |  |  |     +--AY661198.1
+                                                                                                                   |  |                                      |  +--| (21)
+                                                                                                                   |  |                                      |     +--AY661197.1
+                                                                                                                   |  |                                   +--| (31)
+                                                                                                                   |  |                                   |  +--AY661189.1
+                                                                                                                   |  |                                +--| (87)
+                                                                                                                   |  |                                |  |  +--AY661190.1
+                                                                                                                   |  |                                |  +--| (36)
+                                                                                                                   |  |                                |     +--AF008725.1
+                                                                                                                   |  |                             +--| (33)
+                                                                                                                   |  |                             |  |           +**AY661196.1
+                                                                                                                   |  |                             |  |        +--|
+                                                                                                                   |  |                             |  |        |  +**AY661184.1
+                                                                                                                   |  |                             |  |     +--| (81)
+                                                                                                                   |  |                             |  |     |  +--AY661192.1
+                                                                                                                   |  |                             |  |  +--| (28)
+                                                                                                                   |  |                             |  |  |  |  +--AY661194.1
+                                                                                                                   |  |                             |  |  |  +--| (89)
+                                                                                                                   |  |                             |  |  |     +--AY661188.1
+                                                                                                                   |  |                             |  +--| (38)
+                                                                                                                   |  |                             |     +--AY661191.1
+                                                                                                                   |  |                          +--| (25)
+                                                                                                                   |  |                          |  +--AY661187.1
+                                                                                                                   |  |                       +--| (19)
+                                                                                                                   |  |                       |  +--AY661185.1
+                                                                                                                   |  |                    +--| (98)
+                                                                                                                   |  |                    |  |        +--AY661186.1
+                                                                                                                   |  |                    |  |     +--| (23)
+                                                                                                                   |  |                    |  |     |  +--AY661182.1
+                                                                                                                   |  |                    |  |  +--| (25)
+                                                                                                                   |  |                    |  |  |  +--AF008755.1
+                                                                                                                   |  |                    |  +--| (58)
+                                                                                                                   |  |                    |     +--AY661183.1
+                                                                                                                   |  |                 +--| (90)
+                                                                                                                   |  |                 |  +--AY661178.1
+                                                                                                                   |  |              +--| (15)
+                                                                                                                   |  |              |  +--AY661145.1
+                                                                                                                   |  |           +--| (6)
+                                                                                                                   |  |           |  |                 +--AY661204.1
+                                                                                                                   |  |           |  |              +--| (84)
+                                                                                                                   |  |           |  |              |  +--AY661175.1
+                                                                                                                   |  |           |  |           +--| (39)
+                                                                                                                   |  |           |  |           |  |  +--AY661181.1
+                                                                                                                   |  |           |  |           |  +--| (59)
+                                                                                                                   |  |           |  |           |     |  +--AY661179.1
+                                                                                                                   |  |           |  |           |     +--| (62)
+                                                                                                                   |  |           |  |           |        +--AF008769.1
+                                                                                                                   |  |           |  |        +--| (97)
+                                                                                                                   |  |           |  |        |  |  +--AY661180.1
+                                                                                                                   |  |           |  |        |  +--| (68)
+                                                                                                                   |  |           |  |        |     +--AF180570.1
+                                                                                                                   |  |           |  |     +--| (68)
+                                                                                                                   |  |           |  |     |  |  +--AY661177.1
+                                                                                                                   |  |           |  |     |  +--| (99)
+                                                                                                                   |  |           |  |     |     +--AY661176.1
+                                                                                                                   |  |           |  |  +--| (49)
+                                                                                                                   |  |           |  |  |  |              +--AY661173.1
+                                                                                                                   |  |           |  |  |  |           +--| (25)
+                                                                                                                   |  |           |  |  |  |           |  |  +--AY661163.1
+                                                                                                                   |  |           |  |  |  |           |  +--| (68)
+                                                                                                                   |  |           |  |  |  |           |     +--Z46405.1
+                                                                                                                   |  |           |  |  |  |        +--| (7)
+                                                                                                                   |  |           |  |  |  |        |  |     +--AY661171.1
+                                                                                                                   |  |           |  |  |  |        |  |  +--| (56)
+                                                                                                                   |  |           |  |  |  |        |  |  |  +--AY661170.1
+                                                                                                                   |  |           |  |  |  |        |  +--| (13)
+                                                                                                                   |  |           |  |  |  |        |     +--AY661164.1
+                                                                                                                   |  |           |  |  |  |     +--| (7)
+                                                                                                                   |  |           |  |  |  |     |  |     +**AY661166.1
+                                                                                                                   |  |           |  |  |  |     |  |  +--|
+                                                                                                                   |  |           |  |  |  |     |  |  |  +**Z46414.1
+                                                                                                                   |  |           |  |  |  |     |  +--| (30)
+                                                                                                                   |  |           |  |  |  |     |     +--AY661160.1
+                                                                                                                   |  |           |  |  |  |  +--| (14)
+                                                                                                                   |  |           |  |  |  |  |  +--AY661020.1
+                                                                                                                   |  |           |  |  |  +--| (55)
+                                                                                                                   |  |           |  |  |     +--AY661172.1
+                                                                                                                   |  |           |  +--| (9)
+                                                                                                                   |  |           |     +--AY661158.1
+                                                                                                                   |  |        +--| (4)
+                                                                                                                   |  |        |  |  +--AY661161.1
+                                                                                                                   |  |        |  +--| (25)
+                                                                                                                   |  |        |     +--AY661149.1
+                                                                                                                   |  |     +--| (6)
+                                                                                                                   |  |     |  +--AY661147.1
+                                                                                                                   |  |  +--| (62)
+                                                                                                                   |  |  |  |     +--AY661151.1
+                                                                                                                   |  |  |  |  +--| (48)
+                                                                                                                   |  |  |  |  |  +--AF008828.1
+                                                                                                                   |  |  |  +--| (23)
+                                                                                                                   |  |  |     +--Z46408.1
+                                                                                                                   |  +--| (70)
+                                                                                                                   |     |     +--AY661168.1
+                                                                                                                   |     |  +--| (72)
+                                                                                                                   |     |  |  +--AY661155.1
+                                                                                                                   |     +--| (30)
+                                                                                                                   |        |  +--AY661141.1
+                                                                                                                   |        +--| (95)
+                                                                                                                   |           +--AY661140.1
+                                                                                                                +--| (73)
+                                                                                                                |  |     +--AY661159.1
+                                                                                                                |  |  +--| (38)
+                                                                                                                |  |  |  +--AY661152.1
+                                                                                                                |  +--| (63)
+                                                                                                                |     |        +**AY661156.1
+                                                                                                                |     |     +**|
+                                                                                                                |     |     |  +**AY661153.1
+                                                                                                                |     |  +--|
+                                                                                                                |     |  |  +**AY661129.1
+                                                                                                                |     +--| (79)
+                                                                                                                |        +--AY661154.1
+                                                                                                             +--| (71)
+                                                                                                             |  |              +--AY661174.1
+                                                                                                             |  |           +--| (49)
+                                                                                                             |  |           |  +--AY661157.1
+                                                                                                             |  |        +--| (33)
+                                                                                                             |  |        |  +--AY661165.1
+                                                                                                             |  |     +--| (40)
+                                                                                                             |  |     |  |  +--AY661167.1
+                                                                                                             |  |     |  +--| (66)
+                                                                                                             |  |     |     +--AY661162.1
+                                                                                                             |  |  +--| (46)
+                                                                                                             |  |  |  +--AY661169.1
+                                                                                                             |  +--| (92)
+                                                                                                             |     +--Z46413.1
+                                                                                                          +--| (81)
+                                                                                                          |  |  +--AY661133.1
+                                                                                                          |  +--| (89)
+                                                                                                          |     +--AY661131.1
+                                                                                                       +--| (71)
+                                                                                                       |  +--AY661130.1
+                                                                                                    +--| (68)
+                                                                                                    |  +--AY661125.1
+                                                                                                 +--| (97)
+                                                                                                 |  +--AY661074.1
+                                                                                              +--| (63)
+                                                                                              |  |  +--AY661068.1
+                                                                                              |  +--| (58)
+                                                                                              |     +--AY661029.1
+                                                                                           +--| (24)
+                                                                                           |  +--AY661064.1
+                                                                                        +--| (9)
+                                                                                        |  |                 +**AY661072.1
+                                                                                        |  |              +**|
+                                                                                        |  |              |  +**AY661060.1
+                                                                                        |  |           +**|
+                                                                                        |  |           |  +**AY661063.1
+                                                                                        |  |        +**|
+                                                                                        |  |        |  +**AY661061.1
+                                                                                        |  |     +**|
+                                                                                        |  |     |  +**AY661058.1
+                                                                                        |  |  +--|
+                                                                                        |  |  |  +**AY661062.1
+                                                                                        |  +--| (35)
+                                                                                        |     +--AY661067.1
+                                                                                     +--| (9)
+                                                                                     |  |  +--AY661076.1
+                                                                                     |  +--| (70)
+                                                                                     |     +--AY661071.1
+                                                                                  +--| (24)
+                                                                                  |  |                                +--AY661150.1
+                                                                                  |  |                             +--| (69)
+                                                                                  |  |                             |  |     +--AY661137.1
+                                                                                  |  |                             |  |  +--| (84)
+                                                                                  |  |                             |  |  |  +--AY661134.1
+                                                                                  |  |                             |  +--| (45)
+                                                                                  |  |                             |     +--AY661135.1
+                                                                                  |  |                          +--| (41)
+                                                                                  |  |                          |  +--AY661132.1
+                                                                                  |  |                       +--| (47)
+                                                                                  |  |                       |  |  +--AY661097.1
+                                                                                  |  |                       |  +--| (86)
+                                                                                  |  |                       |     +--AY661096.1
+                                                                                  |  |                    +--| (83)
+                                                                                  |  |                    |  |                 +--AY661146.1
+                                                                                  |  |                    |  |              +--| (21)
+                                                                                  |  |                    |  |              |  |  +--AY661143.1
+                                                                                  |  |                    |  |              |  +--| (94)
+                                                                                  |  |                    |  |              |     +--AY661142.1
+                                                                                  |  |                    |  |           +--| (32)
+                                                                                  |  |                    |  |           |  +--AY661120.1
+                                                                                  |  |                    |  |        +--| (70)
+                                                                                  |  |                    |  |        |  +--AF008697.1
+                                                                                  |  |                    |  |     +--| (25)
+                                                                                  |  |                    |  |     |  +--AY661075.1
+                                                                                  |  |                    |  |  +--| (12)
+                                                                                  |  |                    |  |  |  |     +--AY661095.1
+                                                                                  |  |                    |  |  |  |  +--| (85)
+                                                                                  |  |                    |  |  |  |  |  +--AY661080.1
+                                                                                  |  |                    |  |  |  +--| (31)
+                                                                                  |  |                    |  |  |     +--AY661081.1
+                                                                                  |  |                    |  +--| (12)
+                                                                                  |  |                    |     |  +--AY661093.1
+                                                                                  |  |                    |     +--| (19)
+                                                                                  |  |                    |        +--AY661088.1
+                                                                                  |  |                 +--| (55)
+                                                                                  |  |                 |  |                                                                                            +**AY661128.1
+                                                                                  |  |                 |  |                                                                                         +**|
+                                                                                  |  |                 |  |                                                                                         |  +**AY661098.1
+                                                                                  |  |                 |  |                                                                                      +**|
+                                                                                  |  |                 |  |                                                                                      |  +**AY661090.1
+                                                                                  |  |                 |  |                                                                                   +**|
+                                                                                  |  |                 |  |                                                                                   |  +**AY661123.1
+                                                                                  |  |                 |  |                                                                                +**|
+                                                                                  |  |                 |  |                                                                                |  +**AY661099.1
+                                                                                  |  |                 |  |                                                                             +**|
+                                                                                  |  |                 |  |                                                                             |  +**AY661086.1
+                                                                                  |  |                 |  |                                                                          +**|
+                                                                                  |  |                 |  |                                                                          |  +**AY661107.1
+                                                                                  |  |                 |  |                                                                       +**|
+                                                                                  |  |                 |  |                                                                       |  +**AY661082.1
+                                                                                  |  |                 |  |                                                                    +**|
+                                                                                  |  |                 |  |                                                                    |  +**AY661104.1
+                                                                                  |  |                 |  |                                                                 +**|
+                                                                                  |  |                 |  |                                                                 |  +**AY661113.1
+                                                                                  |  |                 |  |                                                              +**|
+                                                                                  |  |                 |  |                                                              |  +**AY661091.1
+                                                                                  |  |                 |  |                                                           +**|
+                                                                                  |  |                 |  |                                                           |  +**AY661077.1
+                                                                                  |  |                 |  |                                                        +**|
+                                                                                  |  |                 |  |                                                        |  +**AY661109.1
+                                                                                  |  |                 |  |                                                     +**|
+                                                                                  |  |                 |  |                                                     |  +**AY661100.1
+                                                                                  |  |                 |  |                                                  +**|
+                                                                                  |  |                 |  |                                                  |  +**AY661106.1
+                                                                                  |  |                 |  |                                               +**|
+                                                                                  |  |                 |  |                                               |  +**AY661092.1
+                                                                                  |  |                 |  |                                            +**|
+                                                                                  |  |                 |  |                                            |  +**AY661094.1
+                                                                                  |  |                 |  |                                         +**|
+                                                                                  |  |                 |  |                                         |  +**AY661087.1
+                                                                                  |  |                 |  |                                      +**|
+                                                                                  |  |                 |  |                                      |  +**AY661111.1
+                                                                                  |  |                 |  |                                   +**|
+                                                                                  |  |                 |  |                                   |  +**AY661083.1
+                                                                                  |  |                 |  |                                +**|
+                                                                                  |  |                 |  |                                |  +**AY661102.1
+                                                                                  |  |                 |  |                             +**|
+                                                                                  |  |                 |  |                             |  +**AY661105.1
+                                                                                  |  |                 |  |                          +**|
+                                                                                  |  |                 |  |                          |  +**AY661121.1
+                                                                                  |  |                 |  |                       +**|
+                                                                                  |  |                 |  |                       |  +**AY661108.1
+                                                                                  |  |                 |  |                    +**|
+                                                                                  |  |                 |  |                    |  +**AY661126.1
+                                                                                  |  |                 |  |                 +**|
+                                                                                  |  |                 |  |                 |  +**AY661084.1
+                                                                                  |  |                 |  |              +--|
+                                                                                  |  |                 |  |              |  +**AY661103.1
+                                                                                  |  |                 |  |           +--| (34)
+                                                                                  |  |                 |  |           |  +--AY661127.1
+                                                                                  |  |                 |  |        +--| (6)
+                                                                                  |  |                 |  |        |  |  +--AY661122.1
+                                                                                  |  |                 |  |        |  +--| (17)
+                                                                                  |  |                 |  |        |     +--AY661085.1
+                                                                                  |  |                 |  |     +--| (39)
+                                                                                  |  |                 |  |     |  |     +--AY661124.1
+                                                                                  |  |                 |  |     |  |  +--| (20)
+                                                                                  |  |                 |  |     |  |  |  +--AY661112.1
+                                                                                  |  |                 |  |     |  +--| (7)
+                                                                                  |  |                 |  |     |     +--AY661089.1
+                                                                                  |  |                 |  |  +--| (81)
+                                                                                  |  |                 |  |  |  +--AY661101.1
+                                                                                  |  |                 |  +--| (61)
+                                                                                  |  |                 |     |  +--AY661119.1
+                                                                                  |  |                 |     +--| (99)
+                                                                                  |  |                 |        +--AY661110.1
+                                                                                  |  |              +--| (29)
+                                                                                  |  |              |  +--AY661073.1
+                                                                                  |  |           +--| (71)
+                                                                                  |  |           |  |                 +**AY661118.1
+                                                                                  |  |           |  |              +**|
+                                                                                  |  |           |  |              |  +**AY661078.1
+                                                                                  |  |           |  |           +**|
+                                                                                  |  |           |  |           |  +**AY661115.1
+                                                                                  |  |           |  |        +--|
+                                                                                  |  |           |  |        |  +**AY661114.1
+                                                                                  |  |           |  |     +--| (88)
+                                                                                  |  |           |  |     |  +--AY661116.1
+                                                                                  |  |           |  |  +--| (65)
+                                                                                  |  |           |  |  |  +--AY661079.1
+                                                                                  |  |           |  +--| (87)
+                                                                                  |  |           |     +--AY661117.1
+                                                                                  |  |        +--| (50)
+                                                                                  |  |        |  +--AY661066.1
+                                                                                  |  |     +--| (67)
+                                                                                  |  |     |  +--D49961.1
+                                                                                  |  |  +--| (66)
+                                                                                  |  |  |  +--AY661059.1
+                                                                                  |  +--| (11)
+                                                                                  |     |     +--AY661070.1
+                                                                                  |     |  +--| (100)
+                                                                                  |     |  |  +--AY661069.1
+                                                                                  |     +--| (81)
+                                                                                  |        +--AY661057.1
+                                                                               +--| (95)
+                                                                               |  +--AF008665.1
+                                                                            +--| (48)
+                                                                            |  |     +--AY661065.1
+                                                                            |  |  +--| (88)
+                                                                            |  |  |  +--D21173.1
+                                                                            |  +--| (68)
+                                                                            |     +--AY661056.1
+                                                                         +--| (30)
+                                                                         |  +--AF008888.1
+                                                                      +--| (84)
+                                                                      |  +--AF008886.1
+                                                                   +--| (89)
+                                                                   |  |  +--AY661055.1
+                                                                   |  +--| (65)
+                                                                   |     +--AY661054.1
+                                                                +--| (74)
+                                                                |  +--AY661053.1
+                                                             +--| (54)
+                                                             |  |     +--AY661052.1
+                                                             |  |  +--| (66)
+                                                             |  |  |  +--AF008903.1
+                                                             |  +--| (89)
+                                                             |     +--AF008905.1
+                                                          +--| (78)
+                                                          |  |  +--AY661051.1
+                                                          |  +--| (93)
+                                                          |     +--AY661050.1
+                                                       +--| (72)
+                                                       |  +--AY661049.1
+                                                    +--| (93)
+                                                    |  +--AF008867.1
+                                                 +--| (30)
+                                                 |  |  +--AY661048.1
+                                                 |  +--| (17)
+                                                 |     +--AY661025.1
+                                              +--| (99)
+                                              |  +--U08858.1
+                                           +--| (41)
+                                           |  |     +--AY661047.1
+                                           |  |  +--| (99)
+                                           |  |  |  +--AY661014.1
+                                           |  +--| (85)
+                                           |     |  +--AY661016.1
+                                           |     +--| (95)
+                                           |        +--AY661015.1
+                                       +---| (100)
+                                       |   +--AY661046.1
+                                    +--| (100)
+                                    |  +--CY120992.1
+                                 +--| (93)
+                                 |  |  +--AY661044.1
+                                 |  +--| (98)
+                                 |     +--AY661007.1
+                              +--| (100)
+                              |  |               +--AY661045.1
+                              |  |            +--| (21)
+                              |  |            |  +--EF626609.1
+                              |  |         +--| (5)
+                              |  |         |  |  +--AY661013.1
+                              |  |         |  +--| (17)
+                              |  |         |     +--AY661008.1
+                              |  |      +--| (6)
+                              |  |      |  |  +--AY661010.1
+                              |  |      |  +--| (35)
+                              |  |      |     +--AY661006.1
+                              |  |   +--| (28)
+                              |  |   |  |  +--AY661012.1
+                              |  |   |  +--| (12)
+                              |  |   |     +--AY661011.1
+                              |  +---| (100)
+                              |      +--AY661009.1
+                           +--| (59)
+                           |  |  +--AY661028.1
+                           |  +--| (96)
+                           |     +--AY661027.1
+                        +--| (56)
+                        |  |  +--AY661042.1
+                        |  +--| (94)
+                        |     +--AY661017.1
+                     +--| (96)
+                     |  +--AY661005.1
+                  +--| (78)
+                  |  +--AF092062.1
+               +--| (87)
+               |  |           +----AY661043.1
+               |  |        +--| (85)
+               |  |        |  +--AY661018.1
+               |  |     +--| (59)
+               |  |     |  +--AY661002.1
+               |  |  +--| (30)
+               |  |  |  |  +--AY661004.1
+               |  |  |  +--| (97)
+               |  |  |     +--AY661003.1
+               |  +--| (67)
+               |     |     +**AY661041.1
+               |     |  +--|
+               |     |  |  +**AY661000.1
+               |     +--| (83)
+               |        +--AY661001.1
+            +--| (99)
+            |  +----AF201875.1
+         +--| (93)
+         |  |     +--AY660999.1
+         |  |  +--| (46)
+         |  |  |  +--AY660998.1
+         |  +--| (62)
+         |     +--AY660997.1
+      +--| (59)
+      |  +--AY660996.1
+   +--| (59)
+   |  +--AY661038.1
++--| (87)
+|  |        +--AY661039.1
+|  |     +--| (99)
+|  |     |  +--AY660991.1
+|  |  +--| (85)
+|  |  |  |     +--AY660995.1
+|  |  |  |  +--| (39)
+|  |  |  |  |  +--AY660994.1
+|  |  |  +--| (49)
+|  |  |     |  +--AY660993.1
+|  |  |     +--| (97)
+|  |  |        +--AY660992.1
+|  +--| (40)
+|     +----CY112289.1
+|
++--AY661040.1
+|
++----AF201874.1
+
+
+Consensus tree in newick format: 
+
+((((((((((((((((((((((((((((((((((((((((((((AY661211.1:0.0000000000,AY661139.1:0.0000000000):0.0000000000,AY661144.1:0.0000000000):0.0000024906,AY661148.1:0.0000024906)93:0.0034524000,(AY661138.1:0.0000024906,AY661136.1:0.0000024906)66:0.0000024906)23:0.0000024906,((((((((((((((((((AY661210.1:0.0000024906,((AY661209.1:0.0139278323,AY661203.1:0.0103419731)69:0.0000024906,((AY661202.1:0.0034438848,AF368444.1:0.0034372943)34:0.0000024906,(AF180643.1:0.0138141107,AF368446.1:0.0034632829)70:0.0034402348)69:0.0034505108)76:0.0034519182)36:0.0000024906,AF131997.1:0.0068328240)31:0.0034491698,(((((((AY661208.1:0.0103440928,AY661207.1:0.0000024906)65:0.0034144286,(((((((((AY661037.1:0.0000000000,AY661035.1:0.0000000000):0.0000024906,AY661036.1:0.0000024906)92:0.0033765956,AY661032.1:0.0000024906)29:0.0000024906,KM821324.1:0.0033700658)53:0.0000024906,AY661034.1:0.0101724017)100:0.0349526309,(((AY661033.1:0.0172837969,AY661030.1:0.0034643788)79:0.0033855778,AY661022.1:0.0068771363)37:0.0000024906,AY661031.1:0.0034266509)77:0.0034592886)72:0.0034023768,((AY661026.1:0.0000024906,AY661024.1:0.0103522893)65:0.0034177937,KM821317.1:0.0103685479)33:0.0000024906)70:0.0000024906,(AY661023.1:0.0104281056,AY661021.1:0.0104505518)85:0.0104167811)93:0.0105224734,AY661019.1:0.0139836674)90:0.0034999143)83:0.0034374633,AY661206.1:0.0068852585)56:0.0000024906,(AY661205.1:0.0033958826,(AY661201.1:0.0000024906,KM821316.1:0.0135438776)65:0.0033803078)74:0.0034176609)100:0.0209977203,AF008711.1:0.0034616458)66:0.0034649797,AF180602.1:0.0034422936)83:0.0035069328,AY661193.1:0.0140147021)72:0.0069522874)25:0.0000024906,AY661195.1:0.0000024906)5:0.0000024906,((AY661200.1:0.0034191930,(AY661199.1:0.0000024906,AY661198.1:0.0000024906)95:0.0000024906)89:0.0069355359,AY661197.1:0.0104270148)21:0.0000024906)9:0.0000024906,AY661189.1:0.0069343203)31:0.0034383902,(AY661190.1:0.0034117921,AF008725.1:0.0034358096)36:0.0000024906)87:0.0068580767,((((AY661196.1:0.0000000000,AY661184.1:0.0000000000):0.0000024906,AY661192.1:0.0000024906)81:0.0000024906,(AY661194.1:0.0000024906,AY661188.1:0.0000024906)89:0.0033778632)28:0.0000024906,AY661191.1:0.0067566105)38:0.0033841650)33:0.0000024906,AY661187.1:0.0000024906)25:0.0033974820,AY661185.1:0.0000024906)19:0.0000024906,(((AY661186.1:0.0033873258,AY661182.1:0.0000024906)23:0.0000024906,AF008755.1:0.0033971825)25:0.0000024906,AY661183.1:0.0102101973)58:0.0033993369)98:0.0136980674,AY661178.1:0.0033954412)90:0.0067949991,AY661145.1:0.0034005997)15:0.0000024906,((((((AY661204.1:0.0000024906,AY661175.1:0.0000024906)84:0.0000024906,(AY661181.1:0.0104599180,(AY661179.1:0.0104804334,AF008769.1:0.0175361931)62:0.0034850384)59:0.0000024906)39:0.0000024906,(AY661180.1:0.0000024906,AF180570.1:0.0034336366)68:0.0034403362)97:0.0103881435,(AY661177.1:0.0000024906,AY661176.1:0.0000024906)99:0.0069062745)68:0.0000024906,(((((AY661173.1:0.0138963898,(AY661163.1:0.0034171321,Z46405.1:0.0034271244)68:0.0034224725)25:0.0000024906,((AY661171.1:0.0034415509,AY661170.1:0.0000024906)56:0.0034236942,AY661164.1:0.0103688366)13:0.0000024906)7:0.0000024906,((AY661166.1:0.0000000000,Z46414.1:0.0000000000):0.0000024906,AY661160.1:0.0000024906)30:0.0000024906)7:0.0000024906,AY661020.1:0.0034242735)14:0.0000024906,AY661172.1:0.0034331381)55:0.0034153448)49:0.0034243639,AY661158.1:0.0103040226)9:0.0000024906)6:0.0000024906,(AY661161.1:0.0000024906,AY661149.1:0.0000024906)25:0.0000024906)4:0.0000024906,AY661147.1:0.0034115401)6:0.0000024906,((AY661151.1:0.0068216992,AF008828.1:0.0138324211)48:0.0034211885,Z46408.1:0.0103354764)23:0.0000024906)62:0.0037376233,((AY661168.1:0.0000024906,AY661155.1:0.0034413210)72:0.0034452635,(AY661141.1:0.0000024906,AY661140.1:0.0000024906)95:0.0034436159)30:0.0000024906)70:0.0034489818)33:0.0000024906,((AY661159.1:0.0034553039,AY661152.1:0.0034234499)38:0.0000024906,(((AY661156.1:0.0000000000,AY661153.1:0.0000000000):0.0000000000,AY661129.1:0.0000000000):0.0000024906,AY661154.1:0.0000024906)79:0.0000024906)63:0.0034485632)73:0.0034632806,(((((AY661174.1:0.0069169007,AY661157.1:0.0069501309)49:0.0000024906,AY661165.1:0.0000024906)33:0.0000024906,(AY661167.1:0.0034608741,AY661162.1:0.0000024906)66:0.0034677547)40:0.0000022403,AY661169.1:0.0140085557)46:0.0035240005,Z46413.1:0.0034862560)92:0.0070389186)71:0.0035073822,(AY661133.1:0.0034113954,AY661131.1:0.0000024906)89:0.0068972362)81:0.0036032696,AY661130.1:0.0033031495)71:0.0034416227,AY661125.1:0.0104891673)68:0.0038300964,AY661074.1:0.0067592811)97:0.0105996105,(AY661068.1:0.0000024906,AY661029.1:0.0034497010)58:0.0000024906)63:0.0034430312,AY661064.1:0.0034455763)24:0.0000024906,((((((AY661072.1:0.0000000000,AY661060.1:0.0000000000):0.0000000000,AY661063.1:0.0000000000):0.0000000000,AY661061.1:0.0000000000):0.0000000000,AY661058.1:0.0000000000):0.0000000000,AY661062.1:0.0000000000):0.0000024906,AY661067.1:0.0000024906)35:0.0000024906)9:0.0000024906,(AY661076.1:0.0034270071,AY661071.1:0.0000024906)70:0.0034372055)9:0.0000024906,(((((((((((AY661150.1:0.0033492720,((AY661137.1:0.0000024906,AY661134.1:0.0000024906)84:0.0000024906,AY661135.1:0.0033538953)45:0.0000024906)69:0.0033590090,AY661132.1:0.0000024906)41:0.0033621835,(AY661097.1:0.0000024906,AY661096.1:0.0000024906)86:0.0000024906)47:0.0033662224,((((((AY661146.1:0.0033681734,(AY661143.1:0.0000024906,AY661142.1:0.0000024906)94:0.0033683102)21:0.0000024906,AY661120.1:0.0000024906)32:0.0000024906,AF008697.1:0.0033790621)70:0.0033714491,AY661075.1:0.0000024906)25:0.0033746731,((AY661095.1:0.0033829196,AY661080.1:0.0000024906)85:0.0067848970,AY661081.1:0.0033734070)31:0.0033739706)12:0.0000024906,(AY661093.1:0.0000024906,AY661088.1:0.0033650716)19:0.0000024906)12:0.0000024906)83:0.0068041205,(((((((((((((((((((((((((((((((AY661128.1:0.0000000000,AY661098.1:0.0000000000):0.0000000000,AY661090.1:0.0000000000):0.0000000000,AY661123.1:0.0000000000):0.0000000000,AY661099.1:0.0000000000):0.0000000000,AY661086.1:0.0000000000):0.0000000000,AY661107.1:0.0000000000):0.0000000000,AY661082.1:0.0000000000):0.0000000000,AY661104.1:0.0000000000):0.0000000000,AY661113.1:0.0000000000):0.0000000000,AY661091.1:0.0000000000):0.0000000000,AY661077.1:0.0000000000):0.0000000000,AY661109.1:0.0000000000):0.0000000000,AY661100.1:0.0000000000):0.0000000000,AY661106.1:0.0000000000):0.0000000000,AY661092.1:0.0000000000):0.0000000000,AY661094.1:0.0000000000):0.0000000000,AY661087.1:0.0000000000):0.0000000000,AY661111.1:0.0000000000):0.0000000000,AY661083.1:0.0000000000):0.0000000000,AY661102.1:0.0000000000):0.0000000000,AY661105.1:0.0000000000):0.0000000000,AY661121.1:0.0000000000):0.0000000000,AY661108.1:0.0000000000):0.0000000000,AY661126.1:0.0000000000):0.0000000000,AY661084.1:0.0000000000):0.0000000000,AY661103.1:0.0000000000):0.0000024906,AY661127.1:0.0000024906)34:0.0000024906,(AY661122.1:0.0034577934,AY661085.1:0.0034655567)17:0.0000024906)6:0.0000024906,((AY661124.1:0.0034639186,AY661112.1:0.0070459582)20:0.0000024906,AY661089.1:0.0034571698)7:0.0000024906)39:0.0000024906,AY661101.1:0.0069020966)81:0.0034842359,(AY661119.1:0.0000024906,AY661110.1:0.0000024906)99:0.0068671564)61:0.0034257640)55:0.0000024906,AY661073.1:0.0034071517)29:0.0000024906,((((((AY661118.1:0.0000000000,AY661078.1:0.0000000000):0.0000000000,AY661115.1:0.0000000000):0.0000000000,AY661114.1:0.0000000000):0.0000024906,AY661116.1:0.0000024906)88:0.0000024906,AY661079.1:0.0033894851)65:0.0000024906,AY661117.1:0.0033923614)87:0.0068261037)71:0.0034075193,AY661066.1:0.0000024906)50:0.0000024906,D49961.1:0.0068062509)67:0.0034094832,AY661059.1:0.0000024906)66:0.0034456106,((AY661070.1:0.0000024906,AY661069.1:0.0000024906)100:0.0104575237,AY661057.1:0.0069424797)81:0.0034268179)11:0.0000024906)24:0.0000024906,AF008665.1:0.0137178401)95:0.0138623700,((AY661065.1:0.0000024906,D21173.1:0.0034272417)88:0.0068401113,AY661056.1:0.0034025133)68:0.0034448324)48:0.0000024906,AF008888.1:0.0000024906)30:0.0000024906,AF008886.1:0.0034372945)84:0.0034587854,(AY661055.1:0.0034679898,AY661054.1:0.0139974687)65:0.0034275774)89:0.0069647792,AY661053.1:0.0104653161)74:0.0034255041,((AY661052.1:0.0034505476,AF008903.1:0.0034406026)66:0.0000024906,AF008905.1:0.0141080573)89:0.0069257722)54:0.0000024906,(AY661051.1:0.0000024906,AY661050.1:0.0000024906)93:0.0000024906)78:0.0034610266,AY661049.1:0.0034451598)72:0.0034600048,AF008867.1:0.0103819383)93:0.0069188527,(AY661048.1:0.0034352220,AY661025.1:0.0034249349)17:0.0000024906)30:0.0000024906,U08858.1:0.0137472097)99:0.0138010501,((AY661047.1:0.0000024906,AY661014.1:0.0000024906)99:0.0000024906,(AY661016.1:0.0034078260,AY661015.1:0.0034604355)95:0.0103453998)85:0.0068389302)41:0.0000024906,AY661046.1:0.0033898511)100:0.0247316465,CY120992.1:0.0031242495)100:0.0213036713,(AY661044.1:0.0000024906,AY661007.1:0.0033743068)98:0.0039164706)93:0.0132519152,(((((AY661045.1:0.0033608547,EF626609.1:0.0067954898)21:0.0000024906,(AY661013.1:0.0101765538,AY661008.1:0.0033795534)17:0.0000024906)5:0.0000024906,(AY661010.1:0.0000024906,AY661006.1:0.0000024906)35:0.0000024906)6:0.0000024906,(AY661012.1:0.0068034966,AY661011.1:0.0068372811)12:0.0000024906)28:0.0000024906,AY661009.1:0.0033680865)100:0.0253026911)100:0.0170499733,(AY661028.1:0.0000024906,AY661027.1:0.0000024906)96:0.0033303031)59:0.0000024906,(AY661042.1:0.0000024906,AY661017.1:0.0000024906)94:0.0000024906)56:0.0000024906,AY661005.1:0.0134949560)96:0.0101855868,AF092062.1:0.0033491080)78:0.0067616921,((((AY661043.1:0.0319794390,AY661018.1:0.0130412485)85:0.0043858498,AY661002.1:0.0033603476)59:0.0000024906,(AY661004.1:0.0000024906,AY661003.1:0.0000024906)97:0.0033654939)30:0.0000024906,((AY661041.1:0.0000000000,AY661000.1:0.0000000000):0.0000024906,AY661001.1:0.0000024906)83:0.0000024906)67:0.0000024906)87:0.0064707839,AF201875.1:0.0321819191)99:0.0143310350,((AY660999.1:0.0136309327,AY660998.1:0.0000024906)46:0.0000021791,AY660997.1:0.0067389821)62:0.0067005927)93:0.0103235991,AY660996.1:0.0033298580)59:0.0033496953,AY661038.1:0.0000024906)59:0.0056721375,(((AY661039.1:0.0000024906,AY660991.1:0.0000024906)99:0.0000024906,((AY660995.1:0.0033579283,AY660994.1:0.0067648404)39:0.0000024906,(AY660993.1:0.0000024906,AY660992.1:0.0000024906)97:0.0000024906)49:0.0033633758)85:0.0068218610,CY112289.1:0.0350094146)40:0.0021125137)87:0.0019353184,AY661040.1:0.0106191112,AF201874.1:0.0348117117);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun  2 18:16:54 2021
+Total CPU time used: 8158.398897 seconds (2h:15m:58s)
+Total wall-clock time used: 2763.54278 seconds (0h:46m:3s)
+

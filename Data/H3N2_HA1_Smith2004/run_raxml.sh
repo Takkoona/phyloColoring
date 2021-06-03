@@ -4,7 +4,7 @@ raxmlHPC -f a \
          -p 12345 \
          -x 12345 \
          -# 1000 \
-         -s aligned.fasta \
+         -s HA1_aligned.fasta \
          -n PROTGAMMAGTR \
          -m PROTGAMMAGTR \
-         -o HK/1/1968
+         -o AF201874.1
