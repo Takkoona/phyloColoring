@@ -1,7 +1,4 @@
 .ipynb_checkpoints
 Output/
-Antigenicity/
-Structures/Modelling/
-Trees/H1N1_HA/Spatiotemporal/
-Trees/H3N2_HA/Spatiotemporal/
+Data/SARS-CoV-2_metadata.*
 *.rds
