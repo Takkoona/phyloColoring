@@ -7,7 +7,7 @@ The application of R package `sitePath` on SARS-CoV-2 and H3N2.
 Python packages: [`jupyter-notebook`](https://jupyter.readthedocs.io/en/latest/install.html), [`biopython`](https://biopython.org/wiki/Download), [`pandas`](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html). Here is one of the ways to install them.
 
 ```
-pip install notebook biopython pandas
+pip install notebook biopython pandas matplotlib
 ```
 
 R packages: [`VennDiagram`](https://cran.r-project.org/package=VennDiagram), [`gridExtra`](https://cran.r-project.org/package=gridExtra), [`svglite`](https://cran.r-project.org/package=svglite), [`jsonlite`](https://cran.r-project.org/package=jsonlite), [`IRkernel`](https://cran.r-project.org/package=IRkernel). Here is one of the ways to install them.
@@ -35,5 +35,8 @@ External packages: [`muscle`]
 If you use [`bioconda`](https://bioconda.github.io/user/install.html#set-up-channels) on Linux or Mac, then you can install the dependencies by 
 
 ```bash
-conda install notebook pandas biopython bioconductor-sitepath bioconductor-trackviewer r-venndiagram r-gridextra r-svglite r-jsonlite r-irkernel muscle
+conda install notebook pandas biopython matplotlib \
+    r-venndiagram r-gridextra r-svglite r-jsonlite r-irkernel \
+    bioconductor-sitepath bioconductor-trackviewer \
+    muscle
 ```
