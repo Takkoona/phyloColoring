@@ -1,4 +1,5 @@
 plots/demo_figures
+plots/*.png
 elink.dtd
 .vscode
 *.rds

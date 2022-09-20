@@ -7,7 +7,6 @@ suppressPackageStartupMessages(library(VennDiagram))
 
 
 data_dir <- file.path("data", "H3N2_HA1_Smith2004")
-output_dir <- "output"
 plots_dir <- "plots"
 
 phylo_tools <- list(
@@ -16,6 +15,13 @@ phylo_tools <- list(
     "fasttree" = "FastTree.nwk",
     "megaML" = "MegaML_JTT.nwk"
 )
+
+calculate_mcc <- function(tp, tn, fp, fn) {
+    numerator <- tp * tn - fp * fn
+    denominator <- sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
+    return(numerator / denominator)
+}
+
 # =======================================================================
 # Read and process data
 
@@ -109,7 +115,7 @@ grouplevel <- grouplevel[order(sapply(
 ), decreasing = TRUE)]
 
 attr(tree, "cluster") <- factor(attr(tree, "cluster"), grouplevel)
-p <- ggtree(tree, aes(color = cluster)) +
+p_iqtree <- ggtree(tree, aes(color = cluster)) +
     scale_color_manual(
         values = as.list(group_colors),
         limits = setdiff(grouplevel, "0"),
@@ -127,14 +133,13 @@ p <- ggtree(tree, aes(color = cluster)) +
         legend.position = c(-0.3, 0.5)
     ) +
     theme(legend.position = "left")
-p
 
 ggsave(
     filename = file.path(
         plots_dir,
         paste0("Smith2004_tree_", toolname, ".svg")
     ),
-    plot = p,
+    plot = p_iqtree,
     width = 6.7,
     height = 4
 )
@@ -190,21 +195,24 @@ for (Nmin in seq_len(20)[-1]) {
     sites <- as.integer(allSitesName(mutations))
     assess_table[["predFixed"]] <- assess_table[["site"]] %in% sites
     x <- assess_table[["fixationSite"]] + assess_table[["predFixed"]]
-    senstivity <- length(which(x == 2)) / n_positive
-    specificity <- length(which(x == 0)) / n_negative
+    tp <- length(which(x == 2))
+    tn <- length(which(x == 0))
+    mcc <- calculate_mcc(tp, tn, n_negative - tn, n_positive - tp)
+    senstivity <- tp / n_positive
+    specificity <- tn / n_negative
     pred_result <- rbind(
         pred_result,
         data.frame(
-            "Nmin" = c(Nmin, Nmin),
-            "rate" = c(senstivity, specificity),
-            "category" = c("Senstivity", "Specificity")
+            "Nmin" = c(Nmin, Nmin, Nmin),
+            "rate" = c(senstivity, specificity, mcc),
+            "category" = c("Senstivity", "Specificity", "MCC")
         )
     )
 }
 pred_result <- pred_result[order(pred_result[["Nmin"]]), ]
 row.names(pred_result) <- NULL
 
-p <- ggplot(pred_result, aes(Nmin, rate)) +
+p_parameter <- ggplot(pred_result, aes(Nmin, rate)) +
     geom_point(aes(color = category)) +
     scale_y_continuous(expand = c(0, 0), limits = c(0, 1.05)) +
     labs(x = "Nmin", y = "", color = "Metric") +
@@ -219,11 +227,10 @@ p <- ggplot(pred_result, aes(Nmin, rate)) +
         panel.grid = element_blank(), # All grid lines
         legend.title = element_blank()
     )
-p
 
 ggsave(
     filename = file.path(plots_dir, "Nmin.svg"),
-    plot = p,
+    plot = p_parameter,
     device = "svg",
     width = 3.25, height = 2
 )
@@ -249,8 +256,22 @@ for (toolname in names(phylo_tools)) {
             limits = setdiff(names(group_colors), "0"),
             na.translate = TRUE,
             na.value = "black"
-        )
-    print(p)
+        ) +
+        guides(
+            color = guide_legend(
+                override.aes = list(size = 3)
+            )
+        ) +
+        ggtitle(toolname)
+    ggsave(
+        filename = file.path(
+            plots_dir,
+            paste0("Smith2004_tree_", toolname, ".png")
+        ),
+        plot = p,
+        width = 4,
+        height = 4
+    )
     paths <- addMSA(tree, alignment = alignment)
     mutations <- fixationSites(paths)
 
@@ -258,14 +279,17 @@ for (toolname in names(phylo_tools)) {
     sites <- as.integer(allSitesName(mutations))
     assess_table[["predFixed"]] <- assess_table[["site"]] %in% sites
     x <- assess_table[["fixationSite"]] + assess_table[["predFixed"]]
-    senstivity <- length(which(x == 2)) / n_positive
-    specificity <- length(which(x == 0)) / n_negative
+    tp <- length(which(x == 2))
+    tn <- length(which(x == 0))
+    mcc <- calculate_mcc(tp, tn, n_negative - tn, n_positive - tp)
+    senstivity <- tp / n_positive
+    specificity <- tn / n_negative
     pred_result_2 <- rbind(
         pred_result_2,
         data.frame(
-            "software" = c(toolname, toolname),
-            "rate" = c(senstivity, specificity),
-            "category" = c("Senstivity", "Specificity")
+            "software" = c(toolname, toolname, toolname),
+            "rate" = c(senstivity, specificity, mcc),
+            "category" = c("Senstivity", "Specificity", "MCC")
         )
     )
 }
@@ -275,9 +299,13 @@ pred_result_2$software <- factor(
     levels = names(phylo_tools)
 )
 
-p <- ggplot(pred_result_2, aes(x = software, y = rate, fill = category)) +
+p_software <- ggplot(pred_result_2, aes(
+    x = software,
+    y = rate,
+    fill = category
+)) +
     geom_bar(stat = "identity", position = position_dodge()) +
-    #     ylim(0, 1) +
+    # ylim(0, 1) +
     scale_y_continuous(expand = c(0, 0), limits = c(0, 1.05)) +
     labs(x = "Software", y = "", fill = "Metric") +
     theme(
@@ -288,11 +316,9 @@ p <- ggplot(pred_result_2, aes(x = software, y = rate, fill = category)) +
         axis.text.x = element_text(angle = 45, hjust = 1)
     )
 
-p
-
 ggsave(
     filename = file.path(plots_dir, "software.svg"),
-    plot = p,
+    plot = p_software,
     device = "svg",
     width = 3.25, height = 2.4
 )
