@@ -1,0 +1,16 @@
+name: sitePath_assessment
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - muscle
+  - fasttree
+  - iqtree=1.6.12
+  - raxml=8.2.12
+  - biopython
+  - r-languageserver
+  - r-svglite
+  - r-venndiagram
+  - bioconductor-ggtree
+  - bioconductor-sitepath
